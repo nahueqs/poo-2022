@@ -7,30 +7,45 @@ import ar.edu.unlu.poo.easygame.observer.Observable;
 import ar.edu.unlu.poo.easygame.observer.Observador;
 
 public class Juego implements Observable, IJuego {   
-   private MazoMesa mazo; 
+   private MazoMesa pila; 
    private MazoDescendente mazoDesc; 
    private MazoAscendente mazoAsc; 
    private Jugador siguienteTurno;
+   private Jugador jugadorActual;
    private Controlador controlador; 
    private List<Jugador> jugadores;  
    private List<Observador> observadores;
-   private EstadosDeJuego estado;
-   
+   private Eventos estado;
+   private Eventos estadoJugada;
+    
    public Juego() {
-	   mazo = new MazoMesa();
+	   pila = new MazoMesa();
 	   mazoAsc = new MazoAscendente();
 	   mazoDesc = new MazoDescendente();
 	   jugadores = new ArrayList<Jugador>();
 	   observadores = new ArrayList<>();
-	   estado = EstadosDeJuego.CREADO;
+	   estado = null;
    }
    
-   
+   public GrupoCartas getMazo(String tipo) {
+	   if (tipo == "a") {
+		   return mazoAsc;
+	   } else {
+		   return mazoDesc;
+	   }
+   }
+      
    public void setJugadores(String ... params) {
-	   if ((params.length > 0) && (params.length <= 5)) {
+	   if ((params.length > 1) && (params.length <= 5)) {
 		   for (int i=0;i< params.length;i++) {
 			   jugadores.add(new Jugador(params[i]));
 		   }
+	   }
+   }
+   
+   public void setJugadores(List<String> lista) {
+	   for (int i=0; i<lista.size(); i++) {
+		   jugadores.add(new Jugador(lista.get(i)));
 	   }
    }
    
@@ -56,26 +71,44 @@ public class Juego implements Observable, IJuego {
 
 	@Override
 	public void iniciar() {
-		estado = EstadosDeJuego.INICIADO;
-		mazo.llenar();
-		mazo.mezclar();
-		for (Jugador j : jugadores) {
-			j.recibirCartas(mazo.quitarUltimaCarta(), mazo.quitarUltimaCarta());
-		}
-		while ((estado != EstadosDeJuego.VICTORIA)&&(estado != EstadosDeJuego.DERROTA)){
-			for (Jugador j : jugadores) {
+		estado = Eventos.JUEGO_INICIADO;
+		siguienteTurno = jugadores.get(0);
+		pila.llenar();
+		pila.mezclar();
+		repartir();
+		while ((estado != Eventos.VICTORIA)&&(estado != Eventos.DERROTA)){
+			this.notificar(estado);
+			
 				
+					
 			}
+		}	
+		
+	public void repartir() {
+		for (Jugador j : jugadores) {
+			j.recibirCartas(pila.quitarUltimaCarta(), pila.quitarUltimaCarta());
 		}
-		
+	}	
+	
+	public void repartir(Jugador jugador) {
+		jugador.recibirCartas(pila.quitarUltimaCarta(), pila.quitarUltimaCarta());
 	}
-
-	@Override
-	public Eventos hacerJugada(Jugador jugador, Carta carta, GrupoCartas mazo) {
-		setSiguienteTurno(jugador);
-		Eventos aux;
+	
+	public void repartir(Jugador jugador, String s) {
+		jugador.recibirCartas(pila.quitarUltimaCarta());
+	}
+	
+	public void hacerJugada(String carta, GrupoCartas mazo) {
+		setSiguienteTurno(jugadorActual);
+		int aux;
+		if (carta == "a") {aux = 0;
+			} else {
+				aux=1;
+			};
+		jugadorActual.hacerJugada(aux, mazo);
+		//Eventos aux = Eventos.INICIO_TURNO;
+		//notificar(aux);
 		
-		return null;
 	}
 
 	public void setSiguienteTurno(Jugador jugador) {
@@ -84,6 +117,14 @@ public class Juego implements Observable, IJuego {
 			} else { 
 				siguienteTurno = jugadores.get(0);
 			}
+	}
+
+	public String getCartasJugadorActual() {
+		return jugadorActual.getManoJugador();
+	}
+	
+	public Jugador getJugadorActual() {
+		return jugadorActual;
 	}
 
 }

@@ -6,8 +6,7 @@ import ar.edu.unlu.poo.easygame.controlador.Controlador;
 
 public interface IJuego {
 	public void iniciar();
-	public void setControlador(Controlador controlador);
-	public List<GrupoCartas> getTablero();
-	public Eventos hacerJugada(Jugador jugador, Carta carta, GrupoCartas mazo);
+	public void setControlador(Controlador controlador);	
+	public void hacerJugada(Jugador jugador, Carta carta, GrupoCartas mazo);
 	
 }

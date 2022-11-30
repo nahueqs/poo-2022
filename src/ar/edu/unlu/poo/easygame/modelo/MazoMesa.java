@@ -7,9 +7,7 @@ import java.util.Stack;
 
 public class MazoMesa extends GrupoCartas {
 
-	public void repartir(Jugador jugador) {
-		jugador.
-	}
+	
    
  //  public void addCarta(Carta carta) {
 //	   if (cartas.size() < maxCartasMazo) { cartas.push(carta);}

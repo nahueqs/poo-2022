@@ -25,7 +25,7 @@ public class GrupoCartas {
 	   return aux;
    }
      
-   public final void mezclar() {
+   public void mezclar() {
 		int size = cartas.size();
 		Random rand = new Random();
 		List<Carta> a = new ArrayList<Carta>();
@@ -41,7 +41,7 @@ public class GrupoCartas {
 		for (int i = 0; i < size; i++) {
 			cartas.push(a.get(i));
 		}				
-		
-		
-	}  
+				
+	}
+
 }

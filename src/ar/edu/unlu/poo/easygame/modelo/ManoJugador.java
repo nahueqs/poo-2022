@@ -13,12 +13,12 @@ public class ManoJugador extends GrupoCartas {
   
   public Carta jugarCarta(int pos) {
 	  Carta aux;
-	  if (pos == 1) {
+	  if (pos == 0) {
 		  aux = cartas.firstElement();
 		  cartas.remove(0);
 		  return aux; 
 		  
-	  } else if (pos == 2) { 
+	  } else if (pos == 1) { 
 		  aux = cartas.lastElement();
 		  cartas.pop();
 		  return aux; 

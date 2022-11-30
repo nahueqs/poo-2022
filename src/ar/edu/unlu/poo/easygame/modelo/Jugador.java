@@ -12,6 +12,10 @@ public class Jugador {
 	   mano = new ManoJugador();;
    }; 
    
+   public void hacerJugada(Carta carta, GrupoCartas mazo) {   	
+		mazo.();
+   }
+   
    public void recibirCartas(Carta c) {
 	   mano.addCarta(c);
    }
