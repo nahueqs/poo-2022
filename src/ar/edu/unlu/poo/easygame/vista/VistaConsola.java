@@ -1,16 +1,10 @@
 package ar.edu.unlu.poo.easygame.vista;
-import java.util.Set;
-
-import javax.management.modelmbean.ModelMBeanOperationInfo;
-
-import ar.edu.unlu.poo.easygame.controlador.Controlador;
-import ar.edu.unlu.poo.easygame.modelo.Eventos;
-import ar.edu.unlu.poo.easygame.modelo.Jugador;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import ar.edu.unlu.poo.easygame.controlador.Controlador;
 
 public class VistaConsola implements IVista {
 	private Scanner entrada;	
@@ -23,7 +17,6 @@ public class VistaConsola implements IVista {
 	@Override
 	public void iniciarJuego() {
 		boolean salir = false;
-		List lista = new ArrayList();
 		while(!salir) {
 			menuPrincipal();
 			String opcion = this.entrada.nextLine();
@@ -60,12 +53,10 @@ public class VistaConsola implements IVista {
 			String opcion = this.entrada.nextLine();
 			switch (opcion.toLowerCase()) {
 			case "x":
-				System.out.println("Saliendo...presione enter");
 				salir = true;
 				esperar();
 				break;
 			case "z":
-				System.out.println("Finalizado...presione enter");
 				salir = true;
 				esperar();
 				break;
@@ -87,25 +78,40 @@ public class VistaConsola implements IVista {
 		if (lista.size() > 0) { controlador.setJugadores(lista);}
 		
 	}
-
-	public void menuHacerJugada() {
-		System.out.println(controlador.mostrarCartasTablero()); 
-		System.out.println(controlador.mostrarManoJugador());
+	
+	public void menuElegirMazo () {
 		System.out.println("Elegi el mazo al que vas a jugar");
 		System.out.println("a - mazo ascendente");
 		System.out.println("b - mazo descendente");
-		System.out.println("x - Salir");
-		String mazo = this.entrada.nextLine();
+	}
+	
+	public void menuElegirCarta () {
 		System.out.println("Elegi la carta que vas a jugar");
 		System.out.println("a - Carta1");  
 		System.out.println("b - Carta2");
-		System.out.println("x - Salir");
-		String carta = this.entrada.nextLine();
-		controlador.hacerJugada(carta, mazo);		
 	}
+
+	public void menuHacerJugada() {
+		
+		System.out.println(controlador.mostrarCartasTablero()); 
+		System.out.println(controlador.mostrarManoJugador());
+		menuElegirMazo();
+		String mazo = entrada.next();
+		
+		menuElegirCarta();
+		String carta = entrada.next();
+		
+		
+		controlador.hacerJugada(carta, mazo);
+		
+	
+	}
+	
+	
 
 	public void esperar() {
 		try {
+			System.out.println("Presiona enter para continuar...");
 			System.in.read();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -114,10 +120,6 @@ public class VistaConsola implements IVista {
 	}
 	
 	public void printMenuCargaJugadores() {
-		System.out.println("------- EASY GAME -------");
-		System.out.println("-------------------------");
-		System.out.println("-------------------------");
-		System.out.println();
 		System.out.println("Ingresa el nombre del jugador");
 		System.out.println("para finalizar la carga ingrese z, para salir ingrese x");
 		System.out.println();

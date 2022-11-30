@@ -11,7 +11,5 @@ public interface IVista {
    public void menuCargaJugadores(); 
    public void menuHacerJugada();  
    public void terminarJuego();  
-   public void setControlador(Controlador controlador);
-   
-   
+   public void setControlador(Controlador controlador); 
    }

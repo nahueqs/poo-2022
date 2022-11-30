@@ -561,98 +561,6 @@
       <cardinality xmi:id="_Uyu7onBrEe2OSfFA2RChjA" label="1" max="1" min="1"/>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CBDRMHBeEe2OSfFA2RChjA" name="VistaConsola" associationsIn="_ZQe8wG_QEe2JNZU2l2g9fw" associationsOut="_5Knw8HA6Ee2WWoaNDJTvxA _fC3UMHBWEe2OSfFA2RChjA" generalizations="_5Nk-UHA6Ee2WWoaNDJTvxA">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_CBDRMXBeEe2OSfFA2RChjA" position="241.0,734.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_CBDRMnBeEe2OSfFA2RChjA" label="+"/>
-    <attributes xmi:id="_CBDRM3BeEe2OSfFA2RChjA" name="entrada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wS_B4HA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_CBDRNHBeEe2OSfFA2RChjA" label="-"/>
-      <cardinality xmi:id="_CBDRNXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <type xmi:id="_CBDRNnBeEe2OSfFA2RChjA" name="Scanner">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wSwYYHA6Ee2WWoaNDJTvxA"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_CBD4QHBeEe2OSfFA2RChjA" name="controlador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wTAQAHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_CBD4QXBeEe2OSfFA2RChjA" label="-"/>
-      <cardinality xmi:id="_CBD4QnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <type xmi:id="_CBD4Q3BeEe2OSfFA2RChjA" name="Controlador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_CBD4RHBeEe2OSfFA2RChjA" name="VistaConsola">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ4wIHA6Ee2WWoaNDJTvxA"/>
-      <keywords xmi:id="_CBD4RXBeEe2OSfFA2RChjA" keyword="create"/>
-      <visibility xmi:id="_CBD4RnBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4R3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_CBD4SHBeEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ5XMHA6Ee2WWoaNDJTvxA"/>
-        <type xmi:id="_CBD4SXBeEe2OSfFA2RChjA" name="VistaConsola">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_CBD4TXBeEe2OSfFA2RChjA" name="menuCargaJugadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ7zcHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_CBD4TnBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4T3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_CBD4XHBeEe2OSfFA2RChjA" name="setControlador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_CBD4XXBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4XnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <parameters xmi:id="_CBD4X3BeEe2OSfFA2RChjA" name="controlador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkXA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_CBD4YHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_CBD4YXBeEe2OSfFA2RChjA" name="Controlador">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_CBD4bXBeEe2OSfFA2RChjA" name="iniciarJuego">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_fCLXsHBWEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_CBD4bnBeEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_fCMl0HBWEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_CBD4b3BeEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_fCW94HBWEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_CBD4cHBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4cXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_6NragHBoEe2OSfFA2RChjA" name="printMenuCargaJugadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_6NdYEHBoEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_6NragXBoEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_6NragnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_-poBYHBoEe2OSfFA2RChjA" name="esperar">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_-ph6wHBoEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_-poBYXBoEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_-poBYnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_NgHUgHBpEe2OSfFA2RChjA" name="terminarJuego">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_Nf8VYHBpEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_NgHUgXBpEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_Nf9jgHBpEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_NgHUgnBpEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_NgBN4HBpEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_NgHUg3BpEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_NgHUhHBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_-bRm4HBpEe2OSfFA2RChjA" name="menuPrincipal">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_-bJrEHBpEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_-bRm4XBpEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_-bRm4nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_-cMz8HBpEe2OSfFA2RChjA" name="menuHacerJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_-bKSIHBpEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_-cMz8XBpEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_-cMz8nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZSyp4G_QEe2JNZU2l2g9fw" name="Observable" subclassedBy="_ZRSOAG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WO73UG_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_ZSyp4W_QEe2JNZU2l2g9fw" position="134.0,619.0" size="-1.0,-1.0"/>
@@ -685,8 +593,8 @@
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZQfj0G_QEe2JNZU2l2g9fw" name="Controlador" associationsIn="_ZQdHkG_QEe2JNZU2l2g9fw _5Knw8HA6Ee2WWoaNDJTvxA" associationsOut="_ZQduoG_QEe2JNZU2l2g9fw _ZQe8wG_QEe2JNZU2l2g9fw" generalizations="_ZS27UG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_ZQfj0W_QEe2JNZU2l2g9fw" position="759.0,851.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_dq1ZMHB1Ee2OSfFA2RChjA" name="Patch">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_dqzkAHB1Ee2OSfFA2RChjA"/>
+    <stereotypes xmi:id="_v3ycYHB2Ee2UepK28HZ5aA" name="Patch">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_v3uK8HB2Ee2UepK28HZ5aA"/>
     </stereotypes>
     <visibility xmi:id="_ZQfj02_QEe2JNZU2l2g9fw" label="+"/>
     <attributes xmi:id="_ZQfj1G_QEe2JNZU2l2g9fw" name="modelo">
@@ -700,6 +608,9 @@
       <stereotypes xmi:id="_xw4WsHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xw9PMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xyTTAHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l89K8HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9CDcHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-8H8HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZQfj1m_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZQfj12_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZQfj2G_QEe2JNZU2l2g9fw" name="Juego">
@@ -717,6 +628,9 @@
       <stereotypes xmi:id="_xxCHsHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xxHnQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xyW9YHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9GU4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9U-YHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-_yUHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZQfj22_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZQfj3G_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZQfj3W_QEe2JNZU2l2g9fw" name="VistaConsola">
@@ -867,6 +781,9 @@
       <stereotypes xmi:id="_xx-i4HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xyBmMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xykYwHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-SAoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-VrAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_FR4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZSfu_2_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZSfvAG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZSfvAW_QEe2JNZU2l2g9fw" name="ManoJugador">
@@ -1015,6 +932,9 @@
       <stereotypes xmi:id="_xxpywHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xxtdIHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xysUkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l93w8HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l98CYHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_JjUHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZSERMm_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZSERM2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZSERNG_QEe2JNZU2l2g9fw" name="MazoDescendente">
@@ -1032,6 +952,9 @@
       <stereotypes xmi:id="_xxxHgHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xx1Y8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xyv-8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-AT0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-D-MHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_Ob0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZSERN2_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZSEROG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZSEROW_QEe2JNZU2l2g9fw" name="MazoAscendente">
@@ -1049,6 +972,9 @@
       <stereotypes xmi:id="_xxaiMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xxeMkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xyzCQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9nSQHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9rjsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_StQHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZSERPG_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZSERPW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZSERPm_QEe2JNZU2l2g9fw" name="Jugador">
@@ -1066,6 +992,9 @@
       <stereotypes xmi:id="_xwqUQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xwzeMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xy1egHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l8wWoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l845gHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_XlwHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZSERQG_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZSERQW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZSERQm_QEe2JNZU2l2g9fw" name="Controlador">
@@ -1083,6 +1012,9 @@
       <stereotypes xmi:id="_xxh28HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xxlhUHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xy5I4HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9v1IHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9zfgHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_bQIHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZSERRW_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZSERRm_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
       <type xmi:id="_ZSERR2_QEe2JNZU2l2g9fw" name="Jugador">
@@ -1100,6 +1032,9 @@
       <stereotypes xmi:id="_xx5DUHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xx7fkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xy8zQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-IPoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-MhEHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_eTcHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZSERSm_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZSERS2_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
       <type xmi:id="_ZSERTG_QEe2JNZU2l2g9fw" name="Observador">
@@ -1130,6 +1065,12 @@
       <stereotypes xmi:id="_6JVigHBnEe2OSfFA2RChjA" name="Generics"/>
       <stereotypes xmi:id="_GBFMkHBoEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_GBGasHBoEe2OSfFA2RChjA" name="Generics"/>
+      <stereotypes xmi:id="_l-Z8cHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-bKkHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l-fcAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-gqIHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l_ik4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_jzAHB2Ee2UepK28HZ5aA" name="Generics"/>
       <visibility xmi:id="_1UVb4XA6Ee2WWoaNDJTvxA" label="-"/>
       <cardinality xmi:id="_1UVb4nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
       <type xmi:id="_GBCJQHBoEe2OSfFA2RChjA" name="Stack">
@@ -1633,6 +1574,12 @@
       <stereotypes xmi:id="_xxVpsHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xyanwHBPEe2OSfFA2RChjA" name="Generics"/>
       <stereotypes xmi:id="_xycc8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9ZP0HB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l9bFAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9gkkHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l9hysHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_pSkHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l_qgsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZRC9f2_QEe2JNZU2l2g9fw" label="#"/>
       <cardinality xmi:id="_ZRC9gG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZRC9gW_QEe2JNZU2l2g9fw" name="Stack">
@@ -1713,6 +1660,104 @@
           <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
         </type>
       </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CBDRMHBeEe2OSfFA2RChjA" name="VistaConsola" associationsIn="_ZQe8wG_QEe2JNZU2l2g9fw" associationsOut="_5Knw8HA6Ee2WWoaNDJTvxA _fC3UMHBWEe2OSfFA2RChjA" generalizations="_5Nk-UHA6Ee2WWoaNDJTvxA">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_CBDRMXBeEe2OSfFA2RChjA" position="241.0,734.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_CBDRMnBeEe2OSfFA2RChjA" label="+"/>
+    <attributes xmi:id="_CBDRM3BeEe2OSfFA2RChjA" name="entrada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wS_B4HA6Ee2WWoaNDJTvxA"/>
+      <stereotypes xmi:id="_l-uFgHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-xv4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-2oYHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_CBDRNHBeEe2OSfFA2RChjA" label="-"/>
+      <cardinality xmi:id="_CBDRNXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <type xmi:id="_CBDRNnBeEe2OSfFA2RChjA" name="Scanner">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wSwYYHA6Ee2WWoaNDJTvxA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_CBD4QHBeEe2OSfFA2RChjA" name="controlador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wTAQAHA6Ee2WWoaNDJTvxA"/>
+      <stereotypes xmi:id="_l-nX0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-rCMHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-5rsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_CBD4QXBeEe2OSfFA2RChjA" label="-"/>
+      <cardinality xmi:id="_CBD4QnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <type xmi:id="_CBD4Q3BeEe2OSfFA2RChjA" name="Controlador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_CBD4RHBeEe2OSfFA2RChjA" name="VistaConsola">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ4wIHA6Ee2WWoaNDJTvxA"/>
+      <keywords xmi:id="_CBD4RXBeEe2OSfFA2RChjA" keyword="create"/>
+      <visibility xmi:id="_CBD4RnBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4R3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CBD4SHBeEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ5XMHA6Ee2WWoaNDJTvxA"/>
+        <type xmi:id="_CBD4SXBeEe2OSfFA2RChjA" name="VistaConsola">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CBD4TXBeEe2OSfFA2RChjA" name="menuCargaJugadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ7zcHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_CBD4TnBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4T3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_CBD4XHBeEe2OSfFA2RChjA" name="setControlador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_CBD4XXBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4XnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_CBD4X3BeEe2OSfFA2RChjA" name="controlador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkXA6Ee2WWoaNDJTvxA"/>
+        <cardinality xmi:id="_CBD4YHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_CBD4YXBeEe2OSfFA2RChjA" name="Controlador">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_CBD4bXBeEe2OSfFA2RChjA" name="iniciarJuego">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_fCLXsHBWEe2OSfFA2RChjA"/>
+      <stereotypes xmi:id="_CBD4bnBeEe2OSfFA2RChjA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_fCMl0HBWEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_CBD4b3BeEe2OSfFA2RChjA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_fCW94HBWEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <visibility xmi:id="_CBD4cHBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4cXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6NragHBoEe2OSfFA2RChjA" name="printMenuCargaJugadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_6NdYEHBoEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_6NragXBoEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_6NragnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-poBYHBoEe2OSfFA2RChjA" name="esperar">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_-ph6wHBoEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_-poBYXBoEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_-poBYnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_NgHUgHBpEe2OSfFA2RChjA" name="terminarJuego">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_Nf8VYHBpEe2OSfFA2RChjA"/>
+      <stereotypes xmi:id="_NgHUgXBpEe2OSfFA2RChjA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_Nf9jgHBpEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NgHUgnBpEe2OSfFA2RChjA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_NgBN4HBpEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <visibility xmi:id="_NgHUg3BpEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_NgHUhHBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-bRm4HBpEe2OSfFA2RChjA" name="menuPrincipal">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_-bJrEHBpEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_-bRm4XBpEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_-bRm4nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-cMz8HBpEe2OSfFA2RChjA" name="menuHacerJugada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_-bKSIHBpEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_-cMz8XBpEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_-cMz8nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
     </operations>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

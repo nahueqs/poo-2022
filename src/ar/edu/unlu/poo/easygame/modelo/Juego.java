@@ -14,11 +14,12 @@ public class Juego implements Observable {
 	private MazoAscendente mazoAsc; 
 	private Jugador siguienteTurno;
 	private Jugador jugadorActual;
-	private Controlador controlador; 
+	private int cantJugadasJugadorActual;
 	private List<Jugador> jugadores;  
 	private List<Observador> observadores;
 	private Eventos estado;
-	private Eventos estadoJugada;
+	private int turno;
+	private int cartasEnJuego;
 
 	public Juego() {
 		pila = new Stack<Carta>();
@@ -30,7 +31,7 @@ public class Juego implements Observable {
 	}
 
 	public GrupoCartas getMazo(String tipo) {
-		if (tipo == "a") {
+		if (tipo.equals("a")) {
 			return mazoAsc;
 		} else {
 			return mazoDesc;
@@ -47,23 +48,32 @@ public class Juego implements Observable {
 	}
 
 	public void setJugadores(List<String> lista) {
-		for (int i=0; i<lista.size(); i++) {
-			jugadores.add(new Jugador(lista.get(i)));
+		if (lista.size()>2) {
+			for (int i=0; i<lista.size(); i++) {
+				jugadores.add(new Jugador(lista.get(i)));
+			}
+			System.out.println("añadidos "+ jugadores.size());
+		} else {
+			System.out.println("Error, deben ser al menos 2 jugadores");
+			notificar(Eventos.REINICIAR);
 		}
-		System.out.println("añadidos "+ jugadores.size());
 	}
 
 	public void terminar() {
-
+		
 	}
 
 	public void iniciarJuego() {
 		estado = Eventos.JUEGO_INICIADO;
 		siguienteTurno = jugadores.get(0);
+		jugadorActual = siguienteTurno;
+		cantJugadasJugadorActual = 0;
+		turno = 1;
 		llenarPila();
 		mezclarPila();
-		repartir();
-		this.notificar(estado);
+		repartirTodos();
+		cartasEnJuego = 50 - (jugadores.size() * 2);
+		notificar(estado);
 	}	
 
 	private void mezclarPila() {
@@ -84,25 +94,71 @@ public class Juego implements Observable {
 		}								
 	}
 
-	private void repartir() {
+	private void repartirTodos() {
 		for (Jugador j : jugadores) {
 			j.recibirCartas(pila.pop(), pila.pop());
 		}
-	}	
-
-	private void repartir(Jugador jugador) {
-		jugador.recibirCartas(pila.pop(), pila.pop());
+	}
+	
+	public void incTurno() {
+		turno += 1;
 	}
 
-	private void repartir(Jugador jugador, String s) {
-		jugador.recibirCartas(pila.pop());
+
+	private void repartirDos() {
+		jugadorActual.recibirCartas(pila.pop(), pila.pop());
+	}
+
+	private void repartirUna() {
+		jugadorActual.recibirCartas(pila.pop());
 	}
 
 	public void hacerJugada(String carta, GrupoCartas mazo) {		
-		int aux;
-		if (carta == "a") {aux = 0;} 
-		else {aux = 1;}
-		notificar(mazo.addCarta(jugadorActual.jugarCarta(aux)));	
+		Eventos auxEventos;				
+		if (existeJugadaValida()){
+			int aux;
+			if (carta == "a") {aux = 0;} else {aux = 1;}
+			if (cantJugadasJugadorActual == 1) {
+				// ultima jugada
+				auxEventos = mazo.addCarta(jugadorActual.jugarCarta(aux));
+				if (auxEventos.equals(Eventos.JUGADA_CORRECTA)) {
+					cantJugadasJugadorActual += 1;
+					jugadorActual.recibirCartas(pila.pop());
+					jugadorActual.recibirCartas(pila.pop());
+					notificar(Eventos.FIN_TURNO);
+				} else {
+					notificar(Eventos.JUGADA_INCORRECTA);
+				}
+			} else { 
+				auxEventos = mazo.addCarta(jugadorActual.jugarCarta(aux));// primera jugada del turno
+				if (auxEventos.equals(Eventos.JUGADA_CORRECTA)) {
+					cantJugadasJugadorActual += 1;
+					notificar(Eventos.JUGADA_CORRECTA);
+				} else {
+					notificar(Eventos.JUGADA_INCORRECTA);
+				}				
+			}				
+		} else if (cantJugadasJugadorActual == 1) {
+			jugadorActual.recibirCartas(pila.pop());
+			notificar(Eventos.FIN_TURNO);
+		} else {
+			notificar(Eventos.DERROTA);
+		}			
+	}
+
+	private boolean existeJugadaValida() {
+		boolean aux = false;
+		List<Carta> lista = new ArrayList<Carta>();
+		lista = jugadorActual.getListaManoJugador();
+		for (Carta i:lista) {
+			if (mazoAsc.recibirIntentoJugada(i).equals(Eventos.JUGADA_CORRECTA)) {
+				aux = true;
+			}
+			if (mazoDesc.recibirIntentoJugada(i).equals(Eventos.JUGADA_CORRECTA)) {
+				aux = true;
+			}
+		}
+		return aux;
 	}
 
 	private void llenarPila() {
@@ -112,12 +168,18 @@ public class Juego implements Observable {
 			}
 		}
 	}
-	
+
 	public void setSiguienteTurno() {
-		if (jugadorActual.getId() < 4) { 
-			siguienteTurno = jugadores.get(jugadorActual.getId()+1);
-		} else { 
-			siguienteTurno = jugadores.get(0);
+		if (pila.size() > 0) {
+			jugadorActual = siguienteTurno;
+			if (jugadorActual.getId() < 4) { 				
+				siguienteTurno = jugadores.get(jugadorActual.getId()+1);
+			} else { 
+				siguienteTurno = jugadores.get(0);
+			}
+			cantJugadasJugadorActual = 0;
+		} else {
+			notificar(Eventos.VICTORIA);
 		}
 	}
 
@@ -130,12 +192,14 @@ public class Juego implements Observable {
 	}
 
 	public String getCartasMazos() {
-		return "MAZO ASCENDENTE: " + mazoAsc.getUltimaCarta().toString() + "MAZO DESCENDIENTE: " + mazoDesc.getUltimaCarta().toString();
+		String aux = "";
+		if (mazoAsc.cartas.size() > 0) { aux +=  "MAZO ASCENDENTE: " + mazoAsc.getUltimaCarta().toString() ;} 
+		else { aux +=  "MAZO ASCENDENTE VACIO -|- " ;};
+		if (mazoDesc.cartas.size() > 0) { aux +=  " MAZO DESCENDIENTE: " + mazoDesc.getUltimaCarta().toString() ;}
+		else { aux +=  "MAZO DESCENDIENTE VACIO " ;};
+		return aux; 
 	}
 	
-	public void setControlador(Controlador controlador) {
-		this.controlador = controlador;
-	}
 
 	@Override
 	public void notificar(Object evento) {

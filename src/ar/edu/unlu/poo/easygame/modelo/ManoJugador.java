@@ -18,22 +18,23 @@ public class ManoJugador extends GrupoCartas {
 		}
   }
 	
-  
-  
+  public List<Carta> devolverListaCartas() {
+	  List<Carta> lista = new ArrayList<Carta>();
+	  for (Carta i : cartas) {
+		  lista.add(i);
+	  }
+	  return lista;
+  }
+    
   public void llenar(Carta c1, Carta c2) {
 	  if (cartas.size() == 0) {
 		  cartas.push(c1);
 		  cartas.push(c2);
 	  }
   }
-  
    
   public String mostrarCartas() {
-	  String aux = null;
-	  for (Carta carta : cartas) { 
-		  aux += " - " + cartas.toString();
-	  }
-	  return aux;  
+	  return "Tus cartas son: " + cartas.toString(); 
   }
 	@Override
 	protected Carta getUltimaCarta() {
@@ -44,9 +45,10 @@ public class ManoJugador extends GrupoCartas {
 		Carta aux;
 		aux = cartas.elementAt(0);
 		cartas.remove(0);
-		return aux;
-	
+		return aux;	
 	}
+	
+	
 
 	@Override
 	protected Eventos recibirIntentoJugada(Carta carta) {

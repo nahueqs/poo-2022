@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_Vr2_cG_QEe2JNZU2l2g9fw" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_Vr2_cW_QEe2JNZU2l2g9fw" source="codegen">
         <details xmi:id="_Vr2_cm_QEe2JNZU2l2g9fw" key="codegenDirectory" value="/tp-final-quiniones-nahuel/src"/>
-        <details xmi:id="_ZQHJUG_QEe2JNZU2l2g9fw" key="AssociatedSourceCode" value="/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/controlador/Controlador.java;2311401571/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Carta.java;4119274317/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Colores.java;3541414733/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Eventos.java;2897928450/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/GrupoCartas.java;1886395058/1;/tp-final-quiniones-nahuel/src/easyGame.java;2144627155/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Jugador.java;3565362519/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/ManoJugador.java;1396144221/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoAscendente.java;276209068/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observable.java;1039744374/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observador.java;1086537759/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/IVista.java;1501392965/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Juego.java;605405308/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoDescendente.java;3720734736/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/VistaConsola.java;1640035285/1;"/>
+        <details xmi:id="_ZQHJUG_QEe2JNZU2l2g9fw" key="AssociatedSourceCode" value="/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/controlador/Controlador.java;2311401571/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Carta.java;4119274317/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Colores.java;3541414733/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Eventos.java;2897928450/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/GrupoCartas.java;1886395058/1;/tp-final-quiniones-nahuel/src/easyGame.java;2144627155/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Jugador.java;3565362519/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/ManoJugador.java;1396144221/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoAscendente.java;276209068/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observable.java;1039744374/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observador.java;1086537759/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/IVista.java;1501392965/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Juego.java;605405308/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoDescendente.java;3720734736/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/VistaConsola.java;1121763631/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_vNhOoHA6Ee2WWoaNDJTvxA" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_vNh1sHA6Ee2WWoaNDJTvxA" source="com.yattasolutions.codegen.reverse">
@@ -830,7 +830,6 @@
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mORK8HBWEe2OSfFA2RChjA" name="iniciarJuego" specification="_fCLXsHBWEe2OSfFA2RChjA">
                     <language>java</language>
                     <body>boolean salir = false;&#xD;
-		List lista = new ArrayList();&#xD;
 		while(!salir) {&#xD;
 			menuPrincipal();&#xD;
 			String opcion = this.entrada.nextLine();&#xD;
@@ -1209,5 +1208,5 @@
   </UMLLabProfile:Annotations>
   <UMLLabProfile:LegacyStyledElement xmi:id="_NgBN4HBpEe2OSfFA2RChjA" base_Element="_Nf8VYHBpEe2OSfFA2RChjA"/>
   <UMLLabProfile:Generics xmi:id="_SmQdAHBrEe2OSfFA2RChjA" genericsValue="String" base_Element="_wPsdUXA6Ee2WWoaNDJTvxA"/>
-  <UMLLabProfile:Patch xmi:id="_dqzkAHB1Ee2OSfFA2RChjA" base_Element="_WNvkgG_QEe2JNZU2l2g9fw" patchText="@@ -765,16 +765,19 @@&#xA; is);%0D%0A%09%7D&#xA;+;%0D%0A&#xA; %09%0D%0A%09publ&#xA;" conflicting="false"/>
+  <UMLLabProfile:Patch xmi:id="_v3uK8HB2Ee2UepK28HZ5aA" base_Element="_WNvkgG_QEe2JNZU2l2g9fw" patchText="@@ -765,16 +765,19 @@&#xA; is);%0D%0A%09%7D&#xA;+;%0D%0A&#xA; %09%0D%0A%09publ&#xA;" conflicting="false"/>
 </xmi:XMI>

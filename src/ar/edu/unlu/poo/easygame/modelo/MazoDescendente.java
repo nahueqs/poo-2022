@@ -5,34 +5,41 @@ import java.util.Stack;
 import ar.edu.unlu.poo.easygame.observer.Observador;
 
 public class MazoDescendente extends GrupoCartas {
-	
+
 	public Eventos recibirIntentoJugada(Carta carta) {
-		// la jugada valida es que sea menor a la carta que esta en la mesa, o que sea del mismo color.
-		if (carta.getNumero() >= getUltimaCarta().getNumero()) { // es mayor al numero en mesa
-			if (carta.getColor().equals(getUltimaCarta().getColor())){ // es igual al color de la mesa
+		try {
+			if (getUltimaCarta() == null) { return Eventos.JUGADA_CORRECTA;} else {
+				// la jugada valida es que sea menor a la carta que esta en la mesa, o que sea del mismo color.
+				if (carta.getNumero() >= getUltimaCarta().getNumero()) { // es mayor al numero en mesa
+					if (carta.getColor().equals(getUltimaCarta().getColor())){ // es igual al color de la mesa
+						return Eventos.JUGADA_CORRECTA;
+					} else {
+						return Eventos.JUGADA_INCORRECTA;
+					} 		
+				}
 				return Eventos.JUGADA_CORRECTA;
-			} else {
-				return Eventos.JUGADA_INCORRECTA;
-			} 		
+			}
+		}catch(Exception EmptyStackException) {
+			return Eventos.JUGADA_CORRECTA;
 		}
-		return Eventos.JUGADA_CORRECTA;
 	}
-		
-	
+
+
 	public Eventos addCarta(Carta carta) {
 		if (recibirIntentoJugada(carta) == Eventos.JUGADA_CORRECTA) {
-			cartas.add(carta);
+			cartas.push(carta);
 			return recibirIntentoJugada(carta);
 		} else {
 			return recibirIntentoJugada(carta);
 		}
-				
+
 	}
 
 	@Override
-	protected Carta getUltimaCarta() {		
+	protected Carta getUltimaCarta() {	
 		return cartas.peek();
+		
 	}
-	
+
 }
 

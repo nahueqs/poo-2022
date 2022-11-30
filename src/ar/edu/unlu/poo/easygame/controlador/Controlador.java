@@ -1,14 +1,11 @@
 package ar.edu.unlu.poo.easygame.controlador;
 import java.util.List;
 
-import ar.edu.unlu.poo.easygame.modelo.Carta;
-import ar.edu.unlu.poo.easygame.modelo.GrupoCartas;
+import ar.edu.unlu.poo.easygame.modelo.Eventos;
 import ar.edu.unlu.poo.easygame.modelo.Juego;
-import ar.edu.unlu.poo.easygame.modelo.Jugador;
 import ar.edu.unlu.poo.easygame.observer.Observable;
 import ar.edu.unlu.poo.easygame.observer.Observador;
 import ar.edu.unlu.poo.easygame.vista.VistaConsola;
-import ar.edu.unlu.poo.easygame.modelo.Eventos;
 
 public class Controlador implements Observador {
 	private Juego modelo;
@@ -40,18 +37,33 @@ public class Controlador implements Observador {
 	public void actualizar(Object evento, Observable observado) {
 		if(evento instanceof Eventos) {
 			switch((Eventos) evento) {
+			case REINICIAR: {
+				this.vista.iniciarJuego();
+			}
 			case DERROTA: {
 				this.vista.terminarJuego();
-			}		
+			}
+			case VICTORIA: {
+				this.vista.terminarJuego();
+			}
 			case JUGADA_CORRECTA:{
-				this.modelo.setSiguienteTurno();
+				System.out.println("Jugador "+ this.modelo.getJugadorActual().getNombre());
 				this.vista.menuHacerJugada();
 			}
-			case JUEGO_INICIADO:{
+			case JUGADA_INCORRECTA:{
+				System.out.println("Jugador "+ this.modelo.getJugadorActual().getNombre());
+				System.out.println("JUGADA INCORRECTA, intente de nuevo");
+				this.vista.menuHacerJugada();
+			}
+			case FIN_TURNO:{
+				this.modelo.setSiguienteTurno();
+				this.modelo.incTurno();
+				System.out.println("Jugador "+ this.modelo.getJugadorActual().getNombre());
 				this.vista.menuHacerJugada();
 			}
 			case JUGADORES_CARGADOS:{
 				this.modelo.iniciarJuego();
+				System.out.println("Jugador "+ this.modelo.getJugadorActual().getNombre());
 				this.vista.menuHacerJugada();
 			}
 			default:
