@@ -1,10 +1,14 @@
 package ar.edu.unlu.poo.easygame.modelo;
 
+import java.util.Stack;
+
+import ar.edu.unlu.poo.easygame.observer.Observador;
+
 public class MazoDescendente extends GrupoCartas {
 	
-	public Eventos intentoJugada(Carta carta) {
+	public Eventos recibirIntentoJugada(Carta carta) {
 		// la jugada valida es que sea menor a la carta que esta en la mesa, o que sea del mismo color.
-		if (carta.getNumero() >= this.getUltimaCarta().getNumero()) { // es mayor al numero en mesa
+		if (carta.getNumero() >= getUltimaCarta().getNumero()) { // es mayor al numero en mesa
 			if (carta.getColor().equals(getUltimaCarta().getColor())){ // es igual al color de la mesa
 				return Eventos.JUGADA_CORRECTA;
 			} else {
@@ -13,20 +17,22 @@ public class MazoDescendente extends GrupoCartas {
 		}
 		return Eventos.JUGADA_CORRECTA;
 	}
-	
-	
-	
-	
-	private void hacerJugada(Carta carta) {
-		this.cartas.push(carta);
 		
-		
+	
+	public Eventos addCarta(Carta carta) {
+		if (recibirIntentoJugada(carta) == Eventos.JUGADA_CORRECTA) {
+			cartas.add(carta);
+			return recibirIntentoJugada(carta);
+		} else {
+			return recibirIntentoJugada(carta);
+		}
+				
 	}
 
-
-
-
-	public void mezclar() {
-		
+	@Override
+	protected Carta getUltimaCarta() {		
+		return cartas.peek();
 	}
+	
 }
+

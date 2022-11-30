@@ -22,46 +22,50 @@ public class Controlador implements Observador {
 	};
 	
 	public void iniciarJuego() {
-		modelo.iniciar();
+		modelo.iniciarJuego();
 	}
 	
 	public void hacerJugada(String carta, String mazo) {
-		modelo.hacerJugada(carta, modelo.getMazo(mazo));		
+		modelo.hacerJugada(carta, modelo.getMazo(mazo));
 	}
 	
-	public void setJugadores(List jugadores) {
+	public void setJugadores(List<String> jugadores) {
 		modelo.setJugadores(jugadores);
 		actualizar(Eventos.JUGADORES_CARGADOS, modelo);
 	}
 	
-	public void mostrarManoJugador() {
-		System.out.println(modelo.getCartasJugadorActual());		
-	}
+
 	
 	@Override
 	public void actualizar(Object evento, Observable observado) {
 		if(evento instanceof Eventos) {
 			switch((Eventos) evento) {
 			case DERROTA: {
-				this.vista.terminar();
+				this.vista.terminarJuego();
+			}		
+			case JUGADA_CORRECTA:{
+				this.modelo.setSiguienteTurno();
+				this.vista.menuHacerJugada();
 			}
 			case JUEGO_INICIADO:{
-				this.vista.mostrarMenuJugada();
-			}
-			
-			case FIN_TURNO:{
-				this.vista.mostrarMenuJugada();
+				this.vista.menuHacerJugada();
 			}
 			case JUGADORES_CARGADOS:{
-				this.vista.mostrarMenuPrincipal();
-			}	
-			
-			
+				this.modelo.iniciarJuego();
+				this.vista.menuHacerJugada();
+			}
+			default:
+				break;							
 			}
 		
 		}
 	}
+	
+	public String mostrarManoJugador() {
+		return modelo.getCartasJugadorActual();		
+	}
+	public String mostrarCartasTablero() {
+		return modelo.getCartasMazos();
+	}
 
-
-
-   }
+ }

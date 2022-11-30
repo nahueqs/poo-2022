@@ -5,7 +5,6 @@ import javax.management.modelmbean.ModelMBeanOperationInfo;
 
 import ar.edu.unlu.poo.easygame.controlador.Controlador;
 import ar.edu.unlu.poo.easygame.modelo.Eventos;
-import ar.edu.unlu.poo.easygame.modelo.IJuego;
 import ar.edu.unlu.poo.easygame.modelo.Jugador;
 
 import java.io.IOException;
@@ -22,17 +21,14 @@ public class VistaConsola implements IVista {
 	}
 
 	@Override
-	public void iniciar() {
+	public void iniciarJuego() {
 		boolean salir = false;
 		List lista = new ArrayList();
 		while(!salir) {
-			this.mostrarMenuPrincipal();
+			menuPrincipal();
 			String opcion = this.entrada.nextLine();
 			switch (opcion.toLowerCase()) {
 			case "a":
-				controlador.iniciarJuego();
-				break;
-			case "b":
 				menuCargaJugadores();					
 				break;
 			case "x":
@@ -45,66 +41,56 @@ public class VistaConsola implements IVista {
 		}
 	}
 
-	public void mostrarMenuPrincipal() {
+	public void menuPrincipal() {
 		System.out.println("------- EASY GAME -------");
 		System.out.println("-------------------------");
 		System.out.println("-------------------------");
 		System.out.println();
-		System.out.println("Selecciona una opcion:");
-		System.out.println("a - iniciar juego");
-		System.out.println("b - cargar jugadores");
-		System.out.println();
+		System.out.println("Ingresa los jugadores:");
+		System.out.println("a - cargar jugadores");
 		System.out.println("x - Salir");
 	}
-	
-	
+		
 	public void menuCargaJugadores() {
 		boolean salir = false;
 		int cont = 0;
-		List lista = new ArrayList();
-		mostrarMenuIngresoJugadores();
+		List<String> lista = new ArrayList<String>();
+		printMenuCargaJugadores();
 		while(!salir) {			
 			String opcion = this.entrada.nextLine();
 			switch (opcion.toLowerCase()) {
 			case "x":
+				System.out.println("Saliendo...presione enter");
 				salir = true;
-				System.out.println("Saliendo...");
-				try {
-					System.in.read();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				esperar();
+				break;
+			case "z":
+				System.out.println("Finalizado...presione enter");
+				salir = true;
+				esperar();
 				break;
 			default: 
-				if(opcion.length()>12) {
-					System.out.println("Opcion no valida");}
+				if((opcion.length()>12)||(opcion.equals(""))) {	System.out.println("Opcion no valida, ingrese otra vez...");}
 				else {
 					if (cont >= 5) {
 						System.out.println("Maximo de jugadores alcanzado, presione enter para volver al menú principal...");
-						try {
-							System.in.read();
-						} catch (IOException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
+						esperar();
 						salir = true;
 					} else {
 						lista.add(opcion);						
-						System.out.println("Añadido, ingrese el siguiente");
-						cont += 1;
+						System.out.println("Añadido, ingrese el nombre del siguiente");
+						cont += 1;					
 					}
 				}
-			}
-			if (lista.size()>0) { 
-				controlador.setJugadores(lista);
-			}
+			}		
 		}
+		if (lista.size() > 0) { controlador.setJugadores(lista);}
+		
 	}
 
-	public void mostrarMenuJugada() {
-		mostrarTablero();
-		mostrarCartasJugador();
+	public void menuHacerJugada() {
+		System.out.println(controlador.mostrarCartasTablero()); 
+		System.out.println(controlador.mostrarManoJugador());
 		System.out.println("Elegi el mazo al que vas a jugar");
 		System.out.println("a - mazo ascendente");
 		System.out.println("b - mazo descendente");
@@ -115,45 +101,39 @@ public class VistaConsola implements IVista {
 		System.out.println("b - Carta2");
 		System.out.println("x - Salir");
 		String carta = this.entrada.nextLine();
-		controlador.hacerJugada(carta, mazo);
-		
+		controlador.hacerJugada(carta, mazo);		
 	}
 
-	private void mostrarCartasJugador() {
-		controlador.mostrarManoJugador();
-
+	public void esperar() {
+		try {
+			System.in.read();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
 	}
 	
-	public void mostrarMenuIngresoJugadores() {
+	public void printMenuCargaJugadores() {
 		System.out.println("------- EASY GAME -------");
 		System.out.println("-------------------------");
 		System.out.println("-------------------------");
 		System.out.println();
 		System.out.println("Ingresa el nombre del jugador");
-		System.out.println("para salir ingresa x");
+		System.out.println("para finalizar la carga ingrese z, para salir ingrese x");
 		System.out.println();
 		System.out.println();
 		System.out.println("x - Salir");
 	}
 
-	public void mostrarTablero() {
-		//	controlador.
+	@Override
+	public void terminarJuego() {
 	}
-
+	
 	public void setControlador(Controlador controlador) {
 		this.controlador = controlador;
 	}
 
-	@Override
-	public void mostrarManoJugador(Jugador jugador) {
-		// TODO Auto-generated method stub
 
-	}
-
-	public void terminar() {
-		System.out.println("Juego terminado");
-
-	}
 
 
 }

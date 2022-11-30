@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_Vr2_cG_QEe2JNZU2l2g9fw" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_Vr2_cW_QEe2JNZU2l2g9fw" source="codegen">
         <details xmi:id="_Vr2_cm_QEe2JNZU2l2g9fw" key="codegenDirectory" value="/tp-final-quiniones-nahuel/src"/>
-        <details xmi:id="_ZQHJUG_QEe2JNZU2l2g9fw" key="AssociatedSourceCode" value="/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/controlador/Controlador.java;3367356832/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Carta.java;4119274317/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Colores.java;3541414733/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Eventos.java;2897928450/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/GrupoCartas.java;896121553/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/IJuego.java;1229284549/1;/tp-final-quiniones-nahuel/src/easyGame.java;2601766308/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Jugador.java;1993950310/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/ManoJugador.java;2905978113/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoAscendente.java;3644795534/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoMesa.java;2720946584/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observable.java;1039744374/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observador.java;1086537759/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/IVista.java;3034433281/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Juego.java;3695512998/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoDescendente.java;2410233369/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/VistaConsola.java;1053097142/1;"/>
+        <details xmi:id="_ZQHJUG_QEe2JNZU2l2g9fw" key="AssociatedSourceCode" value="/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/controlador/Controlador.java;2311401571/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Carta.java;4119274317/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Colores.java;3541414733/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Eventos.java;2897928450/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/GrupoCartas.java;1886395058/1;/tp-final-quiniones-nahuel/src/easyGame.java;2144627155/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Jugador.java;3565362519/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/ManoJugador.java;1396144221/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoAscendente.java;276209068/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observable.java;1039744374/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/observer/Observador.java;1086537759/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/IVista.java;1501392965/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/Juego.java;605405308/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/modelo/MazoDescendente.java;3720734736/1;/tp-final-quiniones-nahuel/src/ar/edu/unlu/poo/easygame/vista/VistaConsola.java;1640035285/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_vNhOoHA6Ee2WWoaNDJTvxA" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_vNh1sHA6Ee2WWoaNDJTvxA" source="com.yattasolutions.codegen.reverse">
@@ -110,7 +110,7 @@
                   <ownedLiteral xmi:id="_wPwuwXA6Ee2WWoaNDJTvxA" name="DERROTA"/>
                   <ownedLiteral xmi:id="_wPwuwnA6Ee2WWoaNDJTvxA" name="JUGADORES_CARGADOS"/>
                 </packagedElement>
-                <packagedElement xmi:type="uml:Class" xmi:id="_WONekG_QEe2JNZU2l2g9fw" name="GrupoCartas">
+                <packagedElement xmi:type="uml:Class" xmi:id="_WONekG_QEe2JNZU2l2g9fw" name="GrupoCartas" isAbstract="true">
                   <ownedAttribute xmi:id="_WSLYkG_QEe2JNZU2l2g9fw" name="cartas" visibility="protected" type="_WQ6NQW_QEe2JNZU2l2g9fw" association="_WTUoEW_QEe2JNZU2l2g9fw"/>
                   <ownedAttribute xmi:id="_WSOb4W_QEe2JNZU2l2g9fw" name="maxCartasJugador" visibility="protected" isLeaf="true" isStatic="true" isReadOnly="true">
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -120,7 +120,6 @@
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
                     <defaultValue xmi:type="uml:LiteralString" xmi:id="_WSPqAW_QEe2JNZU2l2g9fw" value="50"/>
                   </ownedAttribute>
-                  <interfaceRealization xmi:id="_wS47QHA6Ee2WWoaNDJTvxA" client="_WONekG_QEe2JNZU2l2g9fw" supplier="_wS3GEHA6Ee2WWoaNDJTvxA" contract="_wS3GEHA6Ee2WWoaNDJTvxA"/>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSsV8G_QEe2JNZU2l2g9fw" name="GrupoCartas" specification="_WOP60G_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WSsV8W_QEe2JNZU2l2g9fw" type="_WONekG_QEe2JNZU2l2g9fw" direction="return">
                       <name xsi:nil="true"/>
@@ -130,97 +129,22 @@
 	   cartas.setSize(0);&#xD;
 </body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSs9AG_QEe2JNZU2l2g9fw" name="getUltimaCarta" specification="_WOQh4G_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WSs9AW_QEe2JNZU2l2g9fw" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return">
-                      <name xsi:nil="true"/>
-                    </ownedParameter>
-                    <language>java</language>
-                    <body>return cartas.lastElement();&#xD;
-</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSs9Am_QEe2JNZU2l2g9fw" name="quitarUltimaCarta" specification="_WOSXEG_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WSs9A2_QEe2JNZU2l2g9fw" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return">
-                      <name xsi:nil="true"/>
-                    </ownedParameter>
-                    <language>java</language>
-                    <body>Carta aux = cartas.lastElement();&#xD;
-	   cartas.pop();&#xD;
-	   return aux;&#xD;
-</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WStkEG_QEe2JNZU2l2g9fw" name="mezclar" specification="_WOTlMG_QEe2JNZU2l2g9fw">
-                    <language>java</language>
-                    <body>int size = cartas.size();&#xD;
-		Random rand = new Random();&#xD;
-		List&lt;Carta> a = new ArrayList&lt;Carta>();&#xD;
-		for (int i = 1; i &lt;= size;i++ ) {&#xD;
-			a.add(cartas.pop());&#xD;
-		}&#xD;
-		for (int i = size - 1 ; i > 0; i--) {&#xD;
-			int numRandom = rand.nextInt(i+1);&#xD;
-			Carta temp = a.get(numRandom);&#xD;
-			a.set(numRandom, a.get(i));&#xD;
-			a.set(i, temp);&#xD;
-		}		&#xD;
-		for (int i = 0; i &lt; size; i++) {&#xD;
-			cartas.push(a.get(i));&#xD;
-		}				&#xD;
-		&#xD;
-		&#xD;
-	</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTKBAHA6Ee2WWoaNDJTvxA" name="getCartasJugador" specification="_wP21YHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTKBAXA6Ee2WWoaNDJTvxA" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wTKBAnA6Ee2WWoaNDJTvxA" type="_WN8_4G_QEe2JNZU2l2g9fw" isOrdered="true" direction="return">
-                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wTKBA3A6Ee2WWoaNDJTvxA" value="*"/>
-                    </ownedParameter>
-                    <language>java</language>
-                    <body>return null;&#xD;
-	</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTKoEHA6Ee2WWoaNDJTvxA" name="getTablero" specification="_wP5RoXA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTKoEXA6Ee2WWoaNDJTvxA" type="_WONekG_QEe2JNZU2l2g9fw" isOrdered="true" direction="return">
-                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wTKoEnA6Ee2WWoaNDJTvxA" value="*"/>
-                    </ownedParameter>
-                    <language>java</language>
-                    <body>return null;&#xD;
-	</body>
-                  </ownedBehavior>
                   <ownedOperation xmi:id="_WOP60G_QEe2JNZU2l2g9fw" name="GrupoCartas" method="_WSsV8G_QEe2JNZU2l2g9fw">
                     <eAnnotations xmi:id="_WOP60W_QEe2JNZU2l2g9fw" source="http://www.eclipse.org/uml2/2.0.0/UML">
                       <details xmi:id="_WOP60m_QEe2JNZU2l2g9fw" key="create"/>
                     </eAnnotations>
                     <ownedParameter xmi:id="_WOP602_QEe2JNZU2l2g9fw" type="_WONekG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_WOQh4G_QEe2JNZU2l2g9fw" name="getUltimaCarta" method="_WSs9AG_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WQ-esG_QEe2JNZU2l2g9fw" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
+                  <ownedOperation xmi:id="_hqEVEHBYEe2OSfFA2RChjA" name="addCarta" visibility="protected" isAbstract="true">
+                    <ownedParameter xmi:id="_hqEVEXBYEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_C61OUHBdEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_WOSXEG_QEe2JNZU2l2g9fw" name="quitarUltimaCarta" method="_WSs9Am_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WQ_FwG_QEe2JNZU2l2g9fw" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
+                  <ownedOperation xmi:id="_mDwKwHBbEe2OSfFA2RChjA" name="getUltimaCarta" visibility="protected" isAbstract="true">
+                    <ownedParameter xmi:id="_mDwx0HBbEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_WOTlMG_QEe2JNZU2l2g9fw" name="mezclar" method="_WStkEG_QEe2JNZU2l2g9fw"/>
-                  <ownedOperation xmi:id="_wP21YHA6Ee2WWoaNDJTvxA" name="getCartasJugador" method="_wTKBAHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wP21YXA6Ee2WWoaNDJTvxA" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wP3ccHA6Ee2WWoaNDJTvxA" type="_WN8_4G_QEe2JNZU2l2g9fw" isOrdered="true" direction="return">
-                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wP3ccXA6Ee2WWoaNDJTvxA" value="*"/>
-                    </ownedParameter>
-                  </ownedOperation>
-                  <ownedOperation xmi:id="_wP5RoXA6Ee2WWoaNDJTvxA" name="getTablero" method="_wTKoEHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wQMzoHA6Ee2WWoaNDJTvxA" type="_WONekG_QEe2JNZU2l2g9fw" isOrdered="true" direction="return">
-                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wQNasHA6Ee2WWoaNDJTvxA" value="*"/>
-                    </ownedParameter>
-                  </ownedOperation>
-                </packagedElement>
-                <packagedElement xmi:type="uml:Interface" xmi:id="_WOXPkG_QEe2JNZU2l2g9fw" name="IJuego">
-                  <ownedOperation xmi:id="_WOYdsG_QEe2JNZU2l2g9fw" name="iniciar"/>
-                  <ownedOperation xmi:id="_WRA68G_QEe2JNZU2l2g9fw" name="setControlador">
-                    <ownedParameter xmi:id="_WRA68W_QEe2JNZU2l2g9fw" name="controlador" type="_WNvkgG_QEe2JNZU2l2g9fw"/>
-                  </ownedOperation>
-                  <ownedOperation xmi:id="_WRCJEG_QEe2JNZU2l2g9fw" name="hacerJugada">
-                    <ownedParameter xmi:id="_WRFzcG_QEe2JNZU2l2g9fw" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_WRFzcW_QEe2JNZU2l2g9fw" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_WRGagG_QEe2JNZU2l2g9fw" name="mazo" type="_WONekG_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_WRHBkG_QEe2JNZU2l2g9fw" direction="return"/>
+                  <ownedOperation xmi:id="_ngjYkHBeEe2OSfFA2RChjA" name="recibirIntentoJugada" visibility="protected" isAbstract="true">
+                    <ownedParameter xmi:id="_ngjYkXBeEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_ngj_oHBeEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Class" xmi:id="_WOl5EG_QEe2JNZU2l2g9fw" name="Jugador">
@@ -283,12 +207,19 @@
                     <body>return id_jugador;&#xD;
 </body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTLPIHA6Ee2WWoaNDJTvxA" name="hacerJugada" specification="_wQaPAHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTLPIXA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wTLPInA6Ee2WWoaNDJTvxA" name="mazo" type="_WONekG_QEe2JNZU2l2g9fw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_w17l0HBZEe2OSfFA2RChjA" name="jugarCarta" specification="_n4dUgHBZEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_w17l0XBZEe2OSfFA2RChjA" name="pos">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_w17l0nBZEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
                     <language>java</language>
-                    <body>mano.jugarCarta();&#xD;
-</body>
+                    <body>if (pos == 0) {			  &#xD;
+			  return mano.getPrimeraCarta(); 	  &#xD;
+		  } else if (pos == 1) { &#xD;
+			  return mano.getUltimaCarta(); &#xD;		  } else return null;&#xD;
+	  </body>
                   </ownedBehavior>
                   <ownedOperation xmi:id="_WOo8YG_QEe2JNZU2l2g9fw" name="Jugador" method="_WSuyMG_QEe2JNZU2l2g9fw">
                     <eAnnotations xmi:id="_WOo8Ym_QEe2JNZU2l2g9fw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -319,37 +250,27 @@
                     <ownedParameter xmi:id="_WRNvQG_QEe2JNZU2l2g9fw" name="c1" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
                     <ownedParameter xmi:id="_WRNvQW_QEe2JNZU2l2g9fw" name="c2" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wQaPAHA6Ee2WWoaNDJTvxA" name="hacerJugada" method="_wTLPIHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wQaPAXA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wQa2EHA6Ee2WWoaNDJTvxA" name="mazo" type="_WONekG_QEe2JNZU2l2g9fw"/>
+                  <ownedOperation xmi:id="_n4dUgHBZEe2OSfFA2RChjA" name="jugarCarta" method="_w17l0HBZEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_n4d7kHBZEe2OSfFA2RChjA" name="pos">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_n4eioHBZEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Class" xmi:id="_WOwRIG_QEe2JNZU2l2g9fw" name="ManoJugador">
                   <generalization xmi:id="_WRSAsG_QEe2JNZU2l2g9fw" general="_WONekG_QEe2JNZU2l2g9fw"/>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSxOcG_QEe2JNZU2l2g9fw" name="addCarta" specification="_WRPkcG_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WSxOcW_QEe2JNZU2l2g9fw" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <language>java</language>
-                    <body>if (cartas.size()&lt;maxCartasJugador) {cartas.push(carta);}&#xD;
-  </body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSx1gG_QEe2JNZU2l2g9fw" name="jugarCarta" specification="_WOyGUG_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WSx1gW_QEe2JNZU2l2g9fw" name="pos">
-                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <ownedParameter xmi:id="_yryFcHBfEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_yryFcXBfEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
                     </ownedParameter>
-                    <ownedParameter xmi:id="_WSx1gm_QEe2JNZU2l2g9fw" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
                     <language>java</language>
-                    <body>Carta aux;&#xD;
-	  if (pos == 1) {&#xD;
-		  aux = cartas.firstElement();&#xD;
-		  cartas.remove(0);&#xD;
-		  return aux; &#xD;
-		  &#xD;
-	  } else if (pos == 2) { &#xD;
-		  aux = cartas.lastElement();&#xD;
-		  cartas.pop();&#xD;
-		  return aux; &#xD;
-		  &#xD;
-	  } else return null;&#xD;
+                    <body>if (recibirIntentoJugada(carta) == Eventos.JUGADA_CORRECTA) {&#xD;
+			cartas.add(carta);&#xD;
+			return recibirIntentoJugada(carta);&#xD;
+		} else {&#xD;
+			return recibirIntentoJugada(carta);&#xD;
+		}&#xD;
   </body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSx1g2_QEe2JNZU2l2g9fw" name="llenar" specification="_WRRZoG_QEe2JNZU2l2g9fw">
@@ -364,6 +285,7 @@
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSyckG_QEe2JNZU2l2g9fw" name="mostrarCartas" specification="_WOzUcG_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WSyckW_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                     <language>java</language>
@@ -374,12 +296,40 @@
 	  return aux;  &#xD;
   </body>
                   </ownedBehavior>
-                  <ownedOperation xmi:id="_WOyGUG_QEe2JNZU2l2g9fw" name="jugarCarta" method="_WSx1gG_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WOyGUW_QEe2JNZU2l2g9fw" name="pos">
-                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OQGvYHBbEe2OSfFA2RChjA" name="getUltimaCarta" specification="_OP_aoHBbEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_OQGvYXBbEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
                     </ownedParameter>
-                    <ownedParameter xmi:id="_WRQykG_QEe2JNZU2l2g9fw" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
-                  </ownedOperation>
+                    <language>java</language>
+                    <body>return cartas.pop();&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OQHWcHBbEe2OSfFA2RChjA" name="getPrimeraCarta" specification="_OQAownBbEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_OQHWcXBbEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>Carta aux;&#xD;
+		aux = cartas.elementAt(0);&#xD;
+		cartas.remove(0);&#xD;
+		return aux;&#xD;
+	&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0rizMHBeEe2OSfFA2RChjA" name="recibirIntentoJugada" specification="_0rbecHBeEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_0rizMXBeEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_0rizMnBeEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (cartas.size()&lt;maxCartasJugador) { &#xD;
+			return Eventos.JUGADA_CORRECTA;&#xD;
+		}&#xD;
+		else {&#xD;
+			return Eventos.JUGADA_INCORRECTA;&#xD;
+		}	&#xD;
+	</body>
+                  </ownedBehavior>
                   <ownedOperation xmi:id="_WOzUcG_QEe2JNZU2l2g9fw" name="mostrarCartas" method="_WSyckG_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WOz7gG_QEe2JNZU2l2g9fw" direction="return">
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -387,22 +337,57 @@
                   </ownedOperation>
                   <ownedOperation xmi:id="_WRPkcG_QEe2JNZU2l2g9fw" name="addCarta" method="_WSxOcG_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WRQLgG_QEe2JNZU2l2g9fw" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_yro7gHBfEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
                   <ownedOperation xmi:id="_WRRZoG_QEe2JNZU2l2g9fw" name="llenar" method="_WSx1g2_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WRRZoW_QEe2JNZU2l2g9fw" name="c1" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
                     <ownedParameter xmi:id="_WRRZom_QEe2JNZU2l2g9fw" name="c2" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
+                  <ownedOperation xmi:id="_OP_aoHBbEe2OSfFA2RChjA" name="getUltimaCarta" visibility="protected" method="_OQGvYHBbEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_OQABsHBbEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OQAownBbEe2OSfFA2RChjA" name="getPrimeraCarta" visibility="protected" method="_OQHWcHBbEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_OQBP0HBbEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_0rbecHBeEe2OSfFA2RChjA" name="recibirIntentoJugada" visibility="protected" method="_0rizMHBeEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_0rbecXBeEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_0rcFgHBeEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
+                  </ownedOperation>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Class" xmi:id="_WO2-0G_QEe2JNZU2l2g9fw" name="MazoAscendente">
                   <generalization xmi:id="_WRTO0G_QEe2JNZU2l2g9fw" general="_WONekG_QEe2JNZU2l2g9fw"/>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTL2MHA6Ee2WWoaNDJTvxA" name="recibirCarta" specification="_wQfHgHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTL2MXA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wTL2MnA6Ee2WWoaNDJTvxA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UDP9QHBcEe2OSfFA2RChjA" name="getUltimaCarta" specification="_UDGzUHBcEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_UDP9QXBcEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return cartas.peek();&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jchX4HBdEe2OSfFA2RChjA" name="addCarta" specification="_IpU_AXBZEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_jchX4XBdEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_jchX4nBdEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (recibirIntentoJugada(carta) == Eventos.JUGADA_CORRECTA) {&#xD;
+			cartas.add(carta);&#xD;
+			return recibirIntentoJugada(carta);&#xD;
+		} else {&#xD;
+			return recibirIntentoJugada(carta);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ncqMgHBdEe2OSfFA2RChjA" name="recibirIntentoJugada" specification="_nclUAHBdEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_ncqMgXBdEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_ncqMgnBdEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
                     <language>java</language>
                     <body>// la jugada valida es que sea mayor a la carta que esta en la mesa, o que sea del mismo color.&#xD;
-		if (carta.getNumero() &lt;= this.getUltimaCarta().getNumero()) { // es menor al numero en mesa&#xD;
+		if (carta.getNumero() &lt;= getUltimaCarta().getNumero()) { // es menor al numero en mesa&#xD;
 			if (carta.getColor().equals(getUltimaCarta().getColor())){ // es igual al color de la mesa&#xD;
-				this.&#xD;
 				return Eventos.JUGADA_CORRECTA;&#xD;
 			} else {&#xD;
 				return Eventos.JUGADA_INCORRECTA;&#xD;
@@ -411,24 +396,18 @@
 		return Eventos.JUGADA_CORRECTA;&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedOperation xmi:id="_wQfHgHA6Ee2WWoaNDJTvxA" name="recibirCarta" method="_wTL2MHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wQfHgXA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wQfHgnA6Ee2WWoaNDJTvxA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
-                  </ownedOperation>
                   <ownedOperation xmi:id="_wQfukHA6Ee2WWoaNDJTvxA" name="mezclar"/>
-                </packagedElement>
-                <packagedElement xmi:type="uml:Class" xmi:id="_WO5bEG_QEe2JNZU2l2g9fw" name="MazoMesa">
-                  <generalization xmi:id="_WRUc8G_QEe2JNZU2l2g9fw" general="_WONekG_QEe2JNZU2l2g9fw"/>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSzDom_QEe2JNZU2l2g9fw" name="llenar" specification="_WO6pMG_QEe2JNZU2l2g9fw">
-                    <language>java</language>
-                    <body>for (Colores color : Colores.values()) {&#xD;
-			   for(int j = 1;j&lt;=10;j++) {&#xD;
-				   cartas.push(new Carta (j, color));&#xD;
-			   }&#xD;
-		   }&#xD;
-	   </body>
-                  </ownedBehavior>
-                  <ownedOperation xmi:id="_WO6pMG_QEe2JNZU2l2g9fw" name="llenar" method="_WSzDom_QEe2JNZU2l2g9fw"/>
+                  <ownedOperation xmi:id="_IpU_AXBZEe2OSfFA2RChjA" name="addCarta" visibility="protected" method="_jchX4HBdEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_IpVmEHBZEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_jcfisHBdEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_UDGzUHBcEe2OSfFA2RChjA" name="getUltimaCarta" visibility="protected" method="_UDP9QHBcEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_UDHaYHBcEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_nclUAHBdEe2OSfFA2RChjA" name="recibirIntentoJugada" method="_ncqMgHBdEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_nclUAXBdEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_ncl7EHBdEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
+                  </ownedOperation>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Class" xmi:id="_WPGPYG_QEe2JNZU2l2g9fw" name="Juego">
                   <ownedAttribute xmi:id="_WSb3QW_QEe2JNZU2l2g9fw" name="mazoDesc" visibility="private" type="_WR8vEG_QEe2JNZU2l2g9fw" association="_WTjRkG_QEe2JNZU2l2g9fw"/>
@@ -442,23 +421,22 @@
                     <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WSjzEG_QEe2JNZU2l2g9fw" value="*"/>
                   </ownedAttribute>
                   <ownedAttribute xmi:id="_WSlBMG_QEe2JNZU2l2g9fw" name="estado" visibility="private" type="_WOLpYG_QEe2JNZU2l2g9fw"/>
-                  <ownedAttribute xmi:id="_wTCFMHA6Ee2WWoaNDJTvxA" name="pila" visibility="private" type="_WO5bEG_QEe2JNZU2l2g9fw" association="_wTgmUHA6Ee2WWoaNDJTvxA"/>
+                  <ownedAttribute xmi:id="_wTCFMHA6Ee2WWoaNDJTvxA" name="pila" visibility="private" type="_WQ6NQW_QEe2JNZU2l2g9fw" association="_wTgmUHA6Ee2WWoaNDJTvxA"/>
                   <ownedAttribute xmi:id="_wTDTUHA6Ee2WWoaNDJTvxA" name="jugadorActual" type="_WOl5EG_QEe2JNZU2l2g9fw" isReadOnly="true" association="_wTh0cXA6Ee2WWoaNDJTvxA"/>
                   <ownedAttribute xmi:id="_wTD6YHA6Ee2WWoaNDJTvxA" name="estadoJugada" visibility="private" type="_WOLpYG_QEe2JNZU2l2g9fw"/>
                   <interfaceRealization xmi:id="_WRbxsG_QEe2JNZU2l2g9fw" client="_WPGPYG_QEe2JNZU2l2g9fw" supplier="_WO73UG_QEe2JNZU2l2g9fw" contract="_WO73UG_QEe2JNZU2l2g9fw"/>
-                  <interfaceRealization xmi:id="_WRcYwG_QEe2JNZU2l2g9fw" client="_WPGPYG_QEe2JNZU2l2g9fw" supplier="_WOXPkG_QEe2JNZU2l2g9fw" contract="_WOXPkG_QEe2JNZU2l2g9fw"/>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WSzqsG_QEe2JNZU2l2g9fw" name="Juego" specification="_WPJ5wG_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WSzqsW_QEe2JNZU2l2g9fw" type="_WPGPYG_QEe2JNZU2l2g9fw" direction="return">
                       <name xsi:nil="true"/>
                     </ownedParameter>
                     <language>java</language>
-                    <body>pila = new MazoMesa();&#xD;
-	   mazoAsc = new MazoAscendente();&#xD;
-	   mazoDesc = new MazoDescendente();&#xD;
-	   jugadores = new ArrayList&lt;Jugador>();&#xD;
-	   observadores = new ArrayList&lt;>();&#xD;
-	   estado = null;&#xD;
-</body>
+                    <body>pila = new Stack&lt;Carta>();&#xD;
+		mazoAsc = new MazoAscendente();&#xD;
+		mazoDesc = new MazoDescendente();&#xD;
+		jugadores = new ArrayList&lt;Jugador>();&#xD;
+		observadores = new ArrayList&lt;>();&#xD;
+		estado = null;&#xD;
+	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WS0RwG_QEe2JNZU2l2g9fw" name="setJugadores" specification="_WPKg0G_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WS0RwW_QEe2JNZU2l2g9fw" name="params">
@@ -467,17 +445,18 @@
                     </ownedParameter>
                     <language>java</language>
                     <body>if ((params.length > 1) &amp;&amp; (params.length &lt;= 5)) {&#xD;
-		   for (int i=0;i&lt; params.length;i++) {&#xD;
-			   jugadores.add(new Jugador(params[i]));&#xD;
-		   }&#xD;
-	   }&#xD;
-</body>
+			for (int i=0;i&lt; params.length;i++) {&#xD;
+				jugadores.add(new Jugador(params[i]));&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;añadidos &quot;+ jugadores.size());&#xD;
+	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WS040G_QEe2JNZU2l2g9fw" name="setControlador" specification="_WReN8G_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WS040W_QEe2JNZU2l2g9fw" name="controlador" type="_WNvkgG_QEe2JNZU2l2g9fw"/>
                     <language>java</language>
                     <body>this.controlador = controlador;&#xD;
-</body>
+	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WS040m_QEe2JNZU2l2g9fw" name="notificar" specification="_WR_yYG_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WS0402_QEe2JNZU2l2g9fw" name="evento" type="_WRyXAW_QEe2JNZU2l2g9fw"/>
@@ -493,63 +472,41 @@
                     <body>this.observadores.add(observador);&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WS2G8G_QEe2JNZU2l2g9fw" name="iniciar" specification="_WPOyQG_QEe2JNZU2l2g9fw">
-                    <language>java</language>
-                    <body>estado = Eventos.JUEGO_INICIADO;&#xD;
-		siguienteTurno = jugadores.get(0);&#xD;
-		pila.llenar();&#xD;
-		pila.mezclar();&#xD;
-		repartir();&#xD;
-		while ((estado != Eventos.VICTORIA)&amp;&amp;(estado != Eventos.DERROTA)){&#xD;
-			this.notificar(estado);&#xD;
-			&#xD;
-				&#xD;
-					&#xD;
-			}&#xD;
-		</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WS2uAG_QEe2JNZU2l2g9fw" name="setSiguienteTurno" specification="_WRmw0m_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WS2uAW_QEe2JNZU2l2g9fw" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
-                    <language>java</language>
-                    <body>if (jugador.getId() &lt; 4) { &#xD;
-			siguienteTurno = jugadores.get(jugador.getId()+1);&#xD;
-			} else { &#xD;
-				siguienteTurno = jugadores.get(0);&#xD;
-			}&#xD;
-	</body>
-                  </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTQHoHA6Ee2WWoaNDJTvxA" name="getMazo" specification="_wR2ZcHA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wTQHoXA6Ee2WWoaNDJTvxA" name="tipo">
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
-                    <ownedParameter xmi:id="_wTQHonA6Ee2WWoaNDJTvxA" type="_WONekG_QEe2JNZU2l2g9fw" direction="return"/>
+                    <ownedParameter xmi:id="_wTQHonA6Ee2WWoaNDJTvxA" type="_WONekG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
                     <language>java</language>
                     <body>if (tipo == &quot;a&quot;) {&#xD;
-		   return mazoAsc;&#xD;
-	   } else {&#xD;
-		   return mazoDesc;&#xD;
-	   }&#xD;
-</body>
+			return mazoAsc;&#xD;
+		} else {&#xD;
+			return mazoDesc;&#xD;
+		}&#xD;
+	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTQusHA6Ee2WWoaNDJTvxA" name="setJugadores" specification="_wRM5MHA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wTQusXA6Ee2WWoaNDJTvxA" name="lista" type="_WQy4gW_QEe2JNZU2l2g9fw"/>
                     <language>java</language>
                     <body>for (int i=0; i&lt;lista.size(); i++) {&#xD;
-		   jugadores.add(new Jugador(lista.get(i)));&#xD;
-	   }&#xD;
-</body>
+			jugadores.add(new Jugador(lista.get(i)));&#xD;
+		}&#xD;
+		System.out.println(&quot;añadidos &quot;+ jugadores.size());&#xD;
+	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTRVwHA6Ee2WWoaNDJTvxA" name="repartir" specification="_wRP8gHA6Ee2WWoaNDJTvxA">
                     <language>java</language>
                     <body>for (Jugador j : jugadores) {&#xD;
-			j.recibirCartas(pila.quitarUltimaCarta(), pila.quitarUltimaCarta());&#xD;
+			j.recibirCartas(pila.pop(), pila.pop());&#xD;
 		}&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTRVwXA6Ee2WWoaNDJTvxA" name="repartir" specification="_wRP8gXA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wTRVwnA6Ee2WWoaNDJTvxA" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
                     <language>java</language>
-                    <body>jugador.recibirCartas(pila.quitarUltimaCarta(), pila.quitarUltimaCarta());&#xD;
+                    <body>jugador.recibirCartas(pila.pop(), pila.pop());&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTR80HA6Ee2WWoaNDJTvxA" name="repartir" specification="_wR3nkHA6Ee2WWoaNDJTvxA">
@@ -558,7 +515,7 @@
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                     <language>java</language>
-                    <body>jugador.recibirCartas(pila.quitarUltimaCarta());&#xD;
+                    <body>jugador.recibirCartas(pila.pop());&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTR803A6Ee2WWoaNDJTvxA" name="hacerJugada" specification="_wR41sHA6Ee2WWoaNDJTvxA">
@@ -567,24 +524,75 @@
                     </ownedParameter>
                     <ownedParameter xmi:id="_wTR81XA6Ee2WWoaNDJTvxA" name="mazo" type="_WONekG_QEe2JNZU2l2g9fw"/>
                     <language>java</language>
-                    <body>setSiguienteTurno(jugadorActual);&#xD;
-		int aux;&#xD;
-		if (carta == &quot;a&quot;) {aux = 0;&#xD;
-			} else {&#xD;
-				aux=1;&#xD;
-			};&#xD;
-		jugadorActual.hacerJugada(aux, mazo);&#xD;
-		//Eventos aux = Eventos.INICIO_TURNO;&#xD;
-		//notificar(aux);&#xD;
-		&#xD;
+                    <body>int aux;&#xD;
+		if (carta == &quot;a&quot;) {aux = 0;} &#xD;
+		else {aux = 1;}&#xD;
+		notificar(mazo.addCarta(jugadorActual.jugarCarta(aux)));	&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTSj4HA6Ee2WWoaNDJTvxA" name="getCartasJugadorActual" specification="_wRQjkHA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wTSj4XA6Ee2WWoaNDJTvxA" direction="return">
+                      <name xsi:nil="true"/>
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                     <language>java</language>
                     <body>return jugadorActual.getManoJugador();&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uHuscHBUEe2OSfFA2RChjA" name="iniciarJuego" specification="_uHSnkHBUEe2OSfFA2RChjA">
+                    <language>java</language>
+                    <body>estado = Eventos.JUEGO_INICIADO;&#xD;
+		siguienteTurno = jugadores.get(0);&#xD;
+		llenarPila();&#xD;
+		mezclarPila();&#xD;
+		repartir();&#xD;
+		this.notificar(estado);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0lzhIHBqEe2OSfFA2RChjA" name="llenarPila" specification="_0lk3oHBqEe2OSfFA2RChjA">
+                    <language>java</language>
+                    <body>for (Colores color : Colores.values()) {&#xD;
+			for(int j = 1;j&lt;=10;j++) {&#xD;
+				pila.push(new Carta (j, color));&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T7mfUHBrEe2OSfFA2RChjA" name="mezclarPila" specification="_T7cHQHBrEe2OSfFA2RChjA">
+                    <language>java</language>
+                    <body>int size = pila.size();&#xD;
+		Random rand = new Random();&#xD;
+		List&lt;Carta> a = new ArrayList&lt;Carta>();&#xD;
+		for (int i = 1; i &lt;= size;i++ ) {&#xD;
+			a.add(pila.pop());&#xD;
+		}&#xD;
+		for (int i = size - 1 ; i > 0; i--) {&#xD;
+			int numRandom = rand.nextInt(i+1);&#xD;
+			Carta temp = a.get(numRandom);&#xD;
+			a.set(numRandom, a.get(i));&#xD;
+			a.set(i, temp);&#xD;
+		}		&#xD;
+		for (int i = 0; i &lt; size; i++) {&#xD;
+			pila.push(a.get(i));&#xD;
+		}								&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OoU88HBtEe2OSfFA2RChjA" name="setSiguienteTurno" specification="_OoJWwHBtEe2OSfFA2RChjA">
+                    <language>java</language>
+                    <body>if (jugadorActual.getId() &lt; 4) { &#xD;
+			siguienteTurno = jugadores.get(jugadorActual.getId()+1);&#xD;
+		} else { &#xD;
+			siguienteTurno = jugadores.get(0);&#xD;
+		}&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AoeSsHB0Ee2OSfFA2RChjA" name="getCartasMazos" specification="_AoVv0HB0Ee2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_AoeSsXB0Ee2OSfFA2RChjA" direction="return">
+                      <name xsi:nil="true"/>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return &quot;MAZO ASCENDENTE: &quot; + mazoAsc.getUltimaCarta().toString() + &quot;MAZO DESCENDIENTE: &quot; + mazoDesc.getUltimaCarta().toString();&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedOperation xmi:id="_WPJ5wG_QEe2JNZU2l2g9fw" name="Juego" method="_WSzqsG_QEe2JNZU2l2g9fw">
@@ -600,15 +608,11 @@
                     </ownedParameter>
                   </ownedOperation>
                   <ownedOperation xmi:id="_WPM9EG_QEe2JNZU2l2g9fw" name="terminar"/>
-                  <ownedOperation xmi:id="_WPOyQG_QEe2JNZU2l2g9fw" name="iniciar" method="_WS2G8G_QEe2JNZU2l2g9fw"/>
                   <ownedOperation xmi:id="_WReN8G_QEe2JNZU2l2g9fw" name="setControlador" method="_WS040G_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WReN8W_QEe2JNZU2l2g9fw" name="controlador" type="_WNvkgG_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
                   <ownedOperation xmi:id="_WRfcEG_QEe2JNZU2l2g9fw" name="agregarObservador" method="_WS1f4G_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WRfcEW_QEe2JNZU2l2g9fw" name="observador" type="_WO-6oG_QEe2JNZU2l2g9fw"/>
-                  </ownedOperation>
-                  <ownedOperation xmi:id="_WRmw0m_QEe2JNZU2l2g9fw" name="setSiguienteTurno" method="_WS2uAG_QEe2JNZU2l2g9fw">
-                    <ownedParameter xmi:id="_WRnX4G_QEe2JNZU2l2g9fw" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
                   <ownedOperation xmi:id="_WR_yYG_QEe2JNZU2l2g9fw" name="notificar" method="_WS040m_QEe2JNZU2l2g9fw">
                     <ownedParameter xmi:id="_WR_yYW_QEe2JNZU2l2g9fw" name="evento" type="_WRyXAW_QEe2JNZU2l2g9fw"/>
@@ -616,11 +620,11 @@
                   <ownedOperation xmi:id="_wRM5MHA6Ee2WWoaNDJTvxA" name="setJugadores" method="_wTQusHA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wRNgQHA6Ee2WWoaNDJTvxA" name="lista" type="_WQy4gW_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wRP8gHA6Ee2WWoaNDJTvxA" name="repartir" method="_wTRVwHA6Ee2WWoaNDJTvxA"/>
-                  <ownedOperation xmi:id="_wRP8gXA6Ee2WWoaNDJTvxA" name="repartir" method="_wTRVwXA6Ee2WWoaNDJTvxA">
+                  <ownedOperation xmi:id="_wRP8gHA6Ee2WWoaNDJTvxA" name="repartir" visibility="private" method="_wTRVwHA6Ee2WWoaNDJTvxA"/>
+                  <ownedOperation xmi:id="_wRP8gXA6Ee2WWoaNDJTvxA" name="repartir" visibility="private" method="_wTRVwXA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wRP8gnA6Ee2WWoaNDJTvxA" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wRQjkHA6Ee2WWoaNDJTvxA" name="getCartasJugadorActual" method="_wTSj4HA6Ee2WWoaNDJTvxA">
+                  <ownedOperation xmi:id="_wRQjkHA6Ee2WWoaNDJTvxA" name="getCartasJugadorActual" visibility="public" method="_wTSj4HA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wR6D0HA6Ee2WWoaNDJTvxA" direction="return">
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
@@ -631,29 +635,39 @@
                     </ownedParameter>
                     <ownedParameter xmi:id="_wR3AgHA6Ee2WWoaNDJTvxA" type="_WONekG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wR3nkHA6Ee2WWoaNDJTvxA" name="repartir" method="_wTR80HA6Ee2WWoaNDJTvxA">
+                  <ownedOperation xmi:id="_wR3nkHA6Ee2WWoaNDJTvxA" name="repartir" visibility="private" method="_wTR80HA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wR4OoHA6Ee2WWoaNDJTvxA" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
                     <ownedParameter xmi:id="_wR4OoXA6Ee2WWoaNDJTvxA" name="s">
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wR41sHA6Ee2WWoaNDJTvxA" name="hacerJugada" method="_wTR803A6Ee2WWoaNDJTvxA">
+                  <ownedOperation xmi:id="_wR41sHA6Ee2WWoaNDJTvxA" name="hacerJugada" visibility="public" method="_wTR803A6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wR41sXA6Ee2WWoaNDJTvxA" name="carta">
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                     <ownedParameter xmi:id="_wR41snA6Ee2WWoaNDJTvxA" name="mazo" type="_WONekG_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
+                  <ownedOperation xmi:id="_uHSnkHBUEe2OSfFA2RChjA" name="iniciarJuego" method="_uHuscHBUEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_0lk3oHBqEe2OSfFA2RChjA" name="llenarPila" visibility="private" method="_0lzhIHBqEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_T7cHQHBrEe2OSfFA2RChjA" name="mezclarPila" visibility="private" method="_T7mfUHBrEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_OoJWwHBtEe2OSfFA2RChjA" name="setSiguienteTurno" visibility="public" method="_OoU88HBtEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_AoVv0HB0Ee2OSfFA2RChjA" name="getCartasMazos" method="_AoeSsHB0Ee2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_Aob2cHB0Ee2OSfFA2RChjA" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Class" xmi:id="_WR8vEG_QEe2JNZU2l2g9fw" name="MazoDescendente">
                   <generalization xmi:id="_wQmcQHA6Ee2WWoaNDJTvxA" general="_WONekG_QEe2JNZU2l2g9fw"/>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTMdQHA6Ee2WWoaNDJTvxA" name="intentoJugada" specification="_wQknEHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTMdQXA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wTMdQnA6Ee2WWoaNDJTvxA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4acEoHBPEe2OSfFA2RChjA" name="recibirIntentoJugada" specification="_4Z-xoHBPEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_4acEoXBPEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_4acEonBPEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
                     <language>java</language>
                     <body>// la jugada valida es que sea menor a la carta que esta en la mesa, o que sea del mismo color.&#xD;
-		if (carta.getNumero() >= this.getUltimaCarta().getNumero()) { // es mayor al numero en mesa&#xD;
+		if (carta.getNumero() >= getUltimaCarta().getNumero()) { // es mayor al numero en mesa&#xD;
 			if (carta.getColor().equals(getUltimaCarta().getColor())){ // es igual al color de la mesa&#xD;
-				hacerJugada();&#xD;
 				return Eventos.JUGADA_CORRECTA;&#xD;
 			} else {&#xD;
 				return Eventos.JUGADA_INCORRECTA;&#xD;
@@ -662,21 +676,40 @@
 		return Eventos.JUGADA_CORRECTA;&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTMdQ3A6Ee2WWoaNDJTvxA" name="hacerJugada" specification="_wQlOInA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTMdRHA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4acrsHBPEe2OSfFA2RChjA" name="addCarta" specification="_4aCcAHBPEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_D7uDkHBdEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_D7uqoHBdEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
                     <language>java</language>
-                    <body>this.cartas.a&#xD;
-		&#xD;
+                    <body>if (recibirIntentoJugada(carta) == Eventos.JUGADA_CORRECTA) {&#xD;
+			cartas.add(carta);&#xD;
+			return recibirIntentoJugada(carta);&#xD;
+		} else {&#xD;
+			return recibirIntentoJugada(carta);&#xD;
+		}&#xD;
+				&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedOperation xmi:id="_wQknEHA6Ee2WWoaNDJTvxA" name="intentoJugada" method="_wTMdQHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wQlOIHA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
-                    <ownedParameter xmi:id="_wQlOIXA6Ee2WWoaNDJTvxA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_liAIkHBbEe2OSfFA2RChjA" name="getUltimaCarta" specification="_lh5a4HBbEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_liAIkXBbEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return cartas.peek();&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_4Z-xoHBPEe2OSfFA2RChjA" name="recibirIntentoJugada" method="_4acEoHBPEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_4aAm0HBPEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_4aBN4HBPEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wQlOInA6Ee2WWoaNDJTvxA" name="hacerJugada" visibility="private" method="_wTMdQ3A6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wQl1MHA6Ee2WWoaNDJTvxA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                  <ownedOperation xmi:id="_4aCcAHBPEe2OSfFA2RChjA" name="addCarta" method="_4acrsHBPEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_4aCcAXBPEe2OSfFA2RChjA" name="carta" type="_WN8_4G_QEe2JNZU2l2g9fw"/>
+                    <ownedParameter xmi:id="_D7idYHBdEe2OSfFA2RChjA" type="_WOLpYG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wQl1MXA6Ee2WWoaNDJTvxA" name="mezclar"/>
+                  <ownedOperation xmi:id="_lh5a4HBbEe2OSfFA2RChjA" name="getUltimaCarta" visibility="protected" method="_liAIkHBbEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_lh6B8HBbEe2OSfFA2RChjA" type="_WN8_4G_QEe2JNZU2l2g9fw" direction="return"/>
+                  </ownedOperation>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Association" xmi:id="_WTUoEW_QEe2JNZU2l2g9fw" name="" memberEnd="_WTUoEm_QEe2JNZU2l2g9fw _WSLYkG_QEe2JNZU2l2g9fw">
                   <ownedEnd xmi:id="_WTUoEm_QEe2JNZU2l2g9fw" name="" type="_WONekG_QEe2JNZU2l2g9fw" association="_WTUoEW_QEe2JNZU2l2g9fw"/>
@@ -709,6 +742,7 @@
                 <packagedElement xmi:type="uml:Association" xmi:id="_wTh0cXA6Ee2WWoaNDJTvxA" name="" memberEnd="_wTh0cnA6Ee2WWoaNDJTvxA _wTDTUHA6Ee2WWoaNDJTvxA">
                   <ownedEnd xmi:id="_wTh0cnA6Ee2WWoaNDJTvxA" name="" type="_WPGPYG_QEe2JNZU2l2g9fw" association="_wTh0cXA6Ee2WWoaNDJTvxA"/>
                 </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_6IXSIHBnEe2OSfFA2RChjA" name="Stack"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Package" xmi:id="_WL6_kG_QEe2JNZU2l2g9fw" name="observer">
                 <packagedElement xmi:type="uml:Interface" xmi:id="_WO73UG_QEe2JNZU2l2g9fw" name="Observable">
@@ -728,41 +762,80 @@
               </packagedElement>
               <packagedElement xmi:type="uml:Package" xmi:id="_WL8NsG_QEe2JNZU2l2g9fw" name="vista">
                 <packagedElement xmi:type="uml:Interface" xmi:id="_WPAv0G_QEe2JNZU2l2g9fw" name="IVista">
-                  <ownedOperation xmi:id="_WPBW4G_QEe2JNZU2l2g9fw" name="iniciar"/>
-                  <ownedOperation xmi:id="_WPB98G_QEe2JNZU2l2g9fw" name="mostrarMenuJugada"/>
-                  <ownedOperation xmi:id="_WPClAG_QEe2JNZU2l2g9fw" name="mostrarMenuPrincipal"/>
-                  <ownedOperation xmi:id="_WRZ8gG_QEe2JNZU2l2g9fw" name="mostrarManoJugador">
-                    <ownedParameter xmi:id="_WRZ8gW_QEe2JNZU2l2g9fw" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
-                  </ownedOperation>
                   <ownedOperation xmi:id="_WRajkG_QEe2JNZU2l2g9fw" name="setControlador">
                     <ownedParameter xmi:id="_WRajkW_QEe2JNZU2l2g9fw" name="controlador" type="_WNvkgG_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wQr70HA6Ee2WWoaNDJTvxA" name="mostrarTablero"/>
-                  <ownedOperation xmi:id="_wQsi4HA6Ee2WWoaNDJTvxA" name="terminar"/>
                   <ownedOperation xmi:id="_wQsi4XA6Ee2WWoaNDJTvxA" name="menuCargaJugadores"/>
+                  <ownedOperation xmi:id="_OW14QHBVEe2OSfFA2RChjA" name="iniciarJuego"/>
+                  <ownedOperation xmi:id="_R3k0EHBVEe2OSfFA2RChjA" name="terminarJuego"/>
+                  <ownedOperation xmi:id="_Uwff8HBrEe2OSfFA2RChjA" name="menuPrincipal"/>
+                  <ownedOperation xmi:id="_UwgHAHBrEe2OSfFA2RChjA" name="menuHacerJugada"/>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Class" xmi:id="_WQf9kG_QEe2JNZU2l2g9fw" name="VistaConsola">
                   <ownedAttribute xmi:id="_wS_B4HA6Ee2WWoaNDJTvxA" name="entrada" visibility="private" type="_wSwYYHA6Ee2WWoaNDJTvxA" association="_wTcU4HA6Ee2WWoaNDJTvxA"/>
                   <ownedAttribute xmi:id="_wTAQAHA6Ee2WWoaNDJTvxA" name="controlador" visibility="private" type="_WNvkgG_QEe2JNZU2l2g9fw" association="_wTexIXA6Ee2WWoaNDJTvxA"/>
                   <interfaceRealization xmi:id="_wRnI4HA6Ee2WWoaNDJTvxA" client="_WQf9kG_QEe2JNZU2l2g9fw" supplier="_WPAv0G_QEe2JNZU2l2g9fw" contract="_WPAv0G_QEe2JNZU2l2g9fw"/>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTNEUHA6Ee2WWoaNDJTvxA" name="VistaConsola" specification="_wQ4wIHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTNEUXA6Ee2WWoaNDJTvxA" type="_WQf9kG_QEe2JNZU2l2g9fw" direction="return"/>
+                    <ownedParameter xmi:id="_wTNEUXA6Ee2WWoaNDJTvxA" type="_WQf9kG_QEe2JNZU2l2g9fw" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
                     <language>java</language>
                     <body>this.entrada = new Scanner(System.in);	&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTNEUnA6Ee2WWoaNDJTvxA" name="iniciar" specification="_wQ5XM3A6Ee2WWoaNDJTvxA">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTNrYXA6Ee2WWoaNDJTvxA" name="menuCargaJugadores" specification="_wQ7zcHA6Ee2WWoaNDJTvxA">
+                    <language>java</language>
+                    <body>boolean salir = false;&#xD;
+		int cont = 0;&#xD;
+		List&lt;String> lista = new ArrayList&lt;String>();&#xD;
+		printMenuCargaJugadores();&#xD;
+		while(!salir) {			&#xD;
+			String opcion = this.entrada.nextLine();&#xD;
+			switch (opcion.toLowerCase()) {&#xD;
+			case &quot;x&quot;:&#xD;
+				System.out.println(&quot;Saliendo...presione enter&quot;);&#xD;
+				salir = true;&#xD;
+				esperar();&#xD;
+				break;&#xD;
+			case &quot;z&quot;:&#xD;
+				System.out.println(&quot;Finalizado...presione enter&quot;);&#xD;
+				salir = true;&#xD;
+				esperar();&#xD;
+				break;&#xD;
+			default: &#xD;
+				if((opcion.length()>12)||(opcion.equals(&quot;&quot;))) {	System.out.println(&quot;Opcion no valida, ingrese otra vez...&quot;);}&#xD;
+				else {&#xD;
+					if (cont >= 5) {&#xD;
+						System.out.println(&quot;Maximo de jugadores alcanzado, presione enter para volver al menú principal...&quot;);&#xD;
+						esperar();&#xD;
+						salir = true;&#xD;
+					} else {&#xD;
+						lista.add(opcion);						&#xD;
+						System.out.println(&quot;Añadido, ingrese el nombre del siguiente&quot;);&#xD;
+						cont += 1;					&#xD;
+					}&#xD;
+				}&#xD;
+			}		&#xD;
+		}&#xD;
+		if (lista.size() > 0) { controlador.setJugadores(lista);}&#xD;
+		&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTOScnA6Ee2WWoaNDJTvxA" name="setControlador" specification="_wQ9BkHA6Ee2WWoaNDJTvxA">
+                    <ownedParameter xmi:id="_wTOSc3A6Ee2WWoaNDJTvxA" name="controlador" type="_WNvkgG_QEe2JNZU2l2g9fw"/>
+                    <language>java</language>
+                    <body>this.controlador = controlador;&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mORK8HBWEe2OSfFA2RChjA" name="iniciarJuego" specification="_fCLXsHBWEe2OSfFA2RChjA">
                     <language>java</language>
                     <body>boolean salir = false;&#xD;
 		List lista = new ArrayList();&#xD;
 		while(!salir) {&#xD;
-			this.mostrarMenuPrincipal();&#xD;
+			menuPrincipal();&#xD;
 			String opcion = this.entrada.nextLine();&#xD;
 			switch (opcion.toLowerCase()) {&#xD;
 			case &quot;a&quot;:&#xD;
-				controlador.iniciarJuego();&#xD;
-				break;&#xD;
-			case &quot;b&quot;:&#xD;
 				menuCargaJugadores();					&#xD;
 				break;&#xD;
 			case &quot;x&quot;:&#xD;
@@ -775,68 +848,44 @@
 		}&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTNrYHA6Ee2WWoaNDJTvxA" name="mostrarMenuPrincipal" specification="_wQ6lUXA6Ee2WWoaNDJTvxA">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6NlT4HBoEe2OSfFA2RChjA" name="printMenuCargaJugadores" specification="_6NdYEHBoEe2OSfFA2RChjA">
                     <language>java</language>
                     <body>System.out.println(&quot;------- EASY GAME -------&quot;);&#xD;
 		System.out.println(&quot;-------------------------&quot;);&#xD;
 		System.out.println(&quot;-------------------------&quot;);&#xD;
 		System.out.println();&#xD;
-		System.out.println(&quot;Selecciona una opcion:&quot;);&#xD;
-		System.out.println(&quot;a - iniciar juego&quot;);&#xD;
-		System.out.println(&quot;b - cargar jugadores&quot;);&#xD;
+		System.out.println(&quot;Ingresa el nombre del jugador&quot;);&#xD;
+		System.out.println(&quot;para finalizar la carga ingrese z, para salir ingrese x&quot;);&#xD;
+		System.out.println();&#xD;
 		System.out.println();&#xD;
 		System.out.println(&quot;x - Salir&quot;);&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTNrYXA6Ee2WWoaNDJTvxA" name="menuCargaJugadores" specification="_wQ7zcHA6Ee2WWoaNDJTvxA">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-pllIHBoEe2OSfFA2RChjA" name="esperar" specification="_-ph6wHBoEe2OSfFA2RChjA">
                     <language>java</language>
-                    <body>boolean salir = false;&#xD;
-		int cont = 0;&#xD;
-		List lista = new ArrayList();&#xD;
-		mostrarMenuIngresoJugadores();&#xD;
-		while(!salir) {			&#xD;
-			String opcion = this.entrada.nextLine();&#xD;
-			switch (opcion.toLowerCase()) {&#xD;
-			case &quot;x&quot;:&#xD;
-				salir = true;&#xD;
-				System.out.println(&quot;Saliendo...&quot;);&#xD;
-				try {&#xD;
-					System.in.read();&#xD;
-				} catch (IOException e) {&#xD;
-					// TODO Auto-generated catch block&#xD;
-					e.printStackTrace();&#xD;
-				}&#xD;
-				break;&#xD;
-			default: &#xD;
-				if(opcion.length()>12) {&#xD;
-					System.out.println(&quot;Opcion no valida&quot;);}&#xD;
-				else {&#xD;
-					if (cont >= 5) {&#xD;
-						System.out.println(&quot;Maximo de jugadores alcanzado, presione enter para volver al menú principal...&quot;);&#xD;
-						try {&#xD;
-							System.in.read();&#xD;
-						} catch (IOException e) {&#xD;
-							// TODO Auto-generated catch block&#xD;
-							e.printStackTrace();&#xD;
-						}&#xD;
-						salir = true;&#xD;
-					} else {&#xD;
-						lista.add(opcion);						&#xD;
-						System.out.println(&quot;Añadido, ingrese el siguiente&quot;);&#xD;
-						cont += 1;&#xD;
-					}&#xD;
-				}&#xD;
-			}&#xD;
-			if (lista.size()>0) { &#xD;
-				controlador.setJugadores(lista);&#xD;
-			}&#xD;
-		}&#xD;
+                    <body>try {&#xD;
+			System.in.read();&#xD;
+		} catch (IOException e) {&#xD;
+			// TODO Auto-generated catch block&#xD;
+			e.printStackTrace();&#xD;
+		}		&#xD;
 	</body>
                   </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTNrYnA6Ee2WWoaNDJTvxA" name="mostrarMenuJugada" specification="_wQ7zcXA6Ee2WWoaNDJTvxA">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-bOjkHBpEe2OSfFA2RChjA" name="menuPrincipal" specification="_-bJrEHBpEe2OSfFA2RChjA">
                     <language>java</language>
-                    <body>mostrarTablero();&#xD;
-		mostrarCartasJugador();&#xD;
+                    <body>System.out.println(&quot;------- EASY GAME -------&quot;);&#xD;
+		System.out.println(&quot;-------------------------&quot;);&#xD;
+		System.out.println(&quot;-------------------------&quot;);&#xD;
+		System.out.println();&#xD;
+		System.out.println(&quot;Ingresa los jugadores:&quot;);&#xD;
+		System.out.println(&quot;a - cargar jugadores&quot;);&#xD;
+		System.out.println(&quot;x - Salir&quot;);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-bPKoHBpEe2OSfFA2RChjA" name="menuHacerJugada" specification="_-bKSIHBpEe2OSfFA2RChjA">
+                    <language>java</language>
+                    <body>System.out.println(controlador.mostrarCartasTablero()); &#xD;
+		System.out.println(controlador.mostrarManoJugador());&#xD;
 		System.out.println(&quot;Elegi el mazo al que vas a jugar&quot;);&#xD;
 		System.out.println(&quot;a - mazo ascendente&quot;);&#xD;
 		System.out.println(&quot;b - mazo descendente&quot;);&#xD;
@@ -847,44 +896,7 @@
 		System.out.println(&quot;b - Carta2&quot;);&#xD;
 		System.out.println(&quot;x - Salir&quot;);&#xD;
 		String carta = this.entrada.nextLine();&#xD;
-		controlador.hacerJugada(carta, mazo);&#xD;
-		&#xD;
-	</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTNrY3A6Ee2WWoaNDJTvxA" name="mostrarCartasJugador" specification="_wQ8agHA6Ee2WWoaNDJTvxA">
-                    <language>java</language>
-                    <body>controlador.mostrarManoJugador();&#xD;
-&#xD;
-	</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTOScHA6Ee2WWoaNDJTvxA" name="mostrarMenuIngresoJugadores" specification="_wQ8agXA6Ee2WWoaNDJTvxA">
-                    <language>java</language>
-                    <body>System.out.println(&quot;------- EASY GAME -------&quot;);&#xD;
-		System.out.println(&quot;-------------------------&quot;);&#xD;
-		System.out.println(&quot;-------------------------&quot;);&#xD;
-		System.out.println();&#xD;
-		System.out.println(&quot;Ingresa el nombre del jugador&quot;);&#xD;
-		System.out.println(&quot;para salir ingresa x&quot;);&#xD;
-		System.out.println();&#xD;
-		System.out.println();&#xD;
-		System.out.println(&quot;x - Salir&quot;);&#xD;
-	</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTOScXA6Ee2WWoaNDJTvxA" name="mostrarTablero" specification="_wQ8agnA6Ee2WWoaNDJTvxA">
-                    <language>java</language>
-                    <body>//	controlador.&#xD;
-	</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTOScnA6Ee2WWoaNDJTvxA" name="setControlador" specification="_wQ9BkHA6Ee2WWoaNDJTvxA">
-                    <ownedParameter xmi:id="_wTOSc3A6Ee2WWoaNDJTvxA" name="controlador" type="_WNvkgG_QEe2JNZU2l2g9fw"/>
-                    <language>java</language>
-                    <body>this.controlador = controlador;&#xD;
-	</body>
-                  </ownedBehavior>
-                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTPgkHA6Ee2WWoaNDJTvxA" name="terminar" specification="_wQ-PsnA6Ee2WWoaNDJTvxA">
-                    <language>java</language>
-                    <body>System.out.println(&quot;Juego terminado&quot;);&#xD;
-&#xD;
+		controlador.hacerJugada(carta, mazo);		&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedOperation xmi:id="_wQ4wIHA6Ee2WWoaNDJTvxA" name="VistaConsola" method="_wTNEUHA6Ee2WWoaNDJTvxA">
@@ -893,20 +905,16 @@
                     </eAnnotations>
                     <ownedParameter xmi:id="_wQ5XMHA6Ee2WWoaNDJTvxA" type="_WQf9kG_QEe2JNZU2l2g9fw" direction="return"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wQ5XM3A6Ee2WWoaNDJTvxA" name="iniciar" method="_wTNEUnA6Ee2WWoaNDJTvxA"/>
-                  <ownedOperation xmi:id="_wQ6lUXA6Ee2WWoaNDJTvxA" name="mostrarMenuPrincipal" method="_wTNrYHA6Ee2WWoaNDJTvxA"/>
                   <ownedOperation xmi:id="_wQ7zcHA6Ee2WWoaNDJTvxA" name="menuCargaJugadores" method="_wTNrYXA6Ee2WWoaNDJTvxA"/>
-                  <ownedOperation xmi:id="_wQ7zcXA6Ee2WWoaNDJTvxA" name="mostrarMenuJugada" method="_wTNrYnA6Ee2WWoaNDJTvxA"/>
-                  <ownedOperation xmi:id="_wQ8agHA6Ee2WWoaNDJTvxA" name="mostrarCartasJugador" visibility="private" method="_wTNrY3A6Ee2WWoaNDJTvxA"/>
-                  <ownedOperation xmi:id="_wQ8agXA6Ee2WWoaNDJTvxA" name="mostrarMenuIngresoJugadores" method="_wTOScHA6Ee2WWoaNDJTvxA"/>
-                  <ownedOperation xmi:id="_wQ8agnA6Ee2WWoaNDJTvxA" name="mostrarTablero" method="_wTOScXA6Ee2WWoaNDJTvxA"/>
                   <ownedOperation xmi:id="_wQ9BkHA6Ee2WWoaNDJTvxA" name="setControlador" method="_wTOScnA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wQ9BkXA6Ee2WWoaNDJTvxA" name="controlador" type="_WNvkgG_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wQ9ooHA6Ee2WWoaNDJTvxA" name="mostrarManoJugador">
-                    <ownedParameter xmi:id="_wQ9ooXA6Ee2WWoaNDJTvxA" name="jugador" type="_WOl5EG_QEe2JNZU2l2g9fw"/>
-                  </ownedOperation>
-                  <ownedOperation xmi:id="_wQ-PsnA6Ee2WWoaNDJTvxA" name="terminar" method="_wTPgkHA6Ee2WWoaNDJTvxA"/>
+                  <ownedOperation xmi:id="_fCLXsHBWEe2OSfFA2RChjA" name="iniciarJuego" method="_mORK8HBWEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_6NdYEHBoEe2OSfFA2RChjA" name="printMenuCargaJugadores" method="_6NlT4HBoEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_-ph6wHBoEe2OSfFA2RChjA" name="esperar" method="_-pllIHBoEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_Nf8VYHBpEe2OSfFA2RChjA" name="terminarJuego"/>
+                  <ownedOperation xmi:id="_-bJrEHBpEe2OSfFA2RChjA" name="menuPrincipal" method="_-bOjkHBpEe2OSfFA2RChjA"/>
+                  <ownedOperation xmi:id="_-bKSIHBpEe2OSfFA2RChjA" name="menuHacerJugada" method="_-bPKoHBpEe2OSfFA2RChjA"/>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Association" xmi:id="_wTcU4HA6Ee2WWoaNDJTvxA" name="" memberEnd="_wTcU4XA6Ee2WWoaNDJTvxA _wS_B4HA6Ee2WWoaNDJTvxA">
                   <ownedEnd xmi:id="_wTcU4XA6Ee2WWoaNDJTvxA" name="" type="_WQf9kG_QEe2JNZU2l2g9fw" association="_wTcU4HA6Ee2WWoaNDJTvxA"/>
@@ -935,7 +943,7 @@
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTIL0HA6Ee2WWoaNDJTvxA" name="iniciarJuego" specification="_wPr2QHA6Ee2WWoaNDJTvxA">
                     <language>java</language>
-                    <body>modelo.iniciar();&#xD;
+                    <body>modelo.iniciarJuego();&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTIy4HA6Ee2WWoaNDJTvxA" name="hacerJugada" specification="_wRw54HA6Ee2WWoaNDJTvxA">
@@ -946,7 +954,7 @@
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                     <language>java</language>
-                    <body>modelo.hacerJugada(carta, modelo.getMazo(mazo));		&#xD;
+                    <body>modelo.hacerJugada(carta, modelo.getMazo(mazo));&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTIy43A6Ee2WWoaNDJTvxA" name="setJugadores" specification="_wPsdUHA6Ee2WWoaNDJTvxA">
@@ -957,8 +965,12 @@
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTIy5XA6Ee2WWoaNDJTvxA" name="mostrarManoJugador" specification="_wPtEYHA6Ee2WWoaNDJTvxA">
+                    <ownedParameter xmi:id="_BxFrIHB1Ee2OSfFA2RChjA" direction="return">
+                      <name xsi:nil="true"/>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
                     <language>java</language>
-                    <body>System.out.println(modelo.getCartasJugadorActual());		&#xD;
+                    <body>return modelo.getCartasJugadorActual();		&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wTJZ8HA6Ee2WWoaNDJTvxA" name="actualizar" specification="_WR0zQG_QEe2JNZU2l2g9fw">
@@ -968,23 +980,33 @@
                     <body>if(evento instanceof Eventos) {&#xD;
 			switch((Eventos) evento) {&#xD;
 			case DERROTA: {&#xD;
-				this.vista.terminar();&#xD;
+				this.vista.terminarJuego();&#xD;
+			}		&#xD;
+			case JUGADA_CORRECTA:{&#xD;
+				this.modelo.setSiguienteTurno();&#xD;
+				this.vista.menuHacerJugada();&#xD;
 			}&#xD;
 			case JUEGO_INICIADO:{&#xD;
-				this.vista.mostrarMenuJugada();&#xD;
-			}&#xD;
-			&#xD;
-			case FIN_TURNO:{&#xD;
-				this.vista.mostrarMenuJugada();&#xD;
+				this.vista.menuHacerJugada();&#xD;
 			}&#xD;
 			case JUGADORES_CARGADOS:{&#xD;
-				this.vista.mostrarMenuPrincipal();&#xD;
-			}	&#xD;
-			&#xD;
-			&#xD;
+				this.modelo.iniciarJuego();&#xD;
+				this.vista.menuHacerJugada();&#xD;
+			}&#xD;
+			default:&#xD;
+				break;							&#xD;
 			}&#xD;
 		&#xD;
 		}&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VWez0HBpEe2OSfFA2RChjA" name="mostrarCartasTablero" specification="_VWVp4HBpEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_-Xf5IHB0Ee2OSfFA2RChjA" direction="return">
+                      <name xsi:nil="true"/>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return modelo.getCartasMazos();&#xD;
 	</body>
                   </ownedBehavior>
                   <ownedOperation xmi:id="_WRwh0G_QEe2JNZU2l2g9fw" name="Controlador" method="_WSpSoG_QEe2JNZU2l2g9fw">
@@ -1003,12 +1025,21 @@
                   <ownedOperation xmi:id="_wPsdUHA6Ee2WWoaNDJTvxA" name="setJugadores" method="_wTIy43A6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wPsdUXA6Ee2WWoaNDJTvxA" name="jugadores" type="_WQy4gW_QEe2JNZU2l2g9fw"/>
                   </ownedOperation>
-                  <ownedOperation xmi:id="_wPtEYHA6Ee2WWoaNDJTvxA" name="mostrarManoJugador" method="_wTIy5XA6Ee2WWoaNDJTvxA"/>
+                  <ownedOperation xmi:id="_wPtEYHA6Ee2WWoaNDJTvxA" name="mostrarManoJugador" method="_wTIy5XA6Ee2WWoaNDJTvxA">
+                    <ownedParameter xmi:id="_BxD18HB1Ee2OSfFA2RChjA" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
                   <ownedOperation xmi:id="_wRw54HA6Ee2WWoaNDJTvxA" name="hacerJugada" method="_wTIy4HA6Ee2WWoaNDJTvxA">
                     <ownedParameter xmi:id="_wRw54XA6Ee2WWoaNDJTvxA" name="carta">
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                     <ownedParameter xmi:id="_wRxg8HA6Ee2WWoaNDJTvxA" name="mazo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VWVp4HBpEe2OSfFA2RChjA" name="mostrarCartasTablero" method="_VWez0HBpEe2OSfFA2RChjA">
+                    <ownedParameter xmi:id="_-XeD8HB0Ee2OSfFA2RChjA" direction="return">
                       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                     </ownedParameter>
                   </ownedOperation>
@@ -1057,7 +1088,7 @@
 		Juego modelo = new Juego();&#xD;
 		VistaConsola vista = new VistaConsola();&#xD;
 		Controlador controlador = new Controlador(modelo, vista);&#xD;
-		vista.iniciar();&#xD;
+		vista.iniciarJuego();&#xD;
 		&#xD;
 	</body>
       </ownedBehavior>
@@ -1089,10 +1120,6 @@
   <UMLLabProfile:LegacyStyledElement xmi:id="_WPLu8G_QEe2JNZU2l2g9fw" base_Element="_WPKg0G_QEe2JNZU2l2g9fw"/>
   <UMLLabProfile:Array xmi:id="_WPMWAG_QEe2JNZU2l2g9fw" base_Element="_WPLH4G_QEe2JNZU2l2g9fw"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_WPNkIG_QEe2JNZU2l2g9fw" base_Element="_WPM9EG_QEe2JNZU2l2g9fw"/>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_WPPZUG_QEe2JNZU2l2g9fw" base_Element="_WPOyQG_QEe2JNZU2l2g9fw"/>
-  <UMLLabProfile:Annotations xmi:id="_WPQncG_QEe2JNZU2l2g9fw" base_Element="_WPOyQG_QEe2JNZU2l2g9fw">
-    <annotations xmi:id="_WPROgG_QEe2JNZU2l2g9fw" name="Override"/>
-  </UMLLabProfile:Annotations>
   <UMLLabProfile:Reference xmi:id="_WQk2EG_QEe2JNZU2l2g9fw" base_Element="_WQjA4W_QEe2JNZU2l2g9fw"/>
   <UMLLabProfile:Reference xmi:id="_WQy4gG_QEe2JNZU2l2g9fw" base_Element="_WQv1MG_QEe2JNZU2l2g9fw"/>
   <UMLLabProfile:Reference xmi:id="_WQ170G_QEe2JNZU2l2g9fw" base_Element="_WQy4gW_QEe2JNZU2l2g9fw"/>
@@ -1136,27 +1163,8 @@
   <UMLLabProfile:Reference xmi:id="_WTwF4G_QEe2JNZU2l2g9fw" base_Element="_WTu3wG_QEe2JNZU2l2g9fw"/>
   <UMLLabProfile:Reference xmi:id="_WTzwQG_QEe2JNZU2l2g9fw" base_Element="_WTwF4W_QEe2JNZU2l2g9fw"/>
   <UMLLabProfile:Patch xmi:id="_ZQBCsG_QEe2JNZU2l2g9fw" base_Element="_WN8_4G_QEe2JNZU2l2g9fw" patchText="@@ -130,16 +130,19 @@&#xA; rta() %7B%7D&#xA;+;%0D%0A&#xA;    publi&#xA;" conflicting="false"/>
-  <UMLLabProfile:Patch xmi:id="_ZQFUIG_QEe2JNZU2l2g9fw" base_Element="_WOl5EG_QEe2JNZU2l2g9fw" patchText="@@ -316,16 +316,20 @@&#xA; ;;%0D%0A   %7D&#xA;+; %0D%0A&#xA;    %0D%0A   &#xA;" conflicting="false"/>
-  <UMLLabProfile:Patch xmi:id="_ZQGiQG_QEe2JNZU2l2g9fw" base_Element="_WNvkgG_QEe2JNZU2l2g9fw" patchText="@@ -589,16 +589,19 @@&#xA; is);%0D%0A%09%7D&#xA;+;%0D%0A&#xA; %09%0D%0A%09%0D%0A%09@&#xA;" conflicting="false"/>
-  <UMLLabProfile:Annotations xmi:id="_wP4qkHA6Ee2WWoaNDJTvxA" base_Element="_wP21YHA6Ee2WWoaNDJTvxA">
-    <annotations xmi:id="_wP5RoHA6Ee2WWoaNDJTvxA" name="Override"/>
-  </UMLLabProfile:Annotations>
-  <UMLLabProfile:Annotations xmi:id="_wQOo0HA6Ee2WWoaNDJTvxA" base_Element="_wP5RoXA6Ee2WWoaNDJTvxA">
-    <annotations xmi:id="_wQRFEHA6Ee2WWoaNDJTvxA" name="Override"/>
-  </UMLLabProfile:Annotations>
-  <UMLLabProfile:Annotations xmi:id="_wQ5-QHA6Ee2WWoaNDJTvxA" base_Element="_wQ5XM3A6Ee2WWoaNDJTvxA">
-    <annotations xmi:id="_wQ6lUHA6Ee2WWoaNDJTvxA" name="Override"/>
-  </UMLLabProfile:Annotations>
-  <UMLLabProfile:Annotations xmi:id="_wQ-PsHA6Ee2WWoaNDJTvxA" base_Element="_wQ9ooHA6Ee2WWoaNDJTvxA">
-    <annotations xmi:id="_wQ-PsXA6Ee2WWoaNDJTvxA" name="Override"/>
-  </UMLLabProfile:Annotations>
   <UMLLabProfile:Generics xmi:id="_wRPVcHA6Ee2WWoaNDJTvxA" genericsValue="String" base_Element="_wRNgQHA6Ee2WWoaNDJTvxA"/>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_wRbisHA6Ee2WWoaNDJTvxA" base_Element="_wP21YHA6Ee2WWoaNDJTvxA"/>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_wRcw0HA6Ee2WWoaNDJTvxA" base_Element="_wP5RoXA6Ee2WWoaNDJTvxA"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_wRgbMHA6Ee2WWoaNDJTvxA" base_Element="_wQfukHA6Ee2WWoaNDJTvxA"/>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_wRi3cHA6Ee2WWoaNDJTvxA" base_Element="_wQl1MXA6Ee2WWoaNDJTvxA"/>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_wRlTsHA6Ee2WWoaNDJTvxA" base_Element="_wQ5XM3A6Ee2WWoaNDJTvxA"/>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_wRmh0HA6Ee2WWoaNDJTvxA" base_Element="_wQ9ooHA6Ee2WWoaNDJTvxA"/>
   <UMLLabProfile:Reference xmi:id="_wSsuAHA6Ee2WWoaNDJTvxA" base_Element="_wSq40HA6Ee2WWoaNDJTvxA"/>
   <UMLLabProfile:Reference xmi:id="_wSujMHA6Ee2WWoaNDJTvxA" base_Element="_wSsuAXA6Ee2WWoaNDJTvxA"/>
   <UMLLabProfile:Reference xmi:id="_wSvxUHA6Ee2WWoaNDJTvxA" base_Element="_wSujMXA6Ee2WWoaNDJTvxA"/>
@@ -1170,4 +1178,36 @@
   <UMLLabProfile:Reference xmi:id="_wTf_QHA6Ee2WWoaNDJTvxA" base_Element="_wTexIXA6Ee2WWoaNDJTvxA"/>
   <UMLLabProfile:Reference xmi:id="_wTh0cHA6Ee2WWoaNDJTvxA" base_Element="_wTgmUHA6Ee2WWoaNDJTvxA"/>
   <UMLLabProfile:Reference xmi:id="_wTjCkHA6Ee2WWoaNDJTvxA" base_Element="_wTh0cXA6Ee2WWoaNDJTvxA"/>
+  <UMLLabProfile:Annotations xmi:id="_fCMl0HBWEe2OSfFA2RChjA" base_Element="_fCLXsHBWEe2OSfFA2RChjA">
+    <annotations xmi:id="_fCMl0XBWEe2OSfFA2RChjA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fCW94HBWEe2OSfFA2RChjA" base_Element="_fCLXsHBWEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Annotations xmi:id="_IpXbQHBZEe2OSfFA2RChjA" base_Element="_IpU_AXBZEe2OSfFA2RChjA">
+    <annotations xmi:id="_IpXbQXBZEe2OSfFA2RChjA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_IpglMHBZEe2OSfFA2RChjA" base_Element="_IpU_AXBZEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Annotations xmi:id="_OQAowHBbEe2OSfFA2RChjA" base_Element="_OP_aoHBbEe2OSfFA2RChjA">
+    <annotations xmi:id="_OQAowXBbEe2OSfFA2RChjA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OQDsEHBbEe2OSfFA2RChjA" base_Element="_OP_aoHBbEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Annotations xmi:id="_lh6pAHBbEe2OSfFA2RChjA" base_Element="_lh5a4HBbEe2OSfFA2RChjA">
+    <annotations xmi:id="_lh7QEHBbEe2OSfFA2RChjA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lh9sUHBbEe2OSfFA2RChjA" base_Element="_lh5a4HBbEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Annotations xmi:id="_UDIBcHBcEe2OSfFA2RChjA" base_Element="_UDGzUHBcEe2OSfFA2RChjA">
+    <annotations xmi:id="_UDIBcXBcEe2OSfFA2RChjA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UDM58HBcEe2OSfFA2RChjA" base_Element="_UDGzUHBcEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Annotations xmi:id="_0rcskHBeEe2OSfFA2RChjA" base_Element="_0rbecHBeEe2OSfFA2RChjA">
+    <annotations xmi:id="_0rcskXBeEe2OSfFA2RChjA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_0rfI0HBeEe2OSfFA2RChjA" base_Element="_0rbecHBeEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Generics xmi:id="_6HmdIHBnEe2OSfFA2RChjA" genericsValue="Carta" base_Element="_wTCFMHA6Ee2WWoaNDJTvxA"/>
+  <UMLLabProfile:Reference xmi:id="_6IYgQHBnEe2OSfFA2RChjA" base_Element="_6IXSIHBnEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Annotations xmi:id="_Nf9jgHBpEe2OSfFA2RChjA" base_Element="_Nf8VYHBpEe2OSfFA2RChjA">
+    <annotations xmi:id="_Nf9jgXBpEe2OSfFA2RChjA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NgBN4HBpEe2OSfFA2RChjA" base_Element="_Nf8VYHBpEe2OSfFA2RChjA"/>
+  <UMLLabProfile:Generics xmi:id="_SmQdAHBrEe2OSfFA2RChjA" genericsValue="String" base_Element="_wPsdUXA6Ee2WWoaNDJTvxA"/>
+  <UMLLabProfile:Patch xmi:id="_dqzkAHB1Ee2OSfFA2RChjA" base_Element="_WNvkgG_QEe2JNZU2l2g9fw" patchText="@@ -765,16 +765,19 @@&#xA; is);%0D%0A%09%7D&#xA;+;%0D%0A&#xA; %09%0D%0A%09publ&#xA;" conflicting="false"/>
 </xmi:XMI>

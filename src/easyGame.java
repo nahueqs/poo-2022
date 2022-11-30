@@ -1,5 +1,4 @@
 import ar.edu.unlu.poo.easygame.modelo.Juego;
-import ar.edu.unlu.poo.easygame.modelo.MazoMesa;
 import ar.edu.unlu.poo.easygame.controlador.Controlador;
 import ar.edu.unlu.poo.easygame.vista.VistaConsola;
 
@@ -11,7 +10,7 @@ public class easyGame {
 		Juego modelo = new Juego();
 		VistaConsola vista = new VistaConsola();
 		Controlador controlador = new Controlador(modelo, vista);
-		vista.iniciar();
+		vista.iniciarJuego();
 		
 	}
 

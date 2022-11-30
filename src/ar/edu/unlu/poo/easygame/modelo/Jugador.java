@@ -10,12 +10,8 @@ public class Jugador {
 	   nombre = name;
 	   id_jugador = cant + 1;	   
 	   mano = new ManoJugador();;
-   }; 
-   
-   public void hacerJugada(Carta carta, GrupoCartas mazo) {   	
-		mazo.();
-   }
-   
+   }   
+  
    public void recibirCartas(Carta c) {
 	   mano.addCarta(c);
    }
@@ -24,6 +20,13 @@ public class Jugador {
 	   mano.addCarta(c1);
 	   mano.addCarta(c2);
    }
+   
+   public Carta jugarCarta(int pos) {
+		  if (pos == 0) {			  
+			  return mano.getPrimeraCarta(); 	  
+		  } else if (pos == 1) { 
+			  return mano.getUltimaCarta(); 		  } else return null;
+	  }  
    
    public String getManoJugador() {
       return mano.mostrarCartas();
