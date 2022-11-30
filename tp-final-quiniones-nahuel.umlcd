@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_VlbnUG_QEe2JNZU2l2g9fw">
   <modelElement href="tp-final-quiniones-nahuel.uml#_WL0R4G_QEe2JNZU2l2g9fw"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZQdHkG_QEe2JNZU2l2g9fw" sourceAnchor="196.0,365.0" targetAnchor="45.0,0.0" target="_ZQfj0G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WTtCkW_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_J7KKkHBqEe2OSfFA2RChjA" position="772.0,544.0"/>
-    <stereotypes xmi:id="_ZQdHkW_QEe2JNZU2l2g9fw" name="Reference">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WTuQsG_QEe2JNZU2l2g9fw"/>
-    </stereotypes>
-    <nameVisual xmi:id="_ZQdHkm_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_Zi14EG_QEe2JNZU2l2g9fw" position="2.0,22.0"/>
-    </nameVisual>
-    <sourceRole xmi:id="_ZQdHk2_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WTtCkm_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_Zi0C4G_QEe2JNZU2l2g9fw" position="-17.0,20.0"/>
-      <visibility xmi:id="_ZQdHlG_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZQdHlW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-    </sourceRole>
-    <targetRole xmi:id="_ZQdHlm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="controlador" navigable="true">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSgIsW_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_Zi2fIG_QEe2JNZU2l2g9fw" position="2.0,-85.0"/>
-      <stereotypes xmi:id="_ZQdHl2_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WShW0G_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZQdHmG_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZQdHmW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-    </targetRole>
-  </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZQduoG_QEe2JNZU2l2g9fw" sourceAnchor="15.0,0.0" targetAnchor="166.0,365.0" target="_ZSERKG_QEe2JNZU2l2g9fw" source="_ZQfj0G_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZQduoG_QEe2JNZU2l2g9fw" sourceAnchor="18.0,0.0" targetAnchor="329.0,239.0" target="_ZSERKG_QEe2JNZU2l2g9fw" source="_ZQfj0G_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTPIgG_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_J7JjhHBqEe2OSfFA2RChjA" position="772.0,544.0"/>
+    <bendpoints xmi:id="_d3sosHDyEe2vveZqOF5d-A" sourceY="-367" targetX="69"/>
     <stereotypes xmi:id="_ZQduoW_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTSL0G_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZQduom_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_Zit8QG_QEe2JNZU2l2g9fw" position="-44.0,-39.0"/>
+      <visualProperties xmi:id="_Zit8QG_QEe2JNZU2l2g9fw" position="-38.0,41.5"/>
     </nameVisual>
     <sourceRole xmi:id="_ZQduo2_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTPIgW_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZisHE2_QEe2JNZU2l2g9fw" position="-17.0,-66.0"/>
+      <visualProperties xmi:id="_ZisHE2_QEe2JNZU2l2g9fw" position="-17.0,-81.5"/>
       <visibility xmi:id="_ZQdupG_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZQdupW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZQdupm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="modelo" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSGgEG_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZiujUG_QEe2JNZU2l2g9fw" position="-97.0,59.0"/>
+      <visualProperties xmi:id="_ZiujUG_QEe2JNZU2l2g9fw" position="4.666666666666515,-46.5"/>
       <stereotypes xmi:id="_9S73UG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSHuMG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -51,23 +27,23 @@
       <cardinality xmi:id="_ZQduqG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZQe8wG_QEe2JNZU2l2g9fw" sourceAnchor="0.0,15.0" targetAnchor="290.0,132.0" target="_CBDRMHBeEe2OSfFA2RChjA" source="_ZQfj0G_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZQe8wG_QEe2JNZU2l2g9fw" sourceAnchor="0.0,122.0" targetAnchor="290.0,198.0" target="_CBDRMHBeEe2OSfFA2RChjA" source="_ZQfj0G_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTSL0W_QEe2JNZU2l2g9fw"/>
     <stereotypes xmi:id="_ZQe8wW_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTUoEG_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZQe8wm_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_Cmb2MHBeEe2OSfFA2RChjA" position="-5.0,2.0"/>
+      <visualProperties xmi:id="_Cmb2MHBeEe2OSfFA2RChjA" position="-14.333333333333371,-18.5"/>
     </nameVisual>
     <sourceRole xmi:id="_ZQe8w2_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTSy4G_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_CmaoEHBeEe2OSfFA2RChjA" position="-30.0,2.0"/>
+      <visualProperties xmi:id="_CmaoEHBeEe2OSfFA2RChjA" position="-16.0,41.5"/>
       <visibility xmi:id="_ZQe8xG_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZQe8xW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZQe8xm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="vista" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSIVQG_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_Cmb2MXBeEe2OSfFA2RChjA" position="32.0,2.0"/>
+      <visualProperties xmi:id="_Cmb2MXBeEe2OSfFA2RChjA" position="8.666666666666629,2.5"/>
       <stereotypes xmi:id="_9S9FcG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSI8UG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -75,30 +51,30 @@
       <cardinality xmi:id="_ZQe8yG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZQ-sAG_QEe2JNZU2l2g9fw" sourceAnchor="160.0,0.0" targetAnchor="148.0,156.0" superClass="_ZRC9eW_QEe2JNZU2l2g9fw" subClass="_ZQ5McG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZQ-sAG_QEe2JNZU2l2g9fw" sourceAnchor="170.0,0.0" targetAnchor="145.0,176.0" superClass="_ZRC9eW_QEe2JNZU2l2g9fw" subClass="_ZQ5McG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WRSAsG_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_NJLlwHBqEe2OSfFA2RChjA" position="766.0,99.0"/>
-    <bendpoints xmi:id="_NZc2YHBqEe2OSfFA2RChjA" sourceY="-30" targetX="356" targetY="51"/>
-    <bendpoints xmi:id="_NZc2YXBqEe2OSfFA2RChjA" sourceX="-356" sourceY="-54" targetY="27"/>
+    <bendpoints xmi:id="_d3sBoHDyEe2vveZqOF5d-A" sourceY="-39" targetX="164" targetY="15"/>
+    <bendpoints xmi:id="_d3sBoXDyEe2vveZqOF5d-A" sourceX="-163" sourceY="-85" targetX="1" targetY="-31"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZRC9cG_QEe2JNZU2l2g9fw" sourceAnchor="151.0,0.0" targetAnchor="22.0,44.0" target="_J7JjgHBqEe2OSfFA2RChjA" source="_ZRC9eW_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZRC9cG_QEe2JNZU2l2g9fw" sourceAnchor="297.0,102.0" targetAnchor="0.0,20.0" target="_J7JjgHBqEe2OSfFA2RChjA" source="_ZRC9eW_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTUoEW_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_MWuOEHBqEe2OSfFA2RChjA" position="766.0,99.0"/>
     <stereotypes xmi:id="_ZRC9cW_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTWdQG_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZRC9cm_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_KOQswHBqEe2OSfFA2RChjA" position="-39.0,-32.0"/>
+      <visualProperties xmi:id="_KOQswHBqEe2OSfFA2RChjA" position="-12.0,2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_ZRC9c2_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTUoEm_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_KOO3kHBqEe2OSfFA2RChjA" position="-17.0,-46.0"/>
+      <visualProperties xmi:id="_KOO3kHBqEe2OSfFA2RChjA" position="11.0,2.0"/>
       <visibility xmi:id="_ZRC9dG_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZRC9dW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZRC9dm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="cartas" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSLYkG_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_KORT0HBqEe2OSfFA2RChjA" position="2.0,1.0"/>
+      <visualProperties xmi:id="_KORT0HBqEe2OSfFA2RChjA" position="-58.0,-47.0"/>
       <stereotypes xmi:id="_9S-TkG_QEe2JNZU2l2g9fw" name="Generics">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSNNwG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -109,28 +85,29 @@
       <cardinality xmi:id="_ZRC9eG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZRSOAG_QEe2JNZU2l2g9fw" sourceAnchor="0.0,302.0" targetAnchor="306.0,45.0" dashed="true" superClass="_ZSyp4G_QEe2JNZU2l2g9fw" subClass="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZRSOAG_QEe2JNZU2l2g9fw" sourceAnchor="194.0,479.0" targetAnchor="306.0,7.0" dashed="true" superClass="_ZSyp4G_QEe2JNZU2l2g9fw" subClass="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WRbxsG_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_JEj5wHBqEe2OSfFA2RChjA" position="772.0,554.0"/>
+    <bendpoints xmi:id="_d3rakHDyEe2vveZqOF5d-A" sourceY="36" targetX="224"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZRS1EG_QEe2JNZU2l2g9fw" sourceAnchor="329.0,193.0" targetAnchor="0.0,106.0" target="_ZSfu8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZRS1EG_QEe2JNZU2l2g9fw" sourceAnchor="330.0,13.0" targetAnchor="0.0,161.0" target="_ZSfu8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTrNYW_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_J7KxoXBqEe2OSfFA2RChjA" position="772.0,544.0"/>
     <stereotypes xmi:id="_ZRY7sG_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTtCkG_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZRXtkG_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_Zi5icG_QEe2JNZU2l2g9fw" position="-19.0,2.0"/>
+      <visualProperties xmi:id="_Zi5icG_QEe2JNZU2l2g9fw" position="-18.0,-19.0"/>
     </nameVisual>
     <sourceRole xmi:id="_ZRYUoG_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTrNYm_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_Zi3tQG_QEe2JNZU2l2g9fw" position="42.0,-47.0"/>
+      <visualProperties xmi:id="_Zi3tQG_QEe2JNZU2l2g9fw" position="19.0,7.0"/>
       <visibility xmi:id="_ZRbX8W_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZRbX8G_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZRYUoW_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="siguienteTurno" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSe6kG_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_Zi6JgG_QEe2JNZU2l2g9fw" position="-95.0,-22.0"/>
+      <visualProperties xmi:id="_Zi6JgG_QEe2JNZU2l2g9fw" position="-95.0,-23.0"/>
       <stereotypes xmi:id="_9TAv0G_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSgIsG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -138,24 +115,24 @@
       <cardinality xmi:id="_ZRb_AG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZRS1EW_QEe2JNZU2l2g9fw" sourceAnchor="329.0,223.0" targetAnchor="0.0,136.0" target="_ZSfu8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZRS1EW_QEe2JNZU2l2g9fw" sourceAnchor="330.0,45.0" targetAnchor="0.0,193.0" target="_ZSfu8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTu3wG_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_J7LYsHBqEe2OSfFA2RChjA" position="772.0,544.0"/>
     <stereotypes xmi:id="_ZRY7tG_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTwF4G_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZRY7sW_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_Zi9M0G_QEe2JNZU2l2g9fw" position="-19.0,2.0"/>
+      <visualProperties xmi:id="_Zi9M0G_QEe2JNZU2l2g9fw" position="-18.0,-19.0"/>
     </nameVisual>
     <sourceRole xmi:id="_ZRY7sm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTu3wW_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_Zi7XoG_QEe2JNZU2l2g9fw" position="14.0,2.0"/>
+      <visualProperties xmi:id="_Zi7XoG_QEe2JNZU2l2g9fw" position="41.0,-47.0"/>
       <visibility xmi:id="_ZRcmEG_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZRb_A2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZRY7s2_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="jugadores" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WShW0W_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_Zi9M0W_QEe2JNZU2l2g9fw" position="-108.0,2.0"/>
+      <visualProperties xmi:id="_Zi9M0W_QEe2JNZU2l2g9fw" position="-68.0,41.0"/>
       <stereotypes xmi:id="_9TBW4G_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSjMAG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -163,25 +140,25 @@
       <cardinality xmi:id="_ZRcmEW_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSAmwG_QEe2JNZU2l2g9fw" sourceAnchor="0.0,192.0" targetAnchor="144.0,92.0" target="_B_SWoHBeEe2OSfFA2RChjA" source="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSAmwG_QEe2JNZU2l2g9fw" sourceAnchor="0.0,237.0" targetAnchor="147.0,111.0" target="_B_SWoHBeEe2OSfFA2RChjA" source="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTjRkG_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_J7KKkXBqEe2OSfFA2RChjA" position="772.0,544.0"/>
-    <bendpoints xmi:id="_NZbBMHBqEe2OSfFA2RChjA" sourceX="-489" targetY="191"/>
+    <bendpoints xmi:id="_d3qMcHDyEe2vveZqOF5d-A" sourceX="-118" sourceY="-2" targetY="472"/>
     <stereotypes xmi:id="_ZSAmwW_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTmU4G_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZSAmwm_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_CmYL0HBeEe2OSfFA2RChjA" position="1.0,-58.0"/>
+      <visualProperties xmi:id="_CmYL0HBeEe2OSfFA2RChjA" position="2.0,-247.0"/>
     </nameVisual>
     <sourceRole xmi:id="_ZSAmw2_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTjRkW_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_CmWWoHBeEe2OSfFA2RChjA" position="-46.0,2.0"/>
+      <visualProperties xmi:id="_CmWWoHBeEe2OSfFA2RChjA" position="-76.0,-46.0"/>
       <visibility xmi:id="_ZSAmxG_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZSAmxW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZSAmxm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="mazoDesc" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSb3QW_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_CmYy4HBeEe2OSfFA2RChjA" position="-71.00000000000011,29.00000000000034"/>
+      <visualProperties xmi:id="_CmYy4HBeEe2OSfFA2RChjA" position="-71.00000000000009,40.00000000000006"/>
       <stereotypes xmi:id="_9TDMEG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSdFYG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -189,24 +166,24 @@
       <cardinality xmi:id="_ZSAmyG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSCb8G_QEe2JNZU2l2g9fw" sourceAnchor="0.0,15.0" targetAnchor="272.0,113.0" target="_ZSvmkG_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSCb8G_QEe2JNZU2l2g9fw" sourceAnchor="54.0,0.0" targetAnchor="135.0,162.0" target="_ZSvmkG_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTm78G_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_J7KxoHBqEe2OSfFA2RChjA" position="772.0,544.0"/>
     <stereotypes xmi:id="_ZSCb8W_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTrNYG_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZSCb8m_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_ZjCsYG_QEe2JNZU2l2g9fw" position="-18.0,2.0"/>
+      <visualProperties xmi:id="_ZjCsYG_QEe2JNZU2l2g9fw" position="2.0,-4.0"/>
     </nameVisual>
     <sourceRole xmi:id="_ZSCb82_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTm78W_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZjBeQG_QEe2JNZU2l2g9fw" position="-25.0,-47.0"/>
+      <visualProperties xmi:id="_ZjBeQG_QEe2JNZU2l2g9fw" position="-17.0,-47.0"/>
       <visibility xmi:id="_ZSCb9G_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZSCb9W_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZSCb9m_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="mazoAsc" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSdscG_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZjDTcG_QEe2JNZU2l2g9fw" position="-10.0,41.0"/>
+      <visualProperties xmi:id="_ZjDTcG_QEe2JNZU2l2g9fw" position="-104.0,1.0"/>
       <stereotypes xmi:id="_9TEaMG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSeTgG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -214,24 +191,25 @@
       <cardinality xmi:id="_ZSCb-G_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSDqEG_QEe2JNZU2l2g9fw" sourceAnchor="329.0,360.0" targetAnchor="0.0,12.0" target="_ZS9B8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSDqEG_QEe2JNZU2l2g9fw" sourceAnchor="330.0,381.0" targetAnchor="203.0,0.0" target="_ZS9B8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTwF4W_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_J7L_wHBqEe2OSfFA2RChjA" position="772.0,544.0"/>
+    <bendpoints xmi:id="_d3qzgHDyEe2vveZqOF5d-A" sourceX="285" sourceY="1" targetX="-1" targetY="-101"/>
     <stereotypes xmi:id="_ZSERIG_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTzwQG_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZSERIW_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_ZjFvsG_QEe2JNZU2l2g9fw" position="-19.0,-19.0"/>
+      <visualProperties xmi:id="_ZjFvsG_QEe2JNZU2l2g9fw" position="-38.0,41.0"/>
     </nameVisual>
     <sourceRole xmi:id="_ZSERIm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTwF4m_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZjEhkG_QEe2JNZU2l2g9fw" position="14.0,2.0"/>
+      <visualProperties xmi:id="_ZjEhkG_QEe2JNZU2l2g9fw" position="17.0,2.0"/>
       <visibility xmi:id="_ZSERI2_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZSERJG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZSERJW_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="observadores" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSjMAW_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZjFvsW_QEe2JNZU2l2g9fw" position="-125.0,2.0"/>
+      <visualProperties xmi:id="_ZjFvsW_QEe2JNZU2l2g9fw" position="-126.0,-100.0"/>
       <stereotypes xmi:id="_9TFBQG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSkaIG_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -239,23 +217,23 @@
       <cardinality xmi:id="_ZSERJ2_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSZBQG_QEe2JNZU2l2g9fw" sourceAnchor="62.0,0.0" targetAnchor="305.0,149.0" target="_ZQ5McG_QEe2JNZU2l2g9fw" source="_ZSfu8G_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZSZBQG_QEe2JNZU2l2g9fw" sourceAnchor="0.0,45.0" targetAnchor="320.0,84.0" target="_ZQ5McG_QEe2JNZU2l2g9fw" source="_ZSfu8G_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WTWdQW_QEe2JNZU2l2g9fw"/>
     <stereotypes xmi:id="_ZSa2c2_QEe2JNZU2l2g9fw" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTgOQG_QEe2JNZU2l2g9fw"/>
     </stereotypes>
     <nameVisual xmi:id="_ZSa2cG_QEe2JNZU2l2g9fw" text="">
-      <visualProperties xmi:id="_ZjHk4W_QEe2JNZU2l2g9fw" position="-83.0,-20.0"/>
+      <visualProperties xmi:id="_ZjHk4W_QEe2JNZU2l2g9fw" position="-24.0,2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_ZSa2cW_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WTWdQm_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZjHk4G_QEe2JNZU2l2g9fw" position="41.0,-44.0"/>
+      <visualProperties xmi:id="_ZjHk4G_QEe2JNZU2l2g9fw" position="-27.0,-47.0"/>
       <visibility xmi:id="_ZSdSsW_QEe2JNZU2l2g9fw" label="+"/>
       <cardinality xmi:id="_ZSdSsG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_ZSa2cm_QEe2JNZU2l2g9fw" aggregationKind="NONE" name="mano" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WSWXsW_QEe2JNZU2l2g9fw"/>
-      <visualProperties xmi:id="_ZjIL8G_QEe2JNZU2l2g9fw" position="-13.0,-12.0"/>
+      <visualProperties xmi:id="_ZjIL8G_QEe2JNZU2l2g9fw" position="1.0,41.0"/>
       <stereotypes xmi:id="_9TFoUG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_WSXl0G_QEe2JNZU2l2g9fw"/>
       </stereotypes>
@@ -263,34 +241,36 @@
       <cardinality xmi:id="_ZSd5wG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZSuYcG_QEe2JNZU2l2g9fw" sourceAnchor="136.0,0.0" targetAnchor="148.0,156.0" superClass="_ZRC9eW_QEe2JNZU2l2g9fw" subClass="_ZSvmkG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZSuYcG_QEe2JNZU2l2g9fw" sourceAnchor="135.0,0.0" targetAnchor="145.0,176.0" superClass="_ZRC9eW_QEe2JNZU2l2g9fw" subClass="_ZSvmkG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WRTO0G_QEe2JNZU2l2g9fw"/>
     <visualProperties xmi:id="_NJMM0HBqEe2OSfFA2RChjA" position="766.0,99.0"/>
-    <bendpoints xmi:id="_NZddcHBqEe2OSfFA2RChjA" sourceY="-36" targetX="-338" targetY="51"/>
-    <bendpoints xmi:id="_NZddcXBqEe2OSfFA2RChjA" sourceX="338" sourceY="-60" targetY="27"/>
+    <bendpoints xmi:id="_d3o-UHDyEe2vveZqOF5d-A" sourceY="-17" targetX="-176" targetY="15"/>
+    <bendpoints xmi:id="_d3plYHDyEe2vveZqOF5d-A" sourceX="177" sourceY="-63" targetX="1" targetY="-31"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZS27UG_QEe2JNZU2l2g9fw" sourceAnchor="389.0,0.0" targetAnchor="9.0,71.0" dashed="true" superClass="_ZS9B8G_QEe2JNZU2l2g9fw" subClass="_ZQfj0G_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZS27UG_QEe2JNZU2l2g9fw" sourceAnchor="202.0,0.0" targetAnchor="169.0,71.0" dashed="true" superClass="_ZS9B8G_QEe2JNZU2l2g9fw" subClass="_ZQfj0G_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WQldIG_QEe2JNZU2l2g9fw"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zcr9wHA6Ee2WWoaNDJTvxA" sourceAnchor="321.0,0.0" targetAnchor="43.0,22.0" target="_J7JjgHBqEe2OSfFA2RChjA" source="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zcr9wHA6Ee2WWoaNDJTvxA" sourceAnchor="0.0,265.0" targetAnchor="21.0,0.0" target="_J7JjgHBqEe2OSfFA2RChjA" source="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_wTgmUHA6Ee2WWoaNDJTvxA"/>
     <visualProperties xmi:id="_J7L_wXBqEe2OSfFA2RChjA" position="772.0,544.0"/>
-    <bendpoints xmi:id="_NZboQHBqEe2OSfFA2RChjA" sourceY="-430" targetX="139"/>
+    <bendpoints xmi:id="_d3qzgXDyEe2vveZqOF5d-A" sourceX="-339" targetX="-821" targetY="600"/>
+    <bendpoints xmi:id="_d3qzgnDyEe2vveZqOF5d-A" sourceX="-340" sourceY="-699" targetX="-822" targetY="-99"/>
+    <bendpoints xmi:id="_d3qzg3DyEe2vveZqOF5d-A" sourceX="482" sourceY="-697" targetY="-97"/>
     <stereotypes xmi:id="_zcr9wXA6Ee2WWoaNDJTvxA" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTh0cHA6Ee2WWoaNDJTvxA"/>
     </stereotypes>
     <nameVisual xmi:id="_zcr9wnA6Ee2WWoaNDJTvxA" text="">
-      <visualProperties xmi:id="_6wmQQHA6Ee2WWoaNDJTvxA" position="-78.0,0.9999999999999432"/>
+      <visualProperties xmi:id="_6wmQQHA6Ee2WWoaNDJTvxA" position="0.9999999999999432,41.000000000000114"/>
     </nameVisual>
     <sourceRole xmi:id="_zcr9w3A6Ee2WWoaNDJTvxA" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTgmUXA6Ee2WWoaNDJTvxA"/>
-      <visualProperties xmi:id="_6wlCIHA6Ee2WWoaNDJTvxA" position="-17.0,-46.0"/>
+      <visualProperties xmi:id="_6wlCIHA6Ee2WWoaNDJTvxA" position="-57.0,2.0"/>
       <visibility xmi:id="_zcr9xHA6Ee2WWoaNDJTvxA" label="+"/>
       <cardinality xmi:id="_zcr9xXA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_zcr9xnA6Ee2WWoaNDJTvxA" aggregationKind="NONE" name="pila" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTCFMHA6Ee2WWoaNDJTvxA"/>
-      <visualProperties xmi:id="_6wm3UHA6Ee2WWoaNDJTvxA" position="1.0,-47.0"/>
+      <visualProperties xmi:id="_6wm3UHA6Ee2WWoaNDJTvxA" position="-74.99999999999989,-96.0"/>
       <stereotypes xmi:id="_zcr9x3A6Ee2WWoaNDJTvxA" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_wTCsQHA6Ee2WWoaNDJTvxA"/>
       </stereotypes>
@@ -301,45 +281,45 @@
       <cardinality xmi:id="_zcr9yXA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1R82QHA6Ee2WWoaNDJTvxA" sourceAnchor="329.0,163.0" targetAnchor="0.0,76.0" target="_ZSfu8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1R82QHA6Ee2WWoaNDJTvxA" sourceAnchor="330.0,73.0" targetAnchor="0.0,221.0" target="_ZSfu8G_QEe2JNZU2l2g9fw" source="_ZSERKG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_wTh0cXA6Ee2WWoaNDJTvxA"/>
     <visualProperties xmi:id="_J7LYsXBqEe2OSfFA2RChjA" position="772.0,544.0"/>
     <stereotypes xmi:id="_1R82QXA6Ee2WWoaNDJTvxA" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTjCkHA6Ee2WWoaNDJTvxA"/>
     </stereotypes>
     <nameVisual xmi:id="_1R82QnA6Ee2WWoaNDJTvxA" text="">
-      <visualProperties xmi:id="_6wpTkHA6Ee2WWoaNDJTvxA" position="-19.0,2.0"/>
+      <visualProperties xmi:id="_6wpTkHA6Ee2WWoaNDJTvxA" position="-18.0,-19.0"/>
     </nameVisual>
     <sourceRole xmi:id="_1R82Q3A6Ee2WWoaNDJTvxA" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTh0cnA6Ee2WWoaNDJTvxA"/>
-      <visualProperties xmi:id="_6wneYHA6Ee2WWoaNDJTvxA" position="14.0,-47.0"/>
+      <visualProperties xmi:id="_6wneYHA6Ee2WWoaNDJTvxA" position="14.0,2.0"/>
       <visibility xmi:id="_1R82RHA6Ee2WWoaNDJTvxA" label="+"/>
       <cardinality xmi:id="_1R82RXA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_1R82RnA6Ee2WWoaNDJTvxA" aggregationKind="NONE" name="jugadorActual" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTDTUHA6Ee2WWoaNDJTvxA"/>
-      <visualProperties xmi:id="_6wp6oHA6Ee2WWoaNDJTvxA" position="-150.0,-47.0"/>
+      <visualProperties xmi:id="_6wp6oHA6Ee2WWoaNDJTvxA" position="-189.0,2.0"/>
       <visibility xmi:id="_1R82R3A6Ee2WWoaNDJTvxA" label="+"/>
       <cardinality xmi:id="_1R82SHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5Knw8HA6Ee2WWoaNDJTvxA" sourceAnchor="290.0,217.0" targetAnchor="0.0,100.0" target="_ZQfj0G_QEe2JNZU2l2g9fw" source="_CBDRMHBeEe2OSfFA2RChjA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5Knw8HA6Ee2WWoaNDJTvxA" sourceAnchor="290.0,168.0" targetAnchor="0.0,92.0" target="_ZQfj0G_QEe2JNZU2l2g9fw" source="_CBDRMHBeEe2OSfFA2RChjA">
     <modelElement href="tp-final-quiniones-nahuel.uml#_wTexIXA6Ee2WWoaNDJTvxA"/>
     <stereotypes xmi:id="_5NpPwHA6Ee2WWoaNDJTvxA" name="Reference">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTf_QHA6Ee2WWoaNDJTvxA"/>
     </stereotypes>
     <nameVisual xmi:id="_5NoosHA6Ee2WWoaNDJTvxA" text="">
-      <visualProperties xmi:id="_Cme5gHBeEe2OSfFA2RChjA" position="-32.0,-19.0"/>
+      <visualProperties xmi:id="_Cme5gHBeEe2OSfFA2RChjA" position="-14.333333333333371,-18.5"/>
     </nameVisual>
     <sourceRole xmi:id="_5NoosXA6Ee2WWoaNDJTvxA" aggregationKind="NONE" name="">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTexInA6Ee2WWoaNDJTvxA"/>
-      <visualProperties xmi:id="_CmdrYHBeEe2OSfFA2RChjA" position="14.0,-47.0"/>
+      <visualProperties xmi:id="_CmdrYHBeEe2OSfFA2RChjA" position="6.0,-37.0"/>
       <visibility xmi:id="_5NrsAXA6Ee2WWoaNDJTvxA" label="+"/>
       <cardinality xmi:id="_5NrsAHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_5NoosnA6Ee2WWoaNDJTvxA" aggregationKind="NONE" name="controlador" navigable="true">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wTAQAHA6Ee2WWoaNDJTvxA"/>
-      <visualProperties xmi:id="_Cme5gXBeEe2OSfFA2RChjA" position="-128.0,2.0"/>
+      <visualProperties xmi:id="_Cme5gXBeEe2OSfFA2RChjA" position="-70.5,-85.5"/>
       <stereotypes xmi:id="_6ez8sHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_xuLoAHBPEe2OSfFA2RChjA" name="LegacyStyledElement">
         <modelElement href="tp-final-quiniones-nahuel.uml#_wTA3EHA6Ee2WWoaNDJTvxA"/>
@@ -348,14 +328,12 @@
       <cardinality xmi:id="_5NrsAnA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5Nk-UHA6Ee2WWoaNDJTvxA" sourceAnchor="0.0,102.0" targetAnchor="290.0,83.0" dashed="true" superClass="_ZTB6cG_QEe2JNZU2l2g9fw" subClass="_CBDRMHBeEe2OSfFA2RChjA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5Nk-UHA6Ee2WWoaNDJTvxA" sourceAnchor="0.0,163.0" targetAnchor="291.0,82.0" dashed="true" superClass="_ZTB6cG_QEe2JNZU2l2g9fw" subClass="_CBDRMHBeEe2OSfFA2RChjA">
     <modelElement href="tp-final-quiniones-nahuel.uml#_wRnI4HA6Ee2WWoaNDJTvxA"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6Yt7wHA6Ee2WWoaNDJTvxA" sourceAnchor="148.0,0.0" targetAnchor="148.0,156.0" superClass="_ZRC9eW_QEe2JNZU2l2g9fw" subClass="_B_SWoHBeEe2OSfFA2RChjA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6Yt7wHA6Ee2WWoaNDJTvxA" sourceAnchor="297.0,17.0" targetAnchor="0.0,86.0" superClass="_ZRC9eW_QEe2JNZU2l2g9fw" subClass="_B_SWoHBeEe2OSfFA2RChjA">
     <modelElement href="tp-final-quiniones-nahuel.uml#_wQmcQHA6Ee2WWoaNDJTvxA"/>
     <visualProperties xmi:id="_NJLlwXBqEe2OSfFA2RChjA" position="766.0,99.0"/>
-    <bendpoints xmi:id="_NZc2YnBqEe2OSfFA2RChjA" sourceY="-43" targetX="-643" targetY="51"/>
-    <bendpoints xmi:id="_NZc2Y3BqEe2OSfFA2RChjA" sourceX="643" sourceY="-67" targetY="27"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fC3UMHBWEe2OSfFA2RChjA" source="_CBDRMHBeEe2OSfFA2RChjA">
     <modelElement href="tp-final-quiniones-nahuel.uml#_wTcU4HA6Ee2WWoaNDJTvxA"/>
@@ -377,11 +355,849 @@
       <cardinality xmi:id="_fC3UOHBWEe2OSfFA2RChjA" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZRC9eW_QEe2JNZU2l2g9fw" name="GrupoCartas" abstractClass="true" associationsOut="_ZRC9cG_QEe2JNZU2l2g9fw" subclassedBy="_ZQ-sAG_QEe2JNZU2l2g9fw _ZSuYcG_QEe2JNZU2l2g9fw _6Yt7wHA6Ee2WWoaNDJTvxA">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZRC9em_QEe2JNZU2l2g9fw" position="475.0,-142.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZRC9e2_QEe2JNZU2l2g9fw" label="+"/>
+    <attributes xmi:id="_ZRC9fG_QEe2JNZU2l2g9fw" name="cartas">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSLYkG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_9Tt6cG_QEe2JNZU2l2g9fw" name="Generics"/>
+      <stereotypes xmi:id="_9Tt6cW_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9TvIkG_QEe2JNZU2l2g9fw" name="Generics"/>
+      <stereotypes xmi:id="_9TvvoG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9UDRoG_QEe2JNZU2l2g9fw" name="Generics"/>
+      <stereotypes xmi:id="_9UD4sG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfUM0HA6Ee2WWoaNDJTvxA" name="Generics"/>
+      <stereotypes xmi:id="_nfUz4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfX3MHA6Ee2WWoaNDJTvxA" name="Generics"/>
+      <stereotypes xmi:id="_nfZFUHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nf6pwHA6Ee2WWoaNDJTvxA" name="Generics"/>
+      <stereotypes xmi:id="_nf7Q0HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxMfwHBPEe2OSfFA2RChjA" name="Generics"/>
+      <stereotypes xmi:id="_xxOU8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxT0gHBPEe2OSfFA2RChjA" name="Generics"/>
+      <stereotypes xmi:id="_xxVpsHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xyanwHBPEe2OSfFA2RChjA" name="Generics"/>
+      <stereotypes xmi:id="_xycc8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9ZP0HB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l9bFAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9gkkHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l9hysHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_pSkHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l_qgsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3gNUHCZEe2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_s3g0YHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3m7AHCZEe2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_s3niEHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s5E6oHCZEe2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_s5GIwHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLazU3DyEe2vveZqOF5d-A" name="Generics"/>
+      <stereotypes xmi:id="_DLazVHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLj9QHDyEe2vveZqOF5d-A" name="Generics"/>
+      <stereotypes xmi:id="_DLj9QXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMTkI3DyEe2vveZqOF5d-A" name="Generics"/>
+      <stereotypes xmi:id="_DMTkJHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_ZRC9f2_QEe2JNZU2l2g9fw" label="#"/>
+      <cardinality xmi:id="_ZRC9gG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZRC9gW_QEe2JNZU2l2g9fw" name="Stack">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WQ6NQW_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZRC9gm_QEe2JNZU2l2g9fw" defaultValue="2" name="maxCartasJugador" staticAttribute="true">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSOb4W_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZRC9g2_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZRC9hG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZRC9hW_QEe2JNZU2l2g9fw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZRC9hm_QEe2JNZU2l2g9fw" defaultValue="50" name="maxCartasMazo" staticAttribute="true">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSPqAG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZRC9h2_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZRC9iG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZRC9iW_QEe2JNZU2l2g9fw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZRC9im_QEe2JNZU2l2g9fw" name="GrupoCartas">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOP60G_QEe2JNZU2l2g9fw"/>
+      <keywords xmi:id="_ZRC9i2_QEe2JNZU2l2g9fw" keyword="create"/>
+      <visibility xmi:id="_ZRC9jG_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZRC9jW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZRC9jm_QEe2JNZU2l2g9fw">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOP602_QEe2JNZU2l2g9fw"/>
+        <type xmi:id="_ZRC9j2_QEe2JNZU2l2g9fw" name="GrupoCartas">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_hqOGEHBYEe2OSfFA2RChjA" abstractOperation="true" name="addCarta">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_hqEVEHBYEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_hqOGEXBYEe2OSfFA2RChjA" label="#"/>
+      <cardinality xmi:id="_hqOGEnBYEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_C9VIsHBdEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_C61OUHBdEe2OSfFA2RChjA"/>
+        <type xmi:id="_C9VIsXBdEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_hqOGE3BYEe2OSfFA2RChjA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_hqEVEXBYEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_hqOGFHBYEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_hqOGFXBYEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ng26kHBeEe2OSfFA2RChjA" abstractOperation="true" name="recibirIntentoJugada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_ngjYkHBeEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_ng26knBeEe2OSfFA2RChjA" label="#"/>
+      <cardinality xmi:id="_ng26k3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ng26lHBeEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_ngj_oHBeEe2OSfFA2RChjA"/>
+        <type xmi:id="_ng26lXBeEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ng26lnBeEe2OSfFA2RChjA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_ngjYkXBeEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_ng26l3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_ng26mHBeEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BCgp4HChEe2UepK28HZ5aA" abstractOperation="true" name="peekCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_BAuhMHChEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_BCgp4XChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_BCgp4nChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BCgp43ChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_BAvIQHChEe2UepK28HZ5aA"/>
+        <type xmi:id="_BCgp5HChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R2uN8HChEe2UepK28HZ5aA" abstractOperation="true" name="popCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_RxcsYHChEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_R2uN8XChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_R2uN8nChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R2uN83ChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_RxcsYXChEe2UepK28HZ5aA"/>
+        <type xmi:id="_R2uN9HChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_B_SWoHBeEe2OSfFA2RChjA" name="MazoDescendente" associationsIn="_ZSAmwG_QEe2JNZU2l2g9fw" generalizations="_6Yt7wHA6Ee2WWoaNDJTvxA">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WR8vEG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_B_SWoXBeEe2OSfFA2RChjA" position="125.0,-73.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_B_SWonBeEe2OSfFA2RChjA" label="+"/>
+    <operations xmi:id="_B_SWo3BeEe2OSfFA2RChjA" name="recibirIntentoJugada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_4Z-xoHBPEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_B_SWpHBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_B_SWpXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_B_SWpnBeEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_4aBN4HBPEe2OSfFA2RChjA"/>
+        <type xmi:id="_B_SWp3BeEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_B_SWqHBeEe2OSfFA2RChjA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_4aAm0HBPEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_B_SWqXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_B_SWqnBeEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_B_SWq3BeEe2OSfFA2RChjA" name="addCarta">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_4aCcAHBPEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_B_SWrHBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_B_SWrXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_B_SWrnBeEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_D7idYHBdEe2OSfFA2RChjA"/>
+        <type xmi:id="_B_SWr3BeEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_B_SWsHBeEe2OSfFA2RChjA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_4aCcAXBPEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_B_SWsXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_B_SWsnBeEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JEsXoHChEe2UepK28HZ5aA" name="peekCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_JEb48HChEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_JEsXoXChEe2UepK28HZ5aA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_JEcgAHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JEsXonChEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_JEeVMHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_JEsXo3ChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_JEsXpHChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JEsXpXChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_JEb48XChEe2UepK28HZ5aA"/>
+        <type xmi:id="_JEsXpnChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R3EMMHChEe2UepK28HZ5aA" name="popCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_Rxhk4HChEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_R3EMMXChEe2UepK28HZ5aA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_RxizAHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R3EMMnChEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_Rxl2UHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_R3EMM3ChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_R3EMNHChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R3EMNXChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_RxiL8HChEe2UepK28HZ5aA"/>
+        <type xmi:id="_R3EMNnChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZSvmkG_QEe2JNZU2l2g9fw" name="MazoAscendente" associationsIn="_ZSCb8G_QEe2JNZU2l2g9fw" generalizations="_ZSuYcG_QEe2JNZU2l2g9fw">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WO2-0G_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZSvmkW_QEe2JNZU2l2g9fw" position="309.0,66.0" size="272.0,161.0"/>
+    <visibility xmi:id="_ZSvmkm_QEe2JNZU2l2g9fw" label="+"/>
+    <operations xmi:id="_IqIQQHBZEe2OSfFA2RChjA" name="addCarta">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_IpU_AXBZEe2OSfFA2RChjA"/>
+      <stereotypes xmi:id="_IqIQQXBZEe2OSfFA2RChjA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_IpXbQHBZEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IqIQQnBZEe2OSfFA2RChjA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_IpglMHBZEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IqIQQ3BZEe2OSfFA2RChjA" label="#"/>
+      <cardinality xmi:id="_IqIQRHBZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jgPaQHBdEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_jcfisHBdEe2OSfFA2RChjA"/>
+        <type xmi:id="_jgPaQXBdEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IqIQRXBZEe2OSfFA2RChjA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_IpVmEHBZEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_IqIQRnBZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IqIQR3BZEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ndeE0HBdEe2OSfFA2RChjA" name="recibirIntentoJugada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_nclUAHBdEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_ndeE0XBdEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_ndeE0nBdEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ndeE03BdEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_ncl7EHBdEe2OSfFA2RChjA"/>
+        <type xmi:id="_ndeE1HBdEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ndeE1XBdEe2OSfFA2RChjA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_nclUAXBdEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_ndeE1nBdEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_ndeE13BdEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_geE44HChEe2UepK28HZ5aA" name="peekCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_gduTkHChEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_geE44XChEe2UepK28HZ5aA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_gdu6oXChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_geE44nChEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_gdxW4HChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_geE443ChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_geE45HChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_geE45XChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_gdu6oHChEe2UepK28HZ5aA"/>
+        <type xmi:id="_geE45nChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_geH8MHChEe2UepK28HZ5aA" name="popCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_gdvhsXChEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_geH8MXChEe2UepK28HZ5aA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_gdwIwHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_geH8MnChEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_gdx98HChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_geH8M3ChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_geH8NHChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_geH8NXChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_gdvhsnChEe2UepK28HZ5aA"/>
+        <type xmi:id="_geH8NnChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZSERKG_QEe2JNZU2l2g9fw" name="Juego" associationsIn="_ZQduoG_QEe2JNZU2l2g9fw" associationsOut="_ZRS1EG_QEe2JNZU2l2g9fw _ZRS1EW_QEe2JNZU2l2g9fw _ZSAmwG_QEe2JNZU2l2g9fw _ZSCb8G_QEe2JNZU2l2g9fw _ZSDqEG_QEe2JNZU2l2g9fw _zcr9wHA6Ee2WWoaNDJTvxA _1R82QHA6Ee2WWoaNDJTvxA" generalizations="_ZRSOAG_QEe2JNZU2l2g9fw">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WPGPYG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZSERKW_QEe2JNZU2l2g9fw" position="390.0,275.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZSERKm_QEe2JNZU2l2g9fw" label="+"/>
+    <attributes xmi:id="_ZSERMG_QEe2JNZU2l2g9fw" name="mazoDesc">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSb3QW_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_9T5goG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9T6HsG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9UIKIG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfo88HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfqLEHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ngClkHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxpywHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxtdIHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xysUkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l93w8HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l98CYHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_JjUHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s34AwHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s37rIHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4x_sHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLtuQXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLtuQnDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMKaMXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_ZSERMm_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSERM2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZSERNG_QEe2JNZU2l2g9fw" name="MazoDescendente">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WR8vEG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSERNW_QEe2JNZU2l2g9fw" name="mazoAsc">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSdscG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_9T6uwG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9T784G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9UIxMG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfsnUHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfucgHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ngEawHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxxHgHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xx1Y8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xyv-8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-AT0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-D-MHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_Ob0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3-ucHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4BxwHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s41DAHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLtuQ3DyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLtuRHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMKaMnDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_ZSERN2_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSEROG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZSEROW_QEe2JNZU2l2g9fw" name="MazoAscendente">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WO2-0G_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSEROm_QEe2JNZU2l2g9fw" name="siguienteTurno">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSe6kG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_9TyL4G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9T0BEG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9UJYQG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfcvsHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfek4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ngFo4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxaiMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxeMkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xyzCQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9nSQHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9rjsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_StQHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3rzgHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3u20HCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s43fQHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLj9QnDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLj9Q3DyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMKaM3DyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_ZSERPG_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSERPW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZSERPm_QEe2JNZU2l2g9fw" name="Jugador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSERQ2_QEe2JNZU2l2g9fw" name="jugadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WShW0W_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_9T1PMG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9T2dUG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9ULNcG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfhBIHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfi2UHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ngIsMHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxh28HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xxlhUHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xy5I4HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9v1IHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l9zfgHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_bQIHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3x6IHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s309cHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s46ikHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLj9RHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLtuQHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMKaNHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_ZSERRW_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSERRm_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ZSERR2_QEe2JNZU2l2g9fw" name="Jugador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSERSG_QEe2JNZU2l2g9fw" name="observadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSjMAW_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_9T8j8G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9T9yEG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9UL0gG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfwRsHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfyG4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ngJ6UHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xx5DUHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xx7fkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xy8zQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-IPoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-MhEHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_eTcHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4EOAHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4HRUHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s49l4HCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DL3fQHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DL3fQXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMTkIHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_ZSERSm_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSERS2_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ZSERTG_QEe2JNZU2l2g9fw" name="Observador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WO-6oG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSERTW_QEe2JNZU2l2g9fw" name="estado">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSlBMG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_ZSERTm_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WSloQG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZSERT2_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSERUG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_wUDY4HA6Ee2WWoaNDJTvxA" name="Eventos">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1UVb4HA6Ee2WWoaNDJTvxA" name="pila">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wTCFMHA6Ee2WWoaNDJTvxA"/>
+      <stereotypes xmi:id="_6e2Y8HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xyEpgHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xyHFwHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xzBrwHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_2gzVkHBnEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6JAyYHBnEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6JR4IHBnEe2OSfFA2RChjA" name="Generics"/>
+      <stereotypes xmi:id="_6JUUYHBnEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6JVigHBnEe2OSfFA2RChjA" name="Generics"/>
+      <stereotypes xmi:id="_GBFMkHBoEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_GBGasHBoEe2OSfFA2RChjA" name="Generics"/>
+      <stereotypes xmi:id="_l-Z8cHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-bKkHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l-fcAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-gqIHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_l_ik4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_jzAHB2Ee2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_s4PNIHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4QbQHCZEe2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_s4TekHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4UssHCZEe2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_s5ApMHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s5BQQHCZEe2UepK28HZ5aA" name="Generics"/>
+      <stereotypes xmi:id="_DL3fRHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DL3fRXDyEe2vveZqOF5d-A" name="Generics"/>
+      <stereotypes xmi:id="_DMApMHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMApMXDyEe2vveZqOF5d-A" name="Generics"/>
+      <stereotypes xmi:id="_DMTkIXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMTkInDyEe2vveZqOF5d-A" name="Generics"/>
+      <visibility xmi:id="_1UVb4XA6Ee2WWoaNDJTvxA" label="-"/>
+      <cardinality xmi:id="_1UVb4nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+      <type xmi:id="_GBCJQHBoEe2OSfFA2RChjA" name="Stack">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WQ6NQW_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1UVb5HA6Ee2WWoaNDJTvxA" name="jugadorActual">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wTDTUHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_1UVb5XA6Ee2WWoaNDJTvxA" label="+"/>
+      <cardinality xmi:id="_1UVb5nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+      <type xmi:id="_1UVb53A6Ee2WWoaNDJTvxA" name="Jugador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s2YL8HCZEe2UepK28HZ5aA" name="cartasEnJuego">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_BxO4QHB5Ee2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_s3IZ4nCZEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_BxQtcHB5Ee2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_s3IZ4XCZEe2UepK28HZ5aA" label="-"/>
+      <cardinality xmi:id="_s3JA8HCZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <type xmi:id="_s3IZ4HCZEe2UepK28HZ5aA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s2YL8XCZEe2UepK28HZ5aA" name="cantJugadasJugadorActual">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_TrDbsHCIEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_s3JoAXCZEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_TrFQ4HCIEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_s3JoAHCZEe2UepK28HZ5aA" label="-"/>
+      <cardinality xmi:id="_s3JoAnCZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <type xmi:id="_s3JA8XCZEe2UepK28HZ5aA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s2YL8nCZEe2UepK28HZ5aA" name="turno">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_fpQO4HCPEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_s3KPEnCZEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_fpQ18HCPEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_s3KPEXCZEe2UepK28HZ5aA" label="-"/>
+      <cardinality xmi:id="_s3KPE3CZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <type xmi:id="_s3KPEHCZEe2UepK28HZ5aA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZSERUm_QEe2JNZU2l2g9fw" name="Juego">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WPJ5wG_QEe2JNZU2l2g9fw"/>
+      <keywords xmi:id="_ZSERU2_QEe2JNZU2l2g9fw" keyword="create"/>
+      <visibility xmi:id="_ZSERVG_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSERVW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZSERVm_QEe2JNZU2l2g9fw">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WPJ5w2_QEe2JNZU2l2g9fw"/>
+        <type xmi:id="_ZSERV2_QEe2JNZU2l2g9fw" name="Juego">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WPGPYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZSERWG_QEe2JNZU2l2g9fw" name="setJugadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WPKg0G_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_ZSERWW_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WPLu8G_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZSERWm_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSERW2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZSERXG_QEe2JNZU2l2g9fw" name="params">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WPLH4G_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZSERXW_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ZSERXm_QEe2JNZU2l2g9fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZSERX2_QEe2JNZU2l2g9fw" name="terminar">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WPM9EG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_ZSERYG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WPNkIG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZSERYW_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSERYm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ZSERbm_QEe2JNZU2l2g9fw" name="agregarObservador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WRfcEG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_ZSERb2_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRh4UG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZSERcG_QEe2JNZU2l2g9fw" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRjGcG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZSERcW_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSERcm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZSERc2_QEe2JNZU2l2g9fw" name="observador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRfcEW_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZSERdG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZSERdW_QEe2JNZU2l2g9fw" name="Observador">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WO-6oG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZSERjG_QEe2JNZU2l2g9fw" name="notificar">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WR_yYG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_ZSERjW_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WSAZcG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZSERjm_QEe2JNZU2l2g9fw" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WSBAgG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZSERj2_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSERkG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZSERkW_QEe2JNZU2l2g9fw" name="evento">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WR_yYW_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZSERkm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZSERk2_QEe2JNZU2l2g9fw" name="Object">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WRyXAW_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1C01IHA6Ee2WWoaNDJTvxA" name="setJugadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wRM5MHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_1C01IXA6Ee2WWoaNDJTvxA" label="+"/>
+      <cardinality xmi:id="_1C01InA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1C01I3A6Ee2WWoaNDJTvxA" name="lista">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wRNgQHA6Ee2WWoaNDJTvxA"/>
+        <cardinality xmi:id="_1C01JHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+        <type xmi:id="_1C01JXA6Ee2WWoaNDJTvxA" name="List">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WQy4gW_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IHk0HA6Ee2WWoaNDJTvxA" name="getCartasJugadorActual">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wRQjkHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_1IHk0XA6Ee2WWoaNDJTvxA" label="+"/>
+      <cardinality xmi:id="_1IHk0nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IHk03A6Ee2WWoaNDJTvxA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wR6D0HA6Ee2WWoaNDJTvxA"/>
+        <type xmi:id="_1IHk1HA6Ee2WWoaNDJTvxA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1Ik30HA6Ee2WWoaNDJTvxA" name="getMazo">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wR2ZcHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_1Ik30XA6Ee2WWoaNDJTvxA" label="+"/>
+      <cardinality xmi:id="_1Ik30nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1Ik303A6Ee2WWoaNDJTvxA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wR3AgHA6Ee2WWoaNDJTvxA"/>
+        <type xmi:id="_1Ik31HA6Ee2WWoaNDJTvxA" name="GrupoCartas">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1Ik31XA6Ee2WWoaNDJTvxA" name="tipo">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wR2ZcXA6Ee2WWoaNDJTvxA"/>
+        <cardinality xmi:id="_1Ik31nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+        <type xmi:id="_1Ik313A6Ee2WWoaNDJTvxA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1LcloHA6Ee2WWoaNDJTvxA" name="hacerJugada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wR41sHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_1LcloXA6Ee2WWoaNDJTvxA" label="+"/>
+      <cardinality xmi:id="_1LclonA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1Lclo3A6Ee2WWoaNDJTvxA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wR41sXA6Ee2WWoaNDJTvxA"/>
+        <cardinality xmi:id="_1LclpHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+        <type xmi:id="_1LclpXA6Ee2WWoaNDJTvxA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1LclpnA6Ee2WWoaNDJTvxA" name="mazo">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wR41snA6Ee2WWoaNDJTvxA"/>
+        <cardinality xmi:id="_1Lclp3A6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
+        <type xmi:id="_1LclqHA6Ee2WWoaNDJTvxA" name="GrupoCartas">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uIEDoHBUEe2OSfFA2RChjA" name="iniciarJuego">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_uHSnkHBUEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_uIEDoXBUEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_uIEDonBUEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0l8EAHBqEe2OSfFA2RChjA" name="llenarPila">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_0lk3oHBqEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_0l8EAXBqEe2OSfFA2RChjA" label="-"/>
+      <cardinality xmi:id="_0l8EAnBqEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T7r-4HBrEe2OSfFA2RChjA" name="mezclarPila">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_T7cHQHBrEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_T7r-4XBrEe2OSfFA2RChjA" label="-"/>
+      <cardinality xmi:id="_T7r-4nBrEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Oo0sMHBtEe2OSfFA2RChjA" name="setSiguienteTurno">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_OoJWwHBtEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_Oo0sMXBtEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_Oo0sMnBtEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_AoikIHB0Ee2OSfFA2RChjA" name="getCartasMazos">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_AoVv0HB0Ee2OSfFA2RChjA"/>
+      <visibility xmi:id="_AoikIXB0Ee2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_AoikInB0Ee2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AoikI3B0Ee2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_Aob2cHB0Ee2OSfFA2RChjA"/>
+        <type xmi:id="_AoikJHB0Ee2OSfFA2RChjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_s2VvsHCZEe2UepK28HZ5aA" name="existeJugadaValida">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_cBAX0HB5Ee2UepK28HZ5aA"/>
+      <visibility xmi:id="_s3GksHCZEe2UepK28HZ5aA" label="-"/>
+      <cardinality xmi:id="_s3F9onCZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_s3F9oHCZEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_cBW9IHB5Ee2UepK28HZ5aA"/>
+        <type xmi:id="_s3F9oXCZEe2UepK28HZ5aA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_s2WWwHCZEe2UepK28HZ5aA" name="repartirTodos">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_A7rn8HCHEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_s3GksnCZEe2UepK28HZ5aA" label="-"/>
+      <cardinality xmi:id="_s3GksXCZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_s2WWwXCZEe2UepK28HZ5aA" name="repartirUna">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_IUg2sHCHEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_s3HLwXCZEe2UepK28HZ5aA" label="-"/>
+      <cardinality xmi:id="_s3HLwHCZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_s2W90HCZEe2UepK28HZ5aA" name="repartirDos">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_IUhdwHCHEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_s3HLw3CZEe2UepK28HZ5aA" label="-"/>
+      <cardinality xmi:id="_s3HLwnCZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_s2W90XCZEe2UepK28HZ5aA" name="incTurno">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_fpA-UHCPEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_s3Hy0XCZEe2UepK28HZ5aA" label="+"/>
+      <cardinality xmi:id="_s3Hy0HCZEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZQ5McG_QEe2JNZU2l2g9fw" name="ManoJugador" associationsIn="_ZSZBQG_QEe2JNZU2l2g9fw" generalizations="_ZQ-sAG_QEe2JNZU2l2g9fw">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WOwRIG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZQ5McW_QEe2JNZU2l2g9fw" position="614.0,88.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZQ5Mcm_QEe2JNZU2l2g9fw" label="+"/>
+    <operations xmi:id="_ZQ5Me2_QEe2JNZU2l2g9fw" name="mostrarCartas">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOzUcG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZQ5MfG_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZQ5MfW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZQ5Mfm_QEe2JNZU2l2g9fw">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOz7gG_QEe2JNZU2l2g9fw"/>
+        <type xmi:id="_ZQ5Mf2_QEe2JNZU2l2g9fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZQ5MgG_QEe2JNZU2l2g9fw" name="addCarta">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WRPkcG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZQ5MgW_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZQ5Mgm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yr0hsHBfEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_yro7gHBfEe2OSfFA2RChjA"/>
+        <type xmi:id="_yr0hsXBfEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZQ5Mg2_QEe2JNZU2l2g9fw" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRQLgG_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZQ5MhG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZQ5MhW_QEe2JNZU2l2g9fw" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZQ5Mhm_QEe2JNZU2l2g9fw" name="llenar">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WRRZoG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZQ5Mh2_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZQ5MiG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZQ5MiW_QEe2JNZU2l2g9fw" name="c1">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRRZoW_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZQ5Mim_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZQ5Mi2_QEe2JNZU2l2g9fw" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZQ5MjG_QEe2JNZU2l2g9fw" name="c2">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRRZom_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZQ5MjW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZQ5zgG_QEe2JNZU2l2g9fw" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ORTpQHBbEe2OSfFA2RChjA" name="getPrimeraCarta">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_OQAownBbEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_ORTpQXBbEe2OSfFA2RChjA" label="#"/>
+      <cardinality xmi:id="_ORTpQnBbEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ORUQUHBbEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_OQBP0HBbEe2OSfFA2RChjA"/>
+        <type xmi:id="_ORUQUXBbEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0rmdkHBeEe2OSfFA2RChjA" name="recibirIntentoJugada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_0rbecHBeEe2OSfFA2RChjA"/>
+      <stereotypes xmi:id="_0rmdkXBeEe2OSfFA2RChjA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_0rcskHBeEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0rmdknBeEe2OSfFA2RChjA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_0rfI0HBeEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <visibility xmi:id="_0rmdk3BeEe2OSfFA2RChjA" label="#"/>
+      <cardinality xmi:id="_0rmdlHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0rmdlXBeEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_0rcFgHBeEe2OSfFA2RChjA"/>
+        <type xmi:id="_0rmdlnBeEe2OSfFA2RChjA" name="Eventos">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0rmdl3BeEe2OSfFA2RChjA" name="carta">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_0rbecXBeEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_0rmdmHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_0rmdmXBeEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_acqwEHChEe2UepK28HZ5aA" name="popCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_acMO8HChEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_acqwEXChEe2UepK28HZ5aA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_acM2AHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_acqwEnChEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_acQgYHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_acqwE3ChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_acqwFHChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_acqwFXChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_acMO8XChEe2UepK28HZ5aA"/>
+        <type xmi:id="_acqwFnChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_acvokHChEe2UepK28HZ5aA" name="peekCartaTop">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_acNdEXChEe2UepK28HZ5aA"/>
+      <stereotypes xmi:id="_acvokXChEe2UepK28HZ5aA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_acOrMHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_acvoknChEe2UepK28HZ5aA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_acRHcHChEe2UepK28HZ5aA"/>
+      </stereotypes>
+      <visibility xmi:id="_acvok3ChEe2UepK28HZ5aA" label="#"/>
+      <cardinality xmi:id="_acvolHChEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_acvolXChEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_acNdEnChEe2UepK28HZ5aA"/>
+        <type xmi:id="_acvolnChEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_J7JjgHBqEe2OSfFA2RChjA" name="Stack" associationsIn="_ZRC9cG_QEe2JNZU2l2g9fw _zcr9wHA6Ee2WWoaNDJTvxA">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WQ6NQW_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_J7JjgXBqEe2OSfFA2RChjA" position="851.0,-60.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_J7JjgnBqEe2OSfFA2RChjA" name="Reference">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WQ93oG_QEe2JNZU2l2g9fw"/>
+    </stereotypes>
+    <visibility xmi:id="_J7Jjg3BqEe2OSfFA2RChjA" label="+"/>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZRqBcG_QEe2JNZU2l2g9fw" name="Carta">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZRqBcW_QEe2JNZU2l2g9fw" position="1004.0,60.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_ZRqBcm_QEe2JNZU2l2g9fw" name="Patch">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_ZQBCsG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZRqBcW_QEe2JNZU2l2g9fw" position="924.0,-126.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_TEXD8HDcEe2UepK28HZ5aA" name="Patch">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_TEV10HDcEe2UepK28HZ5aA"/>
     </stereotypes>
     <visibility xmi:id="_ZRqBc2_QEe2JNZU2l2g9fw" label="+"/>
     <attributes xmi:id="_ZRqBdG_QEe2JNZU2l2g9fw" name="color">
@@ -453,9 +1269,212 @@
       </parameters>
     </operations>
   </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZSfu8G_QEe2JNZU2l2g9fw" name="Jugador" associationsIn="_ZRS1EG_QEe2JNZU2l2g9fw _ZRS1EW_QEe2JNZU2l2g9fw _1R82QHA6Ee2WWoaNDJTvxA" associationsOut="_ZSZBQG_QEe2JNZU2l2g9fw">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZSfu8W_QEe2JNZU2l2g9fw" position="1006.0,127.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_50VocHCfEe2UepK28HZ5aA" name="Patch">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_50UaUHCfEe2UepK28HZ5aA"/>
+    </stereotypes>
+    <visibility xmi:id="_ZSfu82_QEe2JNZU2l2g9fw" label="+"/>
+    <attributes xmi:id="_ZSfu9G_QEe2JNZU2l2g9fw" name="nombre">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSQ4IG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZSfu9W_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSfu9m_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZSfu92_QEe2JNZU2l2g9fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSfu-G_QEe2JNZU2l2g9fw" defaultValue="0" name="cant" staticAttribute="true">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSRfMG_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_ZSfu-W_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WSWXsG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZSfu-m_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSfu-2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZSfu_G_QEe2JNZU2l2g9fw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSfu_W_QEe2JNZU2l2g9fw" name="mano">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSWXsW_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_9T_AMG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9UAOUG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9UFt4G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nfz8EHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nf1xQHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_nf9tEHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xx-i4HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xyBmMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xykYwHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-SAoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-VrAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l_FR4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4JtkHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4Mw4HCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4u8YHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DL3fQnDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DL3fQ3DyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMKaMHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_ZSfu_2_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSfvAG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZSfvAW_QEe2JNZU2l2g9fw" name="ManoJugador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOwRIG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZSfvAm_QEe2JNZU2l2g9fw" name="id_jugador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WSYM4G_QEe2JNZU2l2g9fw"/>
+      <stereotypes xmi:id="_ZSfvA2_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WSZbAG_QEe2JNZU2l2g9fw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZSfvBG_QEe2JNZU2l2g9fw" label="-"/>
+      <cardinality xmi:id="_ZSfvBW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZSfvBm_QEe2JNZU2l2g9fw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZSfvB2_QEe2JNZU2l2g9fw" name="Jugador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOo8YG_QEe2JNZU2l2g9fw"/>
+      <keywords xmi:id="_ZSfvCG_QEe2JNZU2l2g9fw" keyword="create"/>
+      <visibility xmi:id="_ZSfvCW_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSfvCm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZSfvC2_QEe2JNZU2l2g9fw">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOpjcG_QEe2JNZU2l2g9fw"/>
+        <type xmi:id="_ZSfvDG_QEe2JNZU2l2g9fw" name="Jugador">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZSfvDW_QEe2JNZU2l2g9fw" name="name">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOo8YW_QEe2JNZU2l2g9fw"/>
+        <keywords xmi:id="_ZSfvDm_QEe2JNZU2l2g9fw" keyword="final"/>
+        <cardinality xmi:id="_ZSfvD2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZSfvEG_QEe2JNZU2l2g9fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZSfvEW_QEe2JNZU2l2g9fw" name="getManoJugador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOqxkG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZSfvEm_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSfvE2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZSfvFG_QEe2JNZU2l2g9fw">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOqxkW_QEe2JNZU2l2g9fw"/>
+        <type xmi:id="_ZSfvFW_QEe2JNZU2l2g9fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZSfvFm_QEe2JNZU2l2g9fw" name="getId">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOrYoG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZSfvF2_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSfvGG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZSfvGW_QEe2JNZU2l2g9fw">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOr_sG_QEe2JNZU2l2g9fw"/>
+        <type xmi:id="_ZSfvGm_QEe2JNZU2l2g9fw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZSfvG2_QEe2JNZU2l2g9fw" name="recibirCartas">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WRMhIG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZSfvHG_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSfvHW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZSfvHm_QEe2JNZU2l2g9fw" name="c">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRMhIW_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZSfvH2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZSfvIG_QEe2JNZU2l2g9fw" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZSfvIW_QEe2JNZU2l2g9fw" name="recibirCartas">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WRNIMG_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZSfvIm_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZSfvI2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZSfvJG_QEe2JNZU2l2g9fw" name="c1">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRNvQG_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZSfvJW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZSfvJm_QEe2JNZU2l2g9fw" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZSfvJ2_QEe2JNZU2l2g9fw" name="c2">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WRNvQW_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZSfvKG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZSfvKW_QEe2JNZU2l2g9fw" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_n4l3YHBZEe2OSfFA2RChjA" name="jugarCarta">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_n4dUgHBZEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_n4l3YnBZEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_n4l3Y3BZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n4l3ZHBZEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_n4eioHBZEe2OSfFA2RChjA"/>
+        <type xmi:id="_n4l3ZXBZEe2OSfFA2RChjA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_n4l3ZnBZEe2OSfFA2RChjA" name="pos">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_n4d7kHBZEe2OSfFA2RChjA"/>
+        <cardinality xmi:id="_n4l3Z3BZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_n4l3aHBZEe2OSfFA2RChjA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_s2Nz4HCZEe2UepK28HZ5aA" name="getListaManoJugador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_ah1OoHB6Ee2UepK28HZ5aA"/>
+      <visibility xmi:id="_s3EvgXCZEe2UepK28HZ5aA" label="+"/>
+      <cardinality xmi:id="_s3EvgHCZEe2UepK28HZ5aA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_s3EIcHCZEe2UepK28HZ5aA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_ah11sHB6Ee2UepK28HZ5aA"/>
+        <type xmi:id="_s3EIcXCZEe2UepK28HZ5aA" name="Carta">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZQOeEG_QEe2JNZU2l2g9fw" name="easyGame">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WOiOsG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZQOeEW_QEe2JNZU2l2g9fw" position="1288.0,41.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZQOeEm_QEe2JNZU2l2g9fw" label="+"/>
+    <operations xmi:id="_ZQOeE2_QEe2JNZU2l2g9fw" name="main" staticOperation="true">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOkq8G_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZQOeFG_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZQOeFW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZQOeFm_QEe2JNZU2l2g9fw" name="args">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WOkq8W_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZQOeF2_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ZQOeGG_QEe2JNZU2l2g9fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_ZRwvIG_QEe2JNZU2l2g9fw" name="Colores">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WOE7sG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZRwvIW_QEe2JNZU2l2g9fw" position="811.0,444.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZRwvIm_QEe2JNZU2l2g9fw" label="+"/>
+    <literals xmi:id="_ZRwvI2_QEe2JNZU2l2g9fw" name="ROJO">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGJ0G_QEe2JNZU2l2g9fw"/>
+    </literals>
+    <literals xmi:id="_ZRwvJG_QEe2JNZU2l2g9fw" name="AZUL">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGJ0W_QEe2JNZU2l2g9fw"/>
+    </literals>
+    <literals xmi:id="_ZRwvJW_QEe2JNZU2l2g9fw" name="AMARILLO">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGw4G_QEe2JNZU2l2g9fw"/>
+    </literals>
+    <literals xmi:id="_ZRwvJm_QEe2JNZU2l2g9fw" name="VERDE">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGw4W_QEe2JNZU2l2g9fw"/>
+    </literals>
+    <literals xmi:id="_ZRwvJ2_QEe2JNZU2l2g9fw" name="GRIS">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WOHX8G_QEe2JNZU2l2g9fw"/>
+    </literals>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_ZQx3sG_QEe2JNZU2l2g9fw" name="Eventos">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZQx3sW_QEe2JNZU2l2g9fw" position="1567.0,547.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_ZQx3sW_QEe2JNZU2l2g9fw" position="952.0,429.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_ZQx3sm_QEe2JNZU2l2g9fw" label="+"/>
     <literals xmi:id="_ZQx3s2_QEe2JNZU2l2g9fw" name="SIN_JUGADAS">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WOMQcG_QEe2JNZU2l2g9fw"/>
@@ -481,47 +1500,133 @@
     <literals xmi:id="_6TFN0HA6Ee2WWoaNDJTvxA" name="JUGADORES_CARGADOS">
       <modelElement href="tp-final-quiniones-nahuel.uml#_wPwuwnA6Ee2WWoaNDJTvxA"/>
     </literals>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_ZRwvIG_QEe2JNZU2l2g9fw" name="Colores">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WOE7sG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZRwvIW_QEe2JNZU2l2g9fw" position="1568.0,400.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_ZRwvIm_QEe2JNZU2l2g9fw" label="+"/>
-    <literals xmi:id="_ZRwvI2_QEe2JNZU2l2g9fw" name="ROJO">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGJ0G_QEe2JNZU2l2g9fw"/>
-    </literals>
-    <literals xmi:id="_ZRwvJG_QEe2JNZU2l2g9fw" name="AZUL">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGJ0W_QEe2JNZU2l2g9fw"/>
-    </literals>
-    <literals xmi:id="_ZRwvJW_QEe2JNZU2l2g9fw" name="AMARILLO">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGw4G_QEe2JNZU2l2g9fw"/>
-    </literals>
-    <literals xmi:id="_ZRwvJm_QEe2JNZU2l2g9fw" name="VERDE">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOGw4W_QEe2JNZU2l2g9fw"/>
-    </literals>
-    <literals xmi:id="_ZRwvJ2_QEe2JNZU2l2g9fw" name="GRIS">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOHX8G_QEe2JNZU2l2g9fw"/>
+    <literals xmi:id="_s1-jUHCZEe2UepK28HZ5aA" name="REINICIAR">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_5YL9IHCNEe2UepK28HZ5aA"/>
     </literals>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZQOeEG_QEe2JNZU2l2g9fw" name="easyGame">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WOiOsG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZQOeEW_QEe2JNZU2l2g9fw" position="1467.0,283.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_ZQOeEm_QEe2JNZU2l2g9fw" label="+"/>
-    <operations xmi:id="_ZQOeE2_QEe2JNZU2l2g9fw" name="main" staticOperation="true">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOkq8G_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZQOeFG_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZQOeFW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZQOeFm_QEe2JNZU2l2g9fw" name="args">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOkq8W_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZQOeF2_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_ZQOeGG_QEe2JNZU2l2g9fw" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CBDRMHBeEe2OSfFA2RChjA" name="VistaConsola" associationsIn="_ZQe8wG_QEe2JNZU2l2g9fw" associationsOut="_5Knw8HA6Ee2WWoaNDJTvxA _fC3UMHBWEe2OSfFA2RChjA" generalizations="_5Nk-UHA6Ee2WWoaNDJTvxA">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_CBDRMXBeEe2OSfFA2RChjA" position="416.0,805.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_CBDRMnBeEe2OSfFA2RChjA" label="+"/>
+    <attributes xmi:id="_CBDRM3BeEe2OSfFA2RChjA" name="entrada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wS_B4HA6Ee2WWoaNDJTvxA"/>
+      <stereotypes xmi:id="_l-uFgHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-xv4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-2oYHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4d2oHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4iIEHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s5KaMHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMApNHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMApNXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMdVIXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_CBDRNHBeEe2OSfFA2RChjA" label="-"/>
+      <cardinality xmi:id="_CBDRNXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <type xmi:id="_CBDRNnBeEe2OSfFA2RChjA" name="Scanner">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wSwYYHA6Ee2WWoaNDJTvxA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_CBD4QHBeEe2OSfFA2RChjA" name="controlador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wTAQAHA6Ee2WWoaNDJTvxA"/>
+      <stereotypes xmi:id="_l-nX0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-rCMHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_l-5rsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4Y-IHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4baYHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s5M2cHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMApMnDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMApM3DyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMdVInDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_CBD4QXBeEe2OSfFA2RChjA" label="-"/>
+      <cardinality xmi:id="_CBD4QnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <type xmi:id="_CBD4Q3BeEe2OSfFA2RChjA" name="Controlador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_CBD4RHBeEe2OSfFA2RChjA" name="VistaConsola">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ4wIHA6Ee2WWoaNDJTvxA"/>
+      <keywords xmi:id="_CBD4RXBeEe2OSfFA2RChjA" keyword="create"/>
+      <visibility xmi:id="_CBD4RnBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4R3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CBD4SHBeEe2OSfFA2RChjA">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ5XMHA6Ee2WWoaNDJTvxA"/>
+        <type xmi:id="_CBD4SXBeEe2OSfFA2RChjA" name="VistaConsola">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CBD4TXBeEe2OSfFA2RChjA" name="menuCargaJugadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ7zcHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_CBD4TnBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4T3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_CBD4XHBeEe2OSfFA2RChjA" name="setControlador">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkHA6Ee2WWoaNDJTvxA"/>
+      <visibility xmi:id="_CBD4XXBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4XnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_CBD4X3BeEe2OSfFA2RChjA" name="controlador">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkXA6Ee2WWoaNDJTvxA"/>
+        <cardinality xmi:id="_CBD4YHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+        <type xmi:id="_CBD4YXBeEe2OSfFA2RChjA" name="Controlador">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
         </type>
       </parameters>
+    </operations>
+    <operations xmi:id="_CBD4bXBeEe2OSfFA2RChjA" name="iniciarJuego">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_fCLXsHBWEe2OSfFA2RChjA"/>
+      <stereotypes xmi:id="_CBD4bnBeEe2OSfFA2RChjA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_fCMl0HBWEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_CBD4b3BeEe2OSfFA2RChjA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_fCW94HBWEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <visibility xmi:id="_CBD4cHBeEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_CBD4cXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6NragHBoEe2OSfFA2RChjA" name="printMenuCargaJugadores">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_6NdYEHBoEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_6NragXBoEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_6NragnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-poBYHBoEe2OSfFA2RChjA" name="esperar">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_-ph6wHBoEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_-poBYXBoEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_-poBYnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_NgHUgHBpEe2OSfFA2RChjA" name="terminarJuego">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_Nf8VYHBpEe2OSfFA2RChjA"/>
+      <stereotypes xmi:id="_NgHUgXBpEe2OSfFA2RChjA" name="Annotations">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_Nf9jgHBpEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NgHUgnBpEe2OSfFA2RChjA" name="LegacyStyledElement">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_NgBN4HBpEe2OSfFA2RChjA"/>
+      </stereotypes>
+      <visibility xmi:id="_NgHUg3BpEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_NgHUhHBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-bRm4HBpEe2OSfFA2RChjA" name="menuPrincipal">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_-bJrEHBpEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_-bRm4XBpEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_-bRm4nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-cMz8HBpEe2OSfFA2RChjA" name="menuHacerJugada">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_-bKSIHBpEe2OSfFA2RChjA"/>
+      <visibility xmi:id="_-cMz8XBpEe2OSfFA2RChjA" label="+"/>
+      <cardinality xmi:id="_-cMz8nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VeY2YHDcEe2UepK28HZ5aA" name="printMenuElegirMazo">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_VeSIsHDcEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_VeY2YXDcEe2UepK28HZ5aA" label="+"/>
+      <cardinality xmi:id="_VeY2YnDcEe2UepK28HZ5aA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VearkHDcEe2UepK28HZ5aA" name="printmenuElegirCarta">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_VeSvwHDcEe2UepK28HZ5aA"/>
+      <visibility xmi:id="_VearkXDcEe2UepK28HZ5aA" label="+"/>
+      <cardinality xmi:id="_VearknDcEe2UepK28HZ5aA" label="1" max="1" min="1"/>
     </operations>
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZTB6cG_QEe2JNZU2l2g9fw" name="IVista" subclassedBy="_5Nk-UHA6Ee2WWoaNDJTvxA">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WPAv0G_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZTB6cW_QEe2JNZU2l2g9fw" position="-87.0,753.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_ZTB6cW_QEe2JNZU2l2g9fw" position="71.0,886.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_ZTB6cm_QEe2JNZU2l2g9fw" label="+"/>
     <operations xmi:id="_ZTB6jm_QEe2JNZU2l2g9fw" name="setControlador">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WRajkG_QEe2JNZU2l2g9fw"/>
@@ -563,7 +1668,7 @@
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZSyp4G_QEe2JNZU2l2g9fw" name="Observable" subclassedBy="_ZRSOAG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WO73UG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZSyp4W_QEe2JNZU2l2g9fw" position="134.0,619.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_ZSyp4W_QEe2JNZU2l2g9fw" position="54.0,783.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_ZSyp4m_QEe2JNZU2l2g9fw" label="+"/>
     <operations xmi:id="_ZSyp42_QEe2JNZU2l2g9fw" name="agregarObservador">
       <modelElement href="tp-final-quiniones-nahuel.uml#_WRVrEG_QEe2JNZU2l2g9fw"/>
@@ -590,11 +1695,35 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZQfj0G_QEe2JNZU2l2g9fw" name="Controlador" associationsIn="_ZQdHkG_QEe2JNZU2l2g9fw _5Knw8HA6Ee2WWoaNDJTvxA" associationsOut="_ZQduoG_QEe2JNZU2l2g9fw _ZQe8wG_QEe2JNZU2l2g9fw" generalizations="_ZS27UG_QEe2JNZU2l2g9fw">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZS9B8G_QEe2JNZU2l2g9fw" name="Observador" associationsIn="_ZSDqEG_QEe2JNZU2l2g9fw" subclassedBy="_ZS27UG_QEe2JNZU2l2g9fw">
+    <modelElement href="tp-final-quiniones-nahuel.uml#_WO-6oG_QEe2JNZU2l2g9fw"/>
+    <visualProperties xmi:id="_ZS9B8W_QEe2JNZU2l2g9fw" position="803.0,759.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZS9B8m_QEe2JNZU2l2g9fw" label="+"/>
+    <operations xmi:id="_ZS9B82_QEe2JNZU2l2g9fw" name="actualizar">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_WR654G_QEe2JNZU2l2g9fw"/>
+      <visibility xmi:id="_ZS9B9G_QEe2JNZU2l2g9fw" label="+"/>
+      <cardinality xmi:id="_ZS9B9W_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZS9B9m_QEe2JNZU2l2g9fw" name="evento">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WR654W_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZS9B92_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZS9B-G_QEe2JNZU2l2g9fw" name="Object">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WRyXAW_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZS9B-W_QEe2JNZU2l2g9fw" name="observado">
+        <modelElement href="tp-final-quiniones-nahuel.uml#_WR7g8G_QEe2JNZU2l2g9fw"/>
+        <cardinality xmi:id="_ZS9B-m_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZS9B-2_QEe2JNZU2l2g9fw" name="Observable">
+          <modelElement href="tp-final-quiniones-nahuel.uml#_WO73UG_QEe2JNZU2l2g9fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZQfj0G_QEe2JNZU2l2g9fw" name="Controlador" associationsIn="_5Knw8HA6Ee2WWoaNDJTvxA" associationsOut="_ZQduoG_QEe2JNZU2l2g9fw _ZQe8wG_QEe2JNZU2l2g9fw" generalizations="_ZS27UG_QEe2JNZU2l2g9fw">
     <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZQfj0W_QEe2JNZU2l2g9fw" position="759.0,851.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_v3ycYHB2Ee2UepK28HZ5aA" name="Patch">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_v3uK8HB2Ee2UepK28HZ5aA"/>
+    <visualProperties xmi:id="_ZQfj0W_QEe2JNZU2l2g9fw" position="770.0,881.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HeH_QHCdEe2UepK28HZ5aA" name="Patch">
+      <modelElement href="tp-final-quiniones-nahuel.uml#_HeGKEHCdEe2UepK28HZ5aA"/>
     </stereotypes>
     <visibility xmi:id="_ZQfj02_QEe2JNZU2l2g9fw" label="+"/>
     <attributes xmi:id="_ZQfj1G_QEe2JNZU2l2g9fw" name="modelo">
@@ -611,6 +1740,12 @@
       <stereotypes xmi:id="_l89K8HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_l9CDcHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_l-8H8HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3TZAHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3XDYHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4o1wHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLRCUHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLazUHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMTkJXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZQfj1m_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZQfj12_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZQfj2G_QEe2JNZU2l2g9fw" name="Juego">
@@ -631,6 +1766,12 @@
       <stereotypes xmi:id="_l9GU4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_l9U-YHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_l-_yUHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3aGsHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s3dKAHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_s4r5EHCZEe2UepK28HZ5aA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLazUXDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DLazUnDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_DMdVIHDyEe2vveZqOF5d-A" name="LegacyStyledElement"/>
       <visibility xmi:id="_ZQfj22_QEe2JNZU2l2g9fw" label="-"/>
       <cardinality xmi:id="_ZQfj3G_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
       <type xmi:id="_ZQfj3W_QEe2JNZU2l2g9fw" name="VistaConsola">
@@ -745,1019 +1886,6 @@
           <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </type>
       </outParameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZSfu8G_QEe2JNZU2l2g9fw" name="Jugador" associationsIn="_ZRS1EG_QEe2JNZU2l2g9fw _ZRS1EW_QEe2JNZU2l2g9fw _1R82QHA6Ee2WWoaNDJTvxA" associationsOut="_ZSZBQG_QEe2JNZU2l2g9fw">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZSfu8W_QEe2JNZU2l2g9fw" position="1205.0,449.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_ZSfu82_QEe2JNZU2l2g9fw" label="+"/>
-    <attributes xmi:id="_ZSfu9G_QEe2JNZU2l2g9fw" name="nombre">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSQ4IG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZSfu9W_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSfu9m_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSfu92_QEe2JNZU2l2g9fw" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSfu-G_QEe2JNZU2l2g9fw" defaultValue="0" name="cant" staticAttribute="true">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSRfMG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_ZSfu-W_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WSWXsG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZSfu-m_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSfu-2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSfu_G_QEe2JNZU2l2g9fw" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSfu_W_QEe2JNZU2l2g9fw" name="mano">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSWXsW_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9T_AMG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UAOUG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UFt4G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfz8EHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nf1xQHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nf9tEHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xx-i4HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xyBmMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xykYwHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-SAoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-VrAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_FR4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZSfu_2_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSfvAG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSfvAW_QEe2JNZU2l2g9fw" name="ManoJugador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOwRIG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSfvAm_QEe2JNZU2l2g9fw" name="id_jugador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSYM4G_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_ZSfvA2_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WSZbAG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZSfvBG_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSfvBW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSfvBm_QEe2JNZU2l2g9fw" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_ZSfvB2_QEe2JNZU2l2g9fw" name="Jugador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOo8YG_QEe2JNZU2l2g9fw"/>
-      <keywords xmi:id="_ZSfvCG_QEe2JNZU2l2g9fw" keyword="create"/>
-      <visibility xmi:id="_ZSfvCW_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSfvCm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ZSfvC2_QEe2JNZU2l2g9fw">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOpjcG_QEe2JNZU2l2g9fw"/>
-        <type xmi:id="_ZSfvDG_QEe2JNZU2l2g9fw" name="Jugador">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_ZSfvDW_QEe2JNZU2l2g9fw" name="name">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOo8YW_QEe2JNZU2l2g9fw"/>
-        <keywords xmi:id="_ZSfvDm_QEe2JNZU2l2g9fw" keyword="final"/>
-        <cardinality xmi:id="_ZSfvD2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZSfvEG_QEe2JNZU2l2g9fw" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_ZSfvEW_QEe2JNZU2l2g9fw" name="getManoJugador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOqxkG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZSfvEm_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSfvE2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ZSfvFG_QEe2JNZU2l2g9fw">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOqxkW_QEe2JNZU2l2g9fw"/>
-        <type xmi:id="_ZSfvFW_QEe2JNZU2l2g9fw" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_ZSfvFm_QEe2JNZU2l2g9fw" name="getId">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOrYoG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZSfvF2_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSfvGG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ZSfvGW_QEe2JNZU2l2g9fw">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOr_sG_QEe2JNZU2l2g9fw"/>
-        <type xmi:id="_ZSfvGm_QEe2JNZU2l2g9fw" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_ZSfvG2_QEe2JNZU2l2g9fw" name="recibirCartas">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WRMhIG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZSfvHG_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSfvHW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZSfvHm_QEe2JNZU2l2g9fw" name="c">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRMhIW_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZSfvH2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZSfvIG_QEe2JNZU2l2g9fw" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_ZSfvIW_QEe2JNZU2l2g9fw" name="recibirCartas">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WRNIMG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZSfvIm_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSfvI2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZSfvJG_QEe2JNZU2l2g9fw" name="c1">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRNvQG_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZSfvJW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZSfvJm_QEe2JNZU2l2g9fw" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_ZSfvJ2_QEe2JNZU2l2g9fw" name="c2">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRNvQW_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZSfvKG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZSfvKW_QEe2JNZU2l2g9fw" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_n4l3YHBZEe2OSfFA2RChjA" name="jugarCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_n4dUgHBZEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_n4l3YnBZEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_n4l3Y3BZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_n4l3ZHBZEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_n4eioHBZEe2OSfFA2RChjA"/>
-        <type xmi:id="_n4l3ZXBZEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_n4l3ZnBZEe2OSfFA2RChjA" name="pos">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_n4d7kHBZEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_n4l3Z3BZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_n4l3aHBZEe2OSfFA2RChjA" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZS9B8G_QEe2JNZU2l2g9fw" name="Observador" associationsIn="_ZSDqEG_QEe2JNZU2l2g9fw" subclassedBy="_ZS27UG_QEe2JNZU2l2g9fw">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WO-6oG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZS9B8W_QEe2JNZU2l2g9fw" position="1139.0,719.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_ZS9B8m_QEe2JNZU2l2g9fw" label="+"/>
-    <operations xmi:id="_ZS9B82_QEe2JNZU2l2g9fw" name="actualizar">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WR654G_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZS9B9G_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZS9B9W_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZS9B9m_QEe2JNZU2l2g9fw" name="evento">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WR654W_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZS9B92_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZS9B-G_QEe2JNZU2l2g9fw" name="Object">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WRyXAW_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_ZS9B-W_QEe2JNZU2l2g9fw" name="observado">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WR7g8G_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZS9B-m_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZS9B-2_QEe2JNZU2l2g9fw" name="Observable">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WO73UG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZSERKG_QEe2JNZU2l2g9fw" name="Juego" associationsIn="_ZQduoG_QEe2JNZU2l2g9fw" associationsOut="_ZQdHkG_QEe2JNZU2l2g9fw _ZRS1EG_QEe2JNZU2l2g9fw _ZRS1EW_QEe2JNZU2l2g9fw _ZSAmwG_QEe2JNZU2l2g9fw _ZSCb8G_QEe2JNZU2l2g9fw _ZSDqEG_QEe2JNZU2l2g9fw _zcr9wHA6Ee2WWoaNDJTvxA _1R82QHA6Ee2WWoaNDJTvxA" generalizations="_ZRSOAG_QEe2JNZU2l2g9fw">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WPGPYG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZSERKW_QEe2JNZU2l2g9fw" position="608.0,362.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_ZSERKm_QEe2JNZU2l2g9fw" label="+"/>
-    <attributes xmi:id="_ZSERMG_QEe2JNZU2l2g9fw" name="mazoDesc">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSb3QW_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9T5goG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9T6HsG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UIKIG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfo88HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfqLEHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_ngClkHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxpywHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxtdIHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xysUkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l93w8HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l98CYHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_JjUHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZSERMm_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSERM2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSERNG_QEe2JNZU2l2g9fw" name="MazoDescendente">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WR8vEG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSERNW_QEe2JNZU2l2g9fw" name="mazoAsc">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSdscG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9T6uwG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9T784G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UIxMG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfsnUHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfucgHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_ngEawHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxxHgHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xx1Y8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xyv-8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-AT0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-D-MHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_Ob0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZSERN2_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSEROG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSEROW_QEe2JNZU2l2g9fw" name="MazoAscendente">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WO2-0G_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSEROm_QEe2JNZU2l2g9fw" name="siguienteTurno">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSe6kG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9TyL4G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9T0BEG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UJYQG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfcvsHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfek4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_ngFo4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxaiMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxeMkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xyzCQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l9nSQHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l9rjsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_StQHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZSERPG_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSERPW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSERPm_QEe2JNZU2l2g9fw" name="Jugador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSERP2_QEe2JNZU2l2g9fw" name="controlador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSgIsW_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9TkwgG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9TmlsG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UKmYG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfFjUHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfJ0wHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_ngG3AHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xwqUQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xwzeMHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xy1egHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l8wWoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l845gHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_XlwHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZSERQG_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSERQW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZSERQm_QEe2JNZU2l2g9fw" name="Controlador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSERQ2_QEe2JNZU2l2g9fw" name="jugadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WShW0W_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9T1PMG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9T2dUG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9ULNcG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfhBIHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfi2UHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_ngIsMHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxh28HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxlhUHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xy5I4HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l9v1IHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l9zfgHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_bQIHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZSERRW_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSERRm_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
-      <type xmi:id="_ZSERR2_QEe2JNZU2l2g9fw" name="Jugador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSERSG_QEe2JNZU2l2g9fw" name="observadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSjMAW_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9T8j8G_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9T9yEG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UL0gG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfwRsHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfyG4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_ngJ6UHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xx5DUHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xx7fkHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xy8zQHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-IPoHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-MhEHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_eTcHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZSERSm_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSERS2_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
-      <type xmi:id="_ZSERTG_QEe2JNZU2l2g9fw" name="Observador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WO-6oG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZSERTW_QEe2JNZU2l2g9fw" name="estado">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSlBMG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_ZSERTm_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WSloQG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZSERT2_QEe2JNZU2l2g9fw" label="-"/>
-      <cardinality xmi:id="_ZSERUG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_wUDY4HA6Ee2WWoaNDJTvxA" name="Eventos">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_1UVb4HA6Ee2WWoaNDJTvxA" name="pila">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wTCFMHA6Ee2WWoaNDJTvxA"/>
-      <stereotypes xmi:id="_6e2Y8HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xyEpgHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xyHFwHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xzBrwHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_2gzVkHBnEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_6JAyYHBnEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_6JR4IHBnEe2OSfFA2RChjA" name="Generics"/>
-      <stereotypes xmi:id="_6JUUYHBnEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_6JVigHBnEe2OSfFA2RChjA" name="Generics"/>
-      <stereotypes xmi:id="_GBFMkHBoEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_GBGasHBoEe2OSfFA2RChjA" name="Generics"/>
-      <stereotypes xmi:id="_l-Z8cHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-bKkHB2Ee2UepK28HZ5aA" name="Generics"/>
-      <stereotypes xmi:id="_l-fcAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-gqIHB2Ee2UepK28HZ5aA" name="Generics"/>
-      <stereotypes xmi:id="_l_ik4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_jzAHB2Ee2UepK28HZ5aA" name="Generics"/>
-      <visibility xmi:id="_1UVb4XA6Ee2WWoaNDJTvxA" label="-"/>
-      <cardinality xmi:id="_1UVb4nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <type xmi:id="_GBCJQHBoEe2OSfFA2RChjA" name="Stack">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WQ6NQW_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_1UVb5HA6Ee2WWoaNDJTvxA" name="jugadorActual">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wTDTUHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1UVb5XA6Ee2WWoaNDJTvxA" label="+"/>
-      <cardinality xmi:id="_1UVb5nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <type xmi:id="_1UVb53A6Ee2WWoaNDJTvxA" name="Jugador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_1UVb6HA6Ee2WWoaNDJTvxA" name="estadoJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wTD6YHA6Ee2WWoaNDJTvxA"/>
-      <stereotypes xmi:id="_1UVb6XA6Ee2WWoaNDJTvxA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wTEhcHA6Ee2WWoaNDJTvxA"/>
-      </stereotypes>
-      <visibility xmi:id="_1UVb6nA6Ee2WWoaNDJTvxA" label="-"/>
-      <cardinality xmi:id="_1UVb63A6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <type xmi:id="_1UVb7HA6Ee2WWoaNDJTvxA" name="Eventos">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_ZSERUm_QEe2JNZU2l2g9fw" name="Juego">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WPJ5wG_QEe2JNZU2l2g9fw"/>
-      <keywords xmi:id="_ZSERU2_QEe2JNZU2l2g9fw" keyword="create"/>
-      <visibility xmi:id="_ZSERVG_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSERVW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ZSERVm_QEe2JNZU2l2g9fw">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WPJ5w2_QEe2JNZU2l2g9fw"/>
-        <type xmi:id="_ZSERV2_QEe2JNZU2l2g9fw" name="Juego">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WPGPYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_ZSERWG_QEe2JNZU2l2g9fw" name="setJugadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WPKg0G_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_ZSERWW_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WPLu8G_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZSERWm_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSERW2_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZSERXG_QEe2JNZU2l2g9fw" name="params">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WPLH4G_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZSERXW_QEe2JNZU2l2g9fw" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_ZSERXm_QEe2JNZU2l2g9fw" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_ZSERX2_QEe2JNZU2l2g9fw" name="terminar">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WPM9EG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_ZSERYG_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WPNkIG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZSERYW_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSERYm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_ZSERaG_QEe2JNZU2l2g9fw" name="setControlador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WReN8G_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZSERaW_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSERam_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZSERa2_QEe2JNZU2l2g9fw" name="controlador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WReN8W_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZSERbG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZSERbW_QEe2JNZU2l2g9fw" name="Controlador">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_ZSERbm_QEe2JNZU2l2g9fw" name="agregarObservador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WRfcEG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_ZSERb2_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRh4UG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <stereotypes xmi:id="_ZSERcG_QEe2JNZU2l2g9fw" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRjGcG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZSERcW_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSERcm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZSERc2_QEe2JNZU2l2g9fw" name="observador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRfcEW_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZSERdG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZSERdW_QEe2JNZU2l2g9fw" name="Observador">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WO-6oG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_ZSERjG_QEe2JNZU2l2g9fw" name="notificar">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WR_yYG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_ZSERjW_QEe2JNZU2l2g9fw" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WSAZcG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <stereotypes xmi:id="_ZSERjm_QEe2JNZU2l2g9fw" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WSBAgG_QEe2JNZU2l2g9fw"/>
-      </stereotypes>
-      <visibility xmi:id="_ZSERj2_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZSERkG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZSERkW_QEe2JNZU2l2g9fw" name="evento">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WR_yYW_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZSERkm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZSERk2_QEe2JNZU2l2g9fw" name="Object">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WRyXAW_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_1C01IHA6Ee2WWoaNDJTvxA" name="setJugadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wRM5MHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1C01IXA6Ee2WWoaNDJTvxA" label="+"/>
-      <cardinality xmi:id="_1C01InA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <parameters xmi:id="_1C01I3A6Ee2WWoaNDJTvxA" name="lista">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wRNgQHA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_1C01JHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-        <type xmi:id="_1C01JXA6Ee2WWoaNDJTvxA" name="List">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WQy4gW_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_1FOo4HA6Ee2WWoaNDJTvxA" name="repartir">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wRP8gHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1FOo4XA6Ee2WWoaNDJTvxA" label="-"/>
-      <cardinality xmi:id="_1FOo4nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_1FtKAHA6Ee2WWoaNDJTvxA" name="repartir">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wRP8gXA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1FtKAXA6Ee2WWoaNDJTvxA" label="-"/>
-      <cardinality xmi:id="_1FtKAnA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <parameters xmi:id="_1FtKA3A6Ee2WWoaNDJTvxA" name="jugador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wRP8gnA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_1FtKBHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-        <type xmi:id="_1FtKBXA6Ee2WWoaNDJTvxA" name="Jugador">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_1IHk0HA6Ee2WWoaNDJTvxA" name="getCartasJugadorActual">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wRQjkHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1IHk0XA6Ee2WWoaNDJTvxA" label="+"/>
-      <cardinality xmi:id="_1IHk0nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_1IHk03A6Ee2WWoaNDJTvxA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wR6D0HA6Ee2WWoaNDJTvxA"/>
-        <type xmi:id="_1IHk1HA6Ee2WWoaNDJTvxA" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_1Ik30HA6Ee2WWoaNDJTvxA" name="getMazo">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wR2ZcHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1Ik30XA6Ee2WWoaNDJTvxA" label="+"/>
-      <cardinality xmi:id="_1Ik30nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_1Ik303A6Ee2WWoaNDJTvxA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wR3AgHA6Ee2WWoaNDJTvxA"/>
-        <type xmi:id="_1Ik31HA6Ee2WWoaNDJTvxA" name="GrupoCartas">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_1Ik31XA6Ee2WWoaNDJTvxA" name="tipo">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wR2ZcXA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_1Ik31nA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-        <type xmi:id="_1Ik313A6Ee2WWoaNDJTvxA" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_1In7IHA6Ee2WWoaNDJTvxA" name="repartir">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wR3nkHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1In7IXA6Ee2WWoaNDJTvxA" label="-"/>
-      <cardinality xmi:id="_1In7InA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <parameters xmi:id="_1In7I3A6Ee2WWoaNDJTvxA" name="jugador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wR4OoHA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_1In7JHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-        <type xmi:id="_1In7JXA6Ee2WWoaNDJTvxA" name="Jugador">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOl5EG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_1In7JnA6Ee2WWoaNDJTvxA" name="s">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wR4OoXA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_1In7J3A6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-        <type xmi:id="_1In7KHA6Ee2WWoaNDJTvxA" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_1LcloHA6Ee2WWoaNDJTvxA" name="hacerJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wR41sHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_1LcloXA6Ee2WWoaNDJTvxA" label="+"/>
-      <cardinality xmi:id="_1LclonA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-      <parameters xmi:id="_1Lclo3A6Ee2WWoaNDJTvxA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wR41sXA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_1LclpHA6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-        <type xmi:id="_1LclpXA6Ee2WWoaNDJTvxA" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_1LclpnA6Ee2WWoaNDJTvxA" name="mazo">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wR41snA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_1Lclp3A6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-        <type xmi:id="_1LclqHA6Ee2WWoaNDJTvxA" name="GrupoCartas">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_uIEDoHBUEe2OSfFA2RChjA" name="iniciarJuego">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_uHSnkHBUEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_uIEDoXBUEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_uIEDonBUEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_0l8EAHBqEe2OSfFA2RChjA" name="llenarPila">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_0lk3oHBqEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_0l8EAXBqEe2OSfFA2RChjA" label="-"/>
-      <cardinality xmi:id="_0l8EAnBqEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_T7r-4HBrEe2OSfFA2RChjA" name="mezclarPila">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_T7cHQHBrEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_T7r-4XBrEe2OSfFA2RChjA" label="-"/>
-      <cardinality xmi:id="_T7r-4nBrEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_Oo0sMHBtEe2OSfFA2RChjA" name="setSiguienteTurno">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_OoJWwHBtEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_Oo0sMXBtEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_Oo0sMnBtEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_AoikIHB0Ee2OSfFA2RChjA" name="getCartasMazos">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_AoVv0HB0Ee2OSfFA2RChjA"/>
-      <visibility xmi:id="_AoikIXB0Ee2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_AoikInB0Ee2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_AoikI3B0Ee2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_Aob2cHB0Ee2OSfFA2RChjA"/>
-        <type xmi:id="_AoikJHB0Ee2OSfFA2RChjA" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </outParameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_J7JjgHBqEe2OSfFA2RChjA" name="Stack" associationsIn="_ZRC9cG_QEe2JNZU2l2g9fw _zcr9wHA6Ee2WWoaNDJTvxA">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WQ6NQW_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_J7JjgXBqEe2OSfFA2RChjA" position="747.0,-90.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_J7JjgnBqEe2OSfFA2RChjA" name="Reference">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WQ93oG_QEe2JNZU2l2g9fw"/>
-    </stereotypes>
-    <visibility xmi:id="_J7Jjg3BqEe2OSfFA2RChjA" label="+"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZQ5McG_QEe2JNZU2l2g9fw" name="ManoJugador" associationsIn="_ZSZBQG_QEe2JNZU2l2g9fw" generalizations="_ZQ-sAG_QEe2JNZU2l2g9fw">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WOwRIG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZQ5McW_QEe2JNZU2l2g9fw" position="962.0,258.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_ZQ5Mcm_QEe2JNZU2l2g9fw" label="+"/>
-    <operations xmi:id="_ZQ5Me2_QEe2JNZU2l2g9fw" name="mostrarCartas">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOzUcG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZQ5MfG_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZQ5MfW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ZQ5Mfm_QEe2JNZU2l2g9fw">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOz7gG_QEe2JNZU2l2g9fw"/>
-        <type xmi:id="_ZQ5Mf2_QEe2JNZU2l2g9fw" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_ZQ5MgG_QEe2JNZU2l2g9fw" name="addCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WRPkcG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZQ5MgW_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZQ5Mgm_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_yr0hsHBfEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_yro7gHBfEe2OSfFA2RChjA"/>
-        <type xmi:id="_yr0hsXBfEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_ZQ5Mg2_QEe2JNZU2l2g9fw" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRQLgG_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZQ5MhG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZQ5MhW_QEe2JNZU2l2g9fw" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_ZQ5Mhm_QEe2JNZU2l2g9fw" name="llenar">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WRRZoG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZQ5Mh2_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZQ5MiG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <parameters xmi:id="_ZQ5MiW_QEe2JNZU2l2g9fw" name="c1">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRRZoW_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZQ5Mim_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZQ5Mi2_QEe2JNZU2l2g9fw" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_ZQ5MjG_QEe2JNZU2l2g9fw" name="c2">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WRRZom_QEe2JNZU2l2g9fw"/>
-        <cardinality xmi:id="_ZQ5MjW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-        <type xmi:id="_ZQ5zgG_QEe2JNZU2l2g9fw" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_ORP-4HBbEe2OSfFA2RChjA" name="getUltimaCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_OP_aoHBbEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_ORP-4XBbEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_OQAowHBbEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_ORP-4nBbEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_OQDsEHBbEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_ORP-43BbEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_ORP-5HBbEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ORP-5XBbEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_OQABsHBbEe2OSfFA2RChjA"/>
-        <type xmi:id="_ORP-5nBbEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_ORTpQHBbEe2OSfFA2RChjA" name="getPrimeraCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_OQAownBbEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_ORTpQXBbEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_ORTpQnBbEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ORUQUHBbEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_OQBP0HBbEe2OSfFA2RChjA"/>
-        <type xmi:id="_ORUQUXBbEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_0rmdkHBeEe2OSfFA2RChjA" name="recibirIntentoJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_0rbecHBeEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_0rmdkXBeEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_0rcskHBeEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_0rmdknBeEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_0rfI0HBeEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_0rmdk3BeEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_0rmdlHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_0rmdlXBeEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_0rcFgHBeEe2OSfFA2RChjA"/>
-        <type xmi:id="_0rmdlnBeEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_0rmdl3BeEe2OSfFA2RChjA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_0rbecXBeEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_0rmdmHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_0rmdmXBeEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_B_SWoHBeEe2OSfFA2RChjA" name="MazoDescendente" associationsIn="_ZSAmwG_QEe2JNZU2l2g9fw" generalizations="_6Yt7wHA6Ee2WWoaNDJTvxA">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WR8vEG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_B_SWoXBeEe2OSfFA2RChjA" position="-25.0,271.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_B_SWonBeEe2OSfFA2RChjA" label="+"/>
-    <operations xmi:id="_B_SWo3BeEe2OSfFA2RChjA" name="recibirIntentoJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_4Z-xoHBPEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_B_SWpHBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_B_SWpXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_B_SWpnBeEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_4aBN4HBPEe2OSfFA2RChjA"/>
-        <type xmi:id="_B_SWp3BeEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_B_SWqHBeEe2OSfFA2RChjA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_4aAm0HBPEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_B_SWqXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_B_SWqnBeEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_B_SWq3BeEe2OSfFA2RChjA" name="addCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_4aCcAHBPEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_B_SWrHBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_B_SWrXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_B_SWrnBeEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_D7idYHBdEe2OSfFA2RChjA"/>
-        <type xmi:id="_B_SWr3BeEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_B_SWsHBeEe2OSfFA2RChjA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_4aCcAXBPEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_B_SWsXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_B_SWsnBeEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_B_SWs3BeEe2OSfFA2RChjA" name="getUltimaCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_lh5a4HBbEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_B_SWtHBeEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_lh6pAHBbEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_B_SWtXBeEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_lh9sUHBbEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_B_SWtnBeEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_B_SWt3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_B_SWuHBeEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_lh6B8HBbEe2OSfFA2RChjA"/>
-        <type xmi:id="_B_SWuXBeEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZSvmkG_QEe2JNZU2l2g9fw" name="MazoAscendente" associationsIn="_ZSCb8G_QEe2JNZU2l2g9fw" generalizations="_ZSuYcG_QEe2JNZU2l2g9fw">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WO2-0G_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZSvmkW_QEe2JNZU2l2g9fw" position="292.0,264.0" size="272.0,161.0"/>
-    <visibility xmi:id="_ZSvmkm_QEe2JNZU2l2g9fw" label="+"/>
-    <operations xmi:id="_6cMtkHA6Ee2WWoaNDJTvxA" name="mezclar">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wQfukHA6Ee2WWoaNDJTvxA"/>
-      <stereotypes xmi:id="_6cMtkXA6Ee2WWoaNDJTvxA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wRgbMHA6Ee2WWoaNDJTvxA"/>
-      </stereotypes>
-      <visibility xmi:id="_6cMtknA6Ee2WWoaNDJTvxA" label="+"/>
-      <cardinality xmi:id="_6cMtk3A6Ee2WWoaNDJTvxA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_IqIQQHBZEe2OSfFA2RChjA" name="addCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_IpU_AXBZEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_IqIQQXBZEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_IpXbQHBZEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_IqIQQnBZEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_IpglMHBZEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_IqIQQ3BZEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_IqIQRHBZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_jgPaQHBdEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_jcfisHBdEe2OSfFA2RChjA"/>
-        <type xmi:id="_jgPaQXBdEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_IqIQRXBZEe2OSfFA2RChjA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_IpVmEHBZEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_IqIQRnBZEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_IqIQR3BZEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_UEJ8MHBcEe2OSfFA2RChjA" name="getUltimaCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_UDGzUHBcEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_UEJ8MXBcEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_UDIBcHBcEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_UEJ8MnBcEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_UDM58HBcEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_UEJ8M3BcEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_UEJ8NHBcEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_UEJ8NXBcEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_UDHaYHBcEe2OSfFA2RChjA"/>
-        <type xmi:id="_UEJ8NnBcEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_ndeE0HBdEe2OSfFA2RChjA" name="recibirIntentoJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_nclUAHBdEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_ndeE0XBdEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_ndeE0nBdEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ndeE03BdEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_ncl7EHBdEe2OSfFA2RChjA"/>
-        <type xmi:id="_ndeE1HBdEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_ndeE1XBdEe2OSfFA2RChjA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_nclUAXBdEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_ndeE1nBdEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_ndeE13BdEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZRC9eW_QEe2JNZU2l2g9fw" name="GrupoCartas" abstractClass="true" associationsOut="_ZRC9cG_QEe2JNZU2l2g9fw" subclassedBy="_ZQ-sAG_QEe2JNZU2l2g9fw _ZSuYcG_QEe2JNZU2l2g9fw _6Yt7wHA6Ee2WWoaNDJTvxA">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_ZRC9em_QEe2JNZU2l2g9fw" position="618.0,21.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_ZRC9e2_QEe2JNZU2l2g9fw" label="+"/>
-    <attributes xmi:id="_ZRC9fG_QEe2JNZU2l2g9fw" name="cartas">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSLYkG_QEe2JNZU2l2g9fw"/>
-      <stereotypes xmi:id="_9Tt6cG_QEe2JNZU2l2g9fw" name="Generics"/>
-      <stereotypes xmi:id="_9Tt6cW_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9TvIkG_QEe2JNZU2l2g9fw" name="Generics"/>
-      <stereotypes xmi:id="_9TvvoG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_9UDRoG_QEe2JNZU2l2g9fw" name="Generics"/>
-      <stereotypes xmi:id="_9UD4sG_QEe2JNZU2l2g9fw" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfUM0HA6Ee2WWoaNDJTvxA" name="Generics"/>
-      <stereotypes xmi:id="_nfUz4HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nfX3MHA6Ee2WWoaNDJTvxA" name="Generics"/>
-      <stereotypes xmi:id="_nfZFUHA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_nf6pwHA6Ee2WWoaNDJTvxA" name="Generics"/>
-      <stereotypes xmi:id="_nf7Q0HA6Ee2WWoaNDJTvxA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxMfwHBPEe2OSfFA2RChjA" name="Generics"/>
-      <stereotypes xmi:id="_xxOU8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xxT0gHBPEe2OSfFA2RChjA" name="Generics"/>
-      <stereotypes xmi:id="_xxVpsHBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_xyanwHBPEe2OSfFA2RChjA" name="Generics"/>
-      <stereotypes xmi:id="_xycc8HBPEe2OSfFA2RChjA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l9ZP0HB2Ee2UepK28HZ5aA" name="Generics"/>
-      <stereotypes xmi:id="_l9bFAHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l9gkkHB2Ee2UepK28HZ5aA" name="Generics"/>
-      <stereotypes xmi:id="_l9hysHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l_pSkHB2Ee2UepK28HZ5aA" name="Generics"/>
-      <stereotypes xmi:id="_l_qgsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_ZRC9f2_QEe2JNZU2l2g9fw" label="#"/>
-      <cardinality xmi:id="_ZRC9gG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZRC9gW_QEe2JNZU2l2g9fw" name="Stack">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WQ6NQW_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZRC9gm_QEe2JNZU2l2g9fw" defaultValue="2" name="maxCartasJugador" staticAttribute="true">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSOb4W_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZRC9g2_QEe2JNZU2l2g9fw" label="#"/>
-      <cardinality xmi:id="_ZRC9hG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZRC9hW_QEe2JNZU2l2g9fw" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ZRC9hm_QEe2JNZU2l2g9fw" defaultValue="50" name="maxCartasMazo" staticAttribute="true">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WSPqAG_QEe2JNZU2l2g9fw"/>
-      <visibility xmi:id="_ZRC9h2_QEe2JNZU2l2g9fw" label="#"/>
-      <cardinality xmi:id="_ZRC9iG_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <type xmi:id="_ZRC9iW_QEe2JNZU2l2g9fw" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_ZRC9im_QEe2JNZU2l2g9fw" name="GrupoCartas">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_WOP60G_QEe2JNZU2l2g9fw"/>
-      <keywords xmi:id="_ZRC9i2_QEe2JNZU2l2g9fw" keyword="create"/>
-      <visibility xmi:id="_ZRC9jG_QEe2JNZU2l2g9fw" label="+"/>
-      <cardinality xmi:id="_ZRC9jW_QEe2JNZU2l2g9fw" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ZRC9jm_QEe2JNZU2l2g9fw">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WOP602_QEe2JNZU2l2g9fw"/>
-        <type xmi:id="_ZRC9j2_QEe2JNZU2l2g9fw" name="GrupoCartas">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WONekG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_hqOGEHBYEe2OSfFA2RChjA" abstractOperation="true" name="addCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_hqEVEHBYEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_hqOGEXBYEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_hqOGEnBYEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_C9VIsHBdEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_C61OUHBdEe2OSfFA2RChjA"/>
-        <type xmi:id="_C9VIsXBdEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_hqOGE3BYEe2OSfFA2RChjA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_hqEVEXBYEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_hqOGFHBYEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_hqOGFXBYEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_mEl4QHBbEe2OSfFA2RChjA" abstractOperation="true" name="getUltimaCarta">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_mDwKwHBbEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_mEl4QXBbEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_mEl4QnBbEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_mEl4Q3BbEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_mDwx0HBbEe2OSfFA2RChjA"/>
-        <type xmi:id="_mEl4RHBbEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_ng26kHBeEe2OSfFA2RChjA" abstractOperation="true" name="recibirIntentoJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_ngjYkHBeEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_ng26knBeEe2OSfFA2RChjA" label="#"/>
-      <cardinality xmi:id="_ng26k3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_ng26lHBeEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_ngj_oHBeEe2OSfFA2RChjA"/>
-        <type xmi:id="_ng26lXBeEe2OSfFA2RChjA" name="Eventos">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WOLpYG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_ng26lnBeEe2OSfFA2RChjA" name="carta">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_ngjYkXBeEe2OSfFA2RChjA"/>
-        <cardinality xmi:id="_ng26l3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_ng26mHBeEe2OSfFA2RChjA" name="Carta">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WN8_4G_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CBDRMHBeEe2OSfFA2RChjA" name="VistaConsola" associationsIn="_ZQe8wG_QEe2JNZU2l2g9fw" associationsOut="_5Knw8HA6Ee2WWoaNDJTvxA _fC3UMHBWEe2OSfFA2RChjA" generalizations="_5Nk-UHA6Ee2WWoaNDJTvxA">
-    <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
-    <visualProperties xmi:id="_CBDRMXBeEe2OSfFA2RChjA" position="241.0,734.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_CBDRMnBeEe2OSfFA2RChjA" label="+"/>
-    <attributes xmi:id="_CBDRM3BeEe2OSfFA2RChjA" name="entrada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wS_B4HA6Ee2WWoaNDJTvxA"/>
-      <stereotypes xmi:id="_l-uFgHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-xv4HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-2oYHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_CBDRNHBeEe2OSfFA2RChjA" label="-"/>
-      <cardinality xmi:id="_CBDRNXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <type xmi:id="_CBDRNnBeEe2OSfFA2RChjA" name="Scanner">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wSwYYHA6Ee2WWoaNDJTvxA"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_CBD4QHBeEe2OSfFA2RChjA" name="controlador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wTAQAHA6Ee2WWoaNDJTvxA"/>
-      <stereotypes xmi:id="_l-nX0HB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-rCMHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_l-5rsHB2Ee2UepK28HZ5aA" name="LegacyStyledElement"/>
-      <visibility xmi:id="_CBD4QXBeEe2OSfFA2RChjA" label="-"/>
-      <cardinality xmi:id="_CBD4QnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <type xmi:id="_CBD4Q3BeEe2OSfFA2RChjA" name="Controlador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_CBD4RHBeEe2OSfFA2RChjA" name="VistaConsola">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ4wIHA6Ee2WWoaNDJTvxA"/>
-      <keywords xmi:id="_CBD4RXBeEe2OSfFA2RChjA" keyword="create"/>
-      <visibility xmi:id="_CBD4RnBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4R3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_CBD4SHBeEe2OSfFA2RChjA">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ5XMHA6Ee2WWoaNDJTvxA"/>
-        <type xmi:id="_CBD4SXBeEe2OSfFA2RChjA" name="VistaConsola">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WQf9kG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_CBD4TXBeEe2OSfFA2RChjA" name="menuCargaJugadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ7zcHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_CBD4TnBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4T3BeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_CBD4XHBeEe2OSfFA2RChjA" name="setControlador">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkHA6Ee2WWoaNDJTvxA"/>
-      <visibility xmi:id="_CBD4XXBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4XnBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-      <parameters xmi:id="_CBD4X3BeEe2OSfFA2RChjA" name="controlador">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_wQ9BkXA6Ee2WWoaNDJTvxA"/>
-        <cardinality xmi:id="_CBD4YHBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-        <type xmi:id="_CBD4YXBeEe2OSfFA2RChjA" name="Controlador">
-          <modelElement href="tp-final-quiniones-nahuel.uml#_WNvkgG_QEe2JNZU2l2g9fw"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_CBD4bXBeEe2OSfFA2RChjA" name="iniciarJuego">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_fCLXsHBWEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_CBD4bnBeEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_fCMl0HBWEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_CBD4b3BeEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_fCW94HBWEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_CBD4cHBeEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_CBD4cXBeEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_6NragHBoEe2OSfFA2RChjA" name="printMenuCargaJugadores">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_6NdYEHBoEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_6NragXBoEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_6NragnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_-poBYHBoEe2OSfFA2RChjA" name="esperar">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_-ph6wHBoEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_-poBYXBoEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_-poBYnBoEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_NgHUgHBpEe2OSfFA2RChjA" name="terminarJuego">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_Nf8VYHBpEe2OSfFA2RChjA"/>
-      <stereotypes xmi:id="_NgHUgXBpEe2OSfFA2RChjA" name="Annotations">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_Nf9jgHBpEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <stereotypes xmi:id="_NgHUgnBpEe2OSfFA2RChjA" name="LegacyStyledElement">
-        <modelElement href="tp-final-quiniones-nahuel.uml#_NgBN4HBpEe2OSfFA2RChjA"/>
-      </stereotypes>
-      <visibility xmi:id="_NgHUg3BpEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_NgHUhHBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_-bRm4HBpEe2OSfFA2RChjA" name="menuPrincipal">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_-bJrEHBpEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_-bRm4XBpEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_-bRm4nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_-cMz8HBpEe2OSfFA2RChjA" name="menuHacerJugada">
-      <modelElement href="tp-final-quiniones-nahuel.uml#_-bKSIHBpEe2OSfFA2RChjA"/>
-      <visibility xmi:id="_-cMz8XBpEe2OSfFA2RChjA" label="+"/>
-      <cardinality xmi:id="_-cMz8nBpEe2OSfFA2RChjA" label="1" max="1" min="1"/>
     </operations>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
